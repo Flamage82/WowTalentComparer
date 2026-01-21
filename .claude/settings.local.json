@@ -2,12 +2,14 @@
   "permissions": {
     "allow": [
       "Bash(npm install)",
+      "Bash(npm run:*)",
       "Bash(npm run build:*)",
       "Bash(npm run lint)",
       "Bash(npm install:*)",
       "Bash(npm test:*)",
       "WebSearch",
-      "WebFetch"
+      "WebFetch",
+      "Bash(npm run fetch-data:*)"
     ]
   }
 }

@@ -19,6 +19,11 @@
   font-size: 1.25rem;
 }
 
+.talent-tree-header h3 .class-name {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+
 .spec-info {
   display: flex;
   gap: 1rem;
@@ -124,4 +129,25 @@
   border-radius: 4px;
   font-family: monospace;
   word-break: break-all;
+}
+
+.loading-message,
+.no-data-message {
+  padding: 2rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.no-data-message code {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.tree-error {
+  margin-bottom: 1rem;
 }

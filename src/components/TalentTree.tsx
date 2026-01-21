@@ -1,4 +1,6 @@
 import type { ParsedTalentData } from '../lib/talentParser'
+import { useSpecData } from '../hooks/useSpecData'
+import { TalentTreeView } from './TalentTreeView'
 import './TalentTree.css'
 
 interface TalentTreeProps {
@@ -6,6 +8,8 @@ interface TalentTreeProps {
 }
 
 export function TalentTree({ data }: TalentTreeProps) {
+  const { data: specData, loading, error } = useSpecData(data.specId)
+
   const selectedNodes = data.nodes.filter(n => n.isSelected)
   const purchasedNodes = data.nodes.filter(n => n.isPurchased)
   const choiceNodes = data.nodes.filter(n => n.isChoiceNode)
@@ -13,10 +17,12 @@ export function TalentTree({ data }: TalentTreeProps) {
   return (
     <div className="talent-tree-container">
       <div className="talent-tree-header">
-        <h3>Parsed Talent Data</h3>
+        <h3>
+          {data.specName || 'Unknown Spec'}
+          {specData && <span className="class-name"> {specData.className}</span>}
+        </h3>
         <div className="spec-info">
           <span className="spec-id">Spec ID: {data.specId}</span>
-          {data.specName && <span className="spec-name">{data.specName}</span>}
         </div>
       </div>
 
@@ -43,23 +49,24 @@ export function TalentTree({ data }: TalentTreeProps) {
         </div>
       </div>
 
-      <div className="talent-tree-debug">
-        <h4>Selected Talents</h4>
-        <div className="node-list">
-          {selectedNodes.map((node) => (
-            <span
-              key={node.nodeIndex}
-              className={`node-badge ${node.isPurchased ? 'purchased' : 'granted'} ${node.isChoiceNode ? 'choice' : ''}`}
-            >
-              #{node.nodeIndex}
-              {node.isPurchased && ' (purchased)'}
-              {!node.isPurchased && ' (granted)'}
-              {node.isChoiceNode && ` [choice: ${node.choiceEntryIndex}]`}
-              {node.isPartiallyRanked && ` (${node.ranksPurchased} ranks)`}
-            </span>
-          ))}
+      {/* Visual Tree View */}
+      {loading && (
+        <div className="loading-message">Loading talent tree data...</div>
+      )}
+
+      {error && (
+        <div className="error-message tree-error">{error}</div>
+      )}
+
+      {specData && (
+        <TalentTreeView specData={specData} selectedNodes={data.nodes} />
+      )}
+
+      {!specData && !loading && !error && (
+        <div className="no-data-message">
+          No tree data available for this spec. Run <code>npm run fetch-data</code> to download.
         </div>
-      </div>
+      )}
 
       <div className="talent-tree-hash">
         <strong>Tree Hash:</strong>

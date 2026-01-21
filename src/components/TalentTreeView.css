@@ -1,0 +1,67 @@
+.talent-tree-view {
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.talent-tree-view svg {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Edges */
+.edge {
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 2;
+}
+
+/* Nodes */
+.node {
+  fill: rgba(60, 60, 70, 0.8);
+  stroke: rgba(255, 255, 255, 0.3);
+  stroke-width: 2;
+  transition: all 0.2s ease;
+}
+
+.node:hover {
+  stroke: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+/* Selected nodes */
+.node.selected {
+  fill: rgba(34, 197, 94, 0.8);
+  stroke: rgba(134, 239, 172, 0.8);
+}
+
+/* Choice nodes (multiple entries) */
+.node.choice {
+  stroke-width: 3;
+}
+
+.node.choice:not(.selected) {
+  stroke: rgba(251, 191, 36, 0.5);
+}
+
+.node.choice.selected {
+  stroke: rgba(251, 191, 36, 0.9);
+}
+
+/* Hero talent nodes (type 3) */
+.node.type-3 {
+  fill: rgba(168, 85, 247, 0.6);
+  stroke: rgba(216, 180, 254, 0.6);
+}
+
+.node.type-3.selected {
+  fill: rgba(168, 85, 247, 0.9);
+  stroke: rgba(216, 180, 254, 1);
+}
+
+/* Rank text */
+.rank-text {
+  font-size: 8px;
+  fill: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+}
