@@ -5,9 +5,35 @@
   padding: 1rem;
 }
 
-.talent-tree-view svg {
-  display: block;
+.talent-tree-canvas {
+  position: relative;
   margin: 0 auto;
+}
+
+.talent-tree-svg {
+  display: block;
+}
+
+.talent-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.talent-hotspot {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: auto;
+  cursor: pointer;
+  background: transparent;
+  text-decoration: none;
+}
+
+.talent-hotspot:hover {
+  background: rgba(255, 255, 255, 0.15);
 }
 
 /* Edges */
@@ -66,34 +92,3 @@
   pointer-events: none;
 }
 
-/* Tooltip */
-.talent-tooltip {
-  position: absolute;
-  background-color: rgba(20, 20, 30, 0.95);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 6px;
-  padding: 0.5rem 0.75rem;
-  pointer-events: none;
-  z-index: 100;
-  max-width: 250px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-}
-
-.tooltip-name {
-  font-weight: 600;
-  color: rgb(255, 209, 0);
-  font-size: 0.875rem;
-  margin-bottom: 0.25rem;
-}
-
-.tooltip-ranks {
-  font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.tooltip-choice {
-  font-size: 0.75rem;
-  color: rgb(251, 191, 36);
-  margin-top: 0.25rem;
-  font-style: italic;
-}
