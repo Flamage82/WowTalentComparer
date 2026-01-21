@@ -206,19 +206,8 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
     return { visibleNodes, visibleNodeIds, visibleEdges }
   }, [specData, selectedIndices])
 
-  // Calculate bounds and scale based on visible nodes
-  const { bounds, scale } = useMemo(() => {
-    // Find bounds
-    let minX = Infinity, maxX = -Infinity
-    let minY = Infinity, maxY = -Infinity
-
-    for (const node of visibleNodes) {
-      minX = Math.min(minX, node.posX)
-      maxX = Math.max(maxX, node.posX)
-      minY = Math.min(minY, node.posY)
-      maxY = Math.max(maxY, node.posY)
-    }
-
+  // Calculate bounds, scale, and X offsets to normalize spacing between tree sections
+  const { bounds, scale, xOffsets } = useMemo(() => {
     // Find minimum distance between adjacent nodes (using edges) to calculate proper scale
     let minEdgeDistance = Infinity
     for (const edge of visibleEdges) {
@@ -237,19 +226,80 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
     // Calculate scale so minimum edge distance maps to MIN_NODE_SPACING
     const calculatedScale = minEdgeDistance < Infinity ? MIN_NODE_SPACING / minEdgeDistance : 0.1
 
-    // Add padding based on node size
-    const padding = (NODE_SIZE * 2) / calculatedScale
-    minX -= padding
-    maxX += padding
-    minY -= padding
-    maxY += padding
+    // Group nodes into columns (class tree, hero tree, spec tree) by X position
+    // Find natural X clusters by sorting unique X positions and finding gaps
+    const xPositions = [...new Set(visibleNodes.map(n => n.posX))].sort((a, b) => a - b)
 
-    const width = maxX - minX
-    const height = maxY - minY
+    // Find large gaps in X positions to identify column boundaries
+    const gaps: { index: number; gap: number; position: number }[] = []
+    for (let i = 1; i < xPositions.length; i++) {
+      const gap = xPositions[i] - xPositions[i - 1]
+      gaps.push({ index: i, gap, position: (xPositions[i] + xPositions[i - 1]) / 2 })
+    }
+    gaps.sort((a, b) => b.gap - a.gap)
+
+    // Take the two largest gaps as column separators (should separate class|hero|spec)
+    const columnSeparators = gaps.slice(0, 2).map(g => g.position).sort((a, b) => a - b)
+
+    // Assign each node to a column
+    const getColumn = (x: number) => {
+      if (columnSeparators.length < 2) return 0
+      if (x < columnSeparators[0]) return 0 // Class tree (left)
+      if (x < columnSeparators[1]) return 1 // Hero tree (middle)
+      return 2 // Spec tree (right)
+    }
+
+    // Calculate bounds for each column
+    const columnBounds = [
+      { minX: Infinity, maxX: -Infinity },
+      { minX: Infinity, maxX: -Infinity },
+      { minX: Infinity, maxX: -Infinity },
+    ]
+
+    let minY = Infinity, maxY = -Infinity
+    for (const node of visibleNodes) {
+      const col = getColumn(node.posX)
+      columnBounds[col].minX = Math.min(columnBounds[col].minX, node.posX)
+      columnBounds[col].maxX = Math.max(columnBounds[col].maxX, node.posX)
+      minY = Math.min(minY, node.posY)
+      maxY = Math.max(maxY, node.posY)
+    }
+
+    // Calculate column widths
+    const columnWidths = columnBounds.map(b =>
+      b.maxX > -Infinity ? b.maxX - b.minX : 0
+    )
+
+    // Calculate X offsets to center each column with equal gaps
+    const COLUMN_GAP = 120 / calculatedScale // Gap between columns in original coordinates
+    const xOffsets = new Map<number, number>()
+
+    // Position columns: [class tree] [gap] [hero tree] [gap] [spec tree]
+    let currentX = 0
+    for (let col = 0; col < 3; col++) {
+      if (columnBounds[col].minX < Infinity) {
+        // Offset = where we want minX to be - where it currently is
+        xOffsets.set(col, currentX - columnBounds[col].minX)
+        currentX += columnWidths[col] + COLUMN_GAP
+      }
+    }
+
+    // Calculate adjusted bounds
+    const padding = (NODE_SIZE * 2) / calculatedScale
+    const adjustedMinX = -padding
+    const adjustedMaxX = currentX - COLUMN_GAP + padding // Remove last gap, add padding
+    const adjustedMinY = minY - padding
+    const adjustedMaxY = maxY + padding
 
     return {
-      bounds: { minX, minY, width, height },
+      bounds: {
+        minX: adjustedMinX,
+        minY: adjustedMinY,
+        width: adjustedMaxX - adjustedMinX,
+        height: adjustedMaxY - adjustedMinY
+      },
       scale: calculatedScale,
+      xOffsets: { offsets: xOffsets, getColumn, columnSeparators },
     }
   }, [visibleNodes, visibleEdges])
 
@@ -257,13 +307,15 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
   const nodePositions = useMemo(() => {
     const map = new Map<number, { x: number; y: number }>()
     visibleNodes.forEach((node) => {
+      const col = xOffsets.getColumn(node.posX)
+      const xOffset = xOffsets.offsets.get(col) || 0
       map.set(node.id, {
-        x: (node.posX - bounds.minX) * scale,
+        x: (node.posX + xOffset - bounds.minX) * scale,
         y: (node.posY - bounds.minY) * scale,
       })
     })
     return map
-  }, [visibleNodes, bounds, scale])
+  }, [visibleNodes, bounds, scale, xOffsets])
 
   // Create a map from node ID to original index for selection lookups
   const nodeIdToOriginalIndex = useMemo(() => {
@@ -321,7 +373,9 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
         <div className="talent-overlay">
           {visibleNodes.map((node) => {
             const originalIndex = nodeIdToOriginalIndex.get(node.id) ?? -1
-            const x = (node.posX - bounds.minX) * scale
+            const col = xOffsets.getColumn(node.posX)
+            const xOffset = xOffsets.offsets.get(col) || 0
+            const x = (node.posX + xOffset - bounds.minX) * scale
             const y = (node.posY - bounds.minY) * scale
             const isSelected = selectedIndices.has(originalIndex)
             const isChoice = node.entries.length > 1
@@ -341,12 +395,14 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
             // Get diff info for this node (if in comparison mode)
             const diff = diffMap?.get(originalIndex)
             const diffClass = diff ? `diff-${diff.diffType}` : ''
+            // In comparison mode, selected talents with no diff are "same" (both specs have it)
+            const comparisonSameClass = diffMap && isSelected && !diff ? 'comparison-same' : ''
 
             return (
               <a
                 key={node.id}
                 href={`https://www.wowhead.com/spell=${displaySpellId}`}
-                className={`talent-node ${isSelected ? 'selected' : 'unselected'} ${isChoice ? 'choice' : ''} ${isHero ? 'hero' : ''} ${diffClass}`}
+                className={`talent-node ${isSelected ? 'selected' : 'unselected'} ${isChoice ? 'choice' : ''} ${isHero ? 'hero' : ''} ${diffClass} ${comparisonSameClass}`}
                 style={{
                   left: x - size / 2,
                   top: y - size / 2,
@@ -366,7 +422,9 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
           {visibleNodes.map((node) => {
             if (node.maxRanks <= 1) return null
             const originalIndex = nodeIdToOriginalIndex.get(node.id) ?? -1
-            const x = (node.posX - bounds.minX) * scale
+            const col = xOffsets.getColumn(node.posX)
+            const xOffset = xOffsets.offsets.get(col) || 0
+            const x = (node.posX + xOffset - bounds.minX) * scale
             const y = (node.posY - bounds.minY) * scale
             const isHero = node.type === 3
             const size = isHero ? HERO_NODE_SIZE : NODE_SIZE

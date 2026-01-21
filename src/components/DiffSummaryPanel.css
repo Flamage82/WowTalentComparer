@@ -150,3 +150,58 @@
   color: rgba(255, 255, 255, 0.5);
   margin-top: 0.1rem;
 }
+
+/* Tree subsections (class/spec) */
+.diff-tree-subsection {
+  margin-top: 0.5rem;
+}
+
+.diff-tree-subsection:first-child {
+  margin-top: 0;
+}
+
+.diff-tree-subsection h5 {
+  margin: 0 0 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.diff-tree-subsection ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.85rem;
+}
+
+.diff-tree-subsection li {
+  padding: 0.15rem 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Wowhead tooltip links in diff summary */
+.diff-talent-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.diff-talent-link:hover {
+  color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Color the links based on diff type */
+.diff-section-added .diff-talent-link:hover {
+  color: #4ade80;
+}
+
+.diff-section-removed .diff-talent-link:hover {
+  color: #f87171;
+}
+
+.diff-section-changed .diff-talent-link:hover {
+  color: #fbbf24;
+}
