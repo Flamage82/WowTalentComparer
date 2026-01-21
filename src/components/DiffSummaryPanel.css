@@ -188,6 +188,24 @@
   color: #fbbf24;
 }
 
+/* Choice change comparison (icon → icon) */
+.diff-item-choice-change {
+  list-style: none;
+  margin-left: -1.25rem;
+}
+
+.diff-choice-comparison {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.diff-arrow {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+}
+
 /* Responsive: stack columns on narrow screens */
 @media (max-width: 600px) {
   .diff-tree-columns {

@@ -67,30 +67,32 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
     return diffResult.diffs.find(d => d.nodeIndex === nodeIndex)
   }
 
-  const formatChangeDetails = (diff: TalentDiffNode): string | null => {
-    if (!diff.changeDetails) return null
-    const parts: string[] = []
-    if (diff.changeDetails.rankChange) {
-      const { from, to } = diff.changeDetails.rankChange
-      parts.push(`Rank: ${from} → ${to}`)
-    }
-    if (diff.changeDetails.choiceChange) {
-      const { from, to } = diff.changeDetails.choiceChange
-      // Try to get actual spell names for choice changes
-      if (specData) {
-        const node = specData.nodes[diff.nodeIndex]
-        if (node && node.entries.length > 1) {
-          const fromName = node.entries[from]?.name || `Option ${from + 1}`
-          const toName = node.entries[to]?.name || `Option ${to + 1}`
-          parts.push(`${fromName} → ${toName}`)
-        } else {
-          parts.push(`Choice: ${from + 1} → ${to + 1}`)
-        }
-      } else {
-        parts.push(`Choice: ${from + 1} → ${to + 1}`)
+  const formatRankChange = (diff: TalentDiffNode): string | null => {
+    if (!diff.changeDetails?.rankChange) return null
+    const { from, to } = diff.changeDetails.rankChange
+    return `Rank: ${from} → ${to}`
+  }
+
+  // Get choice change details for rendering with icons
+  const getChoiceChangeInfo = (diff: TalentDiffNode): { from: { name: string; spellId: number | null }; to: { name: string; spellId: number | null } } | null => {
+    if (!diff.changeDetails?.choiceChange || !specData) return null
+    const { from, to } = diff.changeDetails.choiceChange
+    const node = specData.nodes[diff.nodeIndex]
+    if (!node || node.entries.length <= 1) return null
+
+    const fromEntry = node.entries[from]
+    const toEntry = node.entries[to]
+
+    return {
+      from: {
+        name: fromEntry?.name || `Option ${from + 1}`,
+        spellId: fromEntry?.spellId || null
+      },
+      to: {
+        name: toEntry?.name || `Option ${to + 1}`,
+        spellId: toEntry?.spellId || null
       }
     }
-    return parts.length > 0 ? parts.join(', ') : null
   }
 
   // Group node indices by tree type
@@ -114,6 +116,24 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
 
   const totalChanges = summary.added.length + summary.removed.length + summary.changed.length
 
+  // Render a spell link with Wowhead tooltip
+  const renderSpellLink = (name: string, spellId: number | null) => {
+    if (spellId) {
+      return (
+        <a
+          href={`https://www.wowhead.com/spell=${spellId}`}
+          className="diff-talent-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-wowhead={`spell=${spellId}`}
+        >
+          {name}
+        </a>
+      )
+    }
+    return <span className="diff-item-name">{name}</span>
+  }
+
   // Helper to render a talent item with Wowhead tooltip
   const renderTalentItem = (
     nodeIndex: number,
@@ -122,21 +142,28 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
     const spellId = getNodeSpellId(nodeIndex)
     const name = getNodeName(nodeIndex)
     const diff = showDetails ? getDiffNode(nodeIndex) : undefined
-    const details = diff ? formatChangeDetails(diff) : null
+    const choiceInfo = diff ? getChoiceChangeInfo(diff) : null
+    const rankDetails = diff ? formatRankChange(diff) : null
+
+    // For choice changes, show both icons side by side
+    if (choiceInfo) {
+      return (
+        <li key={nodeIndex} className="diff-item-choice-change">
+          <div className="diff-choice-comparison">
+            {renderSpellLink(choiceInfo.from.name, choiceInfo.from.spellId)}
+            <span className="diff-arrow">→</span>
+            {renderSpellLink(choiceInfo.to.name, choiceInfo.to.spellId)}
+          </div>
+          {rankDetails && <span className="diff-item-details">{rankDetails}</span>}
+        </li>
+      )
+    }
 
     if (spellId) {
       return (
         <li key={nodeIndex}>
-          <a
-            href={`https://www.wowhead.com/spell=${spellId}`}
-            className="diff-talent-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-wowhead={`spell=${spellId}`}
-          >
-            {name}
-          </a>
-          {details && <span className="diff-item-details">{details}</span>}
+          {renderSpellLink(name, spellId)}
+          {rankDetails && <span className="diff-item-details">{rankDetails}</span>}
         </li>
       )
     }
@@ -144,7 +171,7 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
     return (
       <li key={nodeIndex}>
         <span className="diff-item-name">{name}</span>
-        {details && <span className="diff-item-details">{details}</span>}
+        {rankDetails && <span className="diff-item-details">{rankDetails}</span>}
       </li>
     )
   }
