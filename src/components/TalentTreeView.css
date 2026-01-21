@@ -74,15 +74,15 @@
   box-shadow: 0 0 12px rgba(201, 165, 78, 0.8), 0 4px 12px rgba(0, 0, 0, 0.7);
 }
 
-/* Unselected state - desaturate */
+/* Unselected state - desaturate, no border */
 .talent-node.unselected {
   filter: saturate(0.3) brightness(0.5);
-  border-color: #333;
+  border-color: transparent;
 }
 
 .talent-node.unselected:hover {
   filter: saturate(0.5) brightness(0.7);
-  border-color: #555;
+  border-color: #444;
 }
 
 /* Choice nodes - thicker gold border */
@@ -192,13 +192,16 @@
   color: #c9a54e;
 }
 
-/* Comparison mode - talents both specs have (no diff) */
-.talent-node.comparison-same {
-  filter: saturate(0.6) brightness(0.7);
+/* Comparison mode - unchanged talents (both builds have the same) */
+.talent-node.diff-unchanged {
+  filter: saturate(0.5) brightness(0.7) !important;
+  border-color: #7a6a3e !important;
+  box-shadow: none !important;
 }
 
-.talent-node.comparison-same:hover {
-  filter: saturate(0.8) brightness(0.85);
+.talent-node.diff-unchanged:hover {
+  filter: saturate(0.7) brightness(0.85) !important;
+  border-color: #9a8a5e !important;
 }
 
 /* Diff highlighting for comparison mode - full brightness with gap */
