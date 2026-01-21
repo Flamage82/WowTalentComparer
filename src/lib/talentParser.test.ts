@@ -4,6 +4,9 @@ import { parseTalentString } from './talentParser'
 // Sample Marksmanship Hunter talent string
 const SAMPLE_TALENT_STRING = 'C4PAAAAAAAAAAAAAAAAAAAAAAwCMwwohBwMYDAAAAAAAAYGzMzYbGzYMDGTzYMzYZbzMzMMzMMzsMGzywMDAAgxYAwoNwAsN'
 
+// User's actual talent string for Marksmanship Hunter with Sentinel hero tree
+const USER_TALENT_STRING = 'C4PAAAAAAAAAAAAAAAAAAAAAAwCMwwohBwMYDAAAAAAAAYGzYGmxMzYGMmmxYGz22mZmZYmZYmZZwsMYGAAAzMGAMTbMMAbD'
+
 describe('talentParser', () => {
   describe('parseTalentString', () => {
     it('should decode the base64 string without throwing', () => {
@@ -65,6 +68,51 @@ describe('talentParser', () => {
     it('should handle whitespace in input', () => {
       const withWhitespace = '  ' + SAMPLE_TALENT_STRING + '  \n'
       expect(() => parseTalentString(withWhitespace)).not.toThrow()
+    })
+  })
+
+  describe('talent selection verification', () => {
+    // These indices are based on node ID ordering in the spec data (254.json)
+    // Verified with debugTalentParsing.ts script
+    const AIMED_SHOT_INDEX = 142 // Aimed Shot node index when sorted by ID
+    const SENTINEL_INDEX = 17 // Sentinel hero talent index
+    const RAPID_FIRE_INDEX = 129 // Rapid Fire node index
+
+    it('should select Aimed Shot at the correct index (spec tree root)', () => {
+      const result = parseTalentString(USER_TALENT_STRING)
+      const selectedIndices = new Set(
+        result.nodes.filter(n => n.isSelected).map(n => n.nodeIndex)
+      )
+
+      // Aimed Shot should be selected - it's the MM spec tree root
+      expect(selectedIndices.has(AIMED_SHOT_INDEX)).toBe(true)
+    })
+
+    it('should select Sentinel hero talent', () => {
+      const result = parseTalentString(USER_TALENT_STRING)
+      const selectedIndices = new Set(
+        result.nodes.filter(n => n.isSelected).map(n => n.nodeIndex)
+      )
+
+      // Sentinel should be selected - it's the hero tree shown in screenshot
+      expect(selectedIndices.has(SENTINEL_INDEX)).toBe(true)
+    })
+
+    it('should select Rapid Fire (key MM talent)', () => {
+      const result = parseTalentString(USER_TALENT_STRING)
+      const selectedIndices = new Set(
+        result.nodes.filter(n => n.isSelected).map(n => n.nodeIndex)
+      )
+
+      expect(selectedIndices.has(RAPID_FIRE_INDEX)).toBe(true)
+    })
+
+    it('should have approximately 67 selected talents', () => {
+      const result = parseTalentString(USER_TALENT_STRING)
+      const selectedCount = result.nodes.filter(n => n.isSelected).length
+
+      // The debug script showed 67 selected talents
+      expect(selectedCount).toBe(67)
     })
   })
 })

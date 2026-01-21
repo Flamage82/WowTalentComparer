@@ -9,7 +9,10 @@
       "Bash(npm test:*)",
       "WebSearch",
       "WebFetch",
-      "Bash(npm run fetch-data:*)"
+      "Bash(npm run fetch-data:*)",
+      "Bash(npx tsx:*)",
+      "Bash(find:*)",
+      "Bash(node:*)"
     ]
   }
 }

@@ -1,0 +1,242 @@
+[
+  {
+    "specId": 62,
+    "specName": "Arcane",
+    "className": "Mage",
+    "nodeCount": 206
+  },
+  {
+    "specId": 63,
+    "specName": "Fire",
+    "className": "Mage",
+    "nodeCount": 206
+  },
+  {
+    "specId": 64,
+    "specName": "Frost",
+    "className": "Mage",
+    "nodeCount": 206
+  },
+  {
+    "specId": 65,
+    "specName": "Holy",
+    "className": "Paladin",
+    "nodeCount": 237
+  },
+  {
+    "specId": 66,
+    "specName": "Protection",
+    "className": "Paladin",
+    "nodeCount": 237
+  },
+  {
+    "specId": 70,
+    "specName": "Retribution",
+    "className": "Paladin",
+    "nodeCount": 237
+  },
+  {
+    "specId": 71,
+    "specName": "Arms",
+    "className": "Warrior",
+    "nodeCount": 208
+  },
+  {
+    "specId": 72,
+    "specName": "Fury",
+    "className": "Warrior",
+    "nodeCount": 208
+  },
+  {
+    "specId": 73,
+    "specName": "Protection",
+    "className": "Warrior",
+    "nodeCount": 208
+  },
+  {
+    "specId": 102,
+    "specName": "Balance",
+    "className": "Druid",
+    "nodeCount": 281
+  },
+  {
+    "specId": 103,
+    "specName": "Feral",
+    "className": "Druid",
+    "nodeCount": 281
+  },
+  {
+    "specId": 104,
+    "specName": "Guardian",
+    "className": "Druid",
+    "nodeCount": 281
+  },
+  {
+    "specId": 105,
+    "specName": "Restoration",
+    "className": "Druid",
+    "nodeCount": 281
+  },
+  {
+    "specId": 250,
+    "specName": "Blood",
+    "className": "Death Knight",
+    "nodeCount": 208
+  },
+  {
+    "specId": 251,
+    "specName": "Frost",
+    "className": "Death Knight",
+    "nodeCount": 208
+  },
+  {
+    "specId": 252,
+    "specName": "Unholy",
+    "className": "Death Knight",
+    "nodeCount": 208
+  },
+  {
+    "specId": 253,
+    "specName": "Beast Mastery",
+    "className": "Hunter",
+    "nodeCount": 212
+  },
+  {
+    "specId": 254,
+    "specName": "Marksmanship",
+    "className": "Hunter",
+    "nodeCount": 212
+  },
+  {
+    "specId": 255,
+    "specName": "Survival",
+    "className": "Hunter",
+    "nodeCount": 212
+  },
+  {
+    "specId": 256,
+    "specName": "Discipline",
+    "className": "Priest",
+    "nodeCount": 226
+  },
+  {
+    "specId": 257,
+    "specName": "Holy",
+    "className": "Priest",
+    "nodeCount": 226
+  },
+  {
+    "specId": 258,
+    "specName": "Shadow",
+    "className": "Priest",
+    "nodeCount": 226
+  },
+  {
+    "specId": 259,
+    "specName": "Assassination",
+    "className": "Rogue",
+    "nodeCount": 205
+  },
+  {
+    "specId": 260,
+    "specName": "Outlaw",
+    "className": "Rogue",
+    "nodeCount": 205
+  },
+  {
+    "specId": 261,
+    "specName": "Subtlety",
+    "className": "Rogue",
+    "nodeCount": 205
+  },
+  {
+    "specId": 262,
+    "specName": "Elemental",
+    "className": "Shaman",
+    "nodeCount": 214
+  },
+  {
+    "specId": 263,
+    "specName": "Enhancement",
+    "className": "Shaman",
+    "nodeCount": 214
+  },
+  {
+    "specId": 264,
+    "specName": "Restoration",
+    "className": "Shaman",
+    "nodeCount": 214
+  },
+  {
+    "specId": 265,
+    "specName": "Affliction",
+    "className": "Warlock",
+    "nodeCount": 202
+  },
+  {
+    "specId": 266,
+    "specName": "Demonology",
+    "className": "Warlock",
+    "nodeCount": 202
+  },
+  {
+    "specId": 267,
+    "specName": "Destruction",
+    "className": "Warlock",
+    "nodeCount": 202
+  },
+  {
+    "specId": 268,
+    "specName": "Brewmaster",
+    "className": "Monk",
+    "nodeCount": 253
+  },
+  {
+    "specId": 269,
+    "specName": "Windwalker",
+    "className": "Monk",
+    "nodeCount": 253
+  },
+  {
+    "specId": 270,
+    "specName": "Mistweaver",
+    "className": "Monk",
+    "nodeCount": 253
+  },
+  {
+    "specId": 577,
+    "specName": "Havoc",
+    "className": "Demon Hunter",
+    "nodeCount": 227
+  },
+  {
+    "specId": 581,
+    "specName": "Vengeance",
+    "className": "Demon Hunter",
+    "nodeCount": 227
+  },
+  {
+    "specId": 1467,
+    "specName": "Devastation",
+    "className": "Evoker",
+    "nodeCount": 219
+  },
+  {
+    "specId": 1468,
+    "specName": "Preservation",
+    "className": "Evoker",
+    "nodeCount": 219
+  },
+  {
+    "specId": 1473,
+    "specName": "Augmentation",
+    "className": "Evoker",
+    "nodeCount": 219
+  },
+  {
+    "specId": 1480,
+    "specName": "Devourer",
+    "className": "Demon Hunter",
+    "nodeCount": 227
+  }
+]

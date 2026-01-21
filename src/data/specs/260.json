@@ -1,0 +1,6004 @@
+{
+  "specId": 260,
+  "specName": "Outlaw",
+  "className": "Rogue",
+  "treeId": 852,
+  "nodes": [
+    {
+      "id": 90622,
+      "posX": 13500,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112507,
+          "definitionId": 117512,
+          "spellId": 1250358,
+          "name": "Avulsion",
+          "iconId": 1394889,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90624,
+      "posX": 12900,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112509,
+          "definitionId": 117514,
+          "spellId": 381640,
+          "name": "Lethal Dose",
+          "iconId": 236271,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90625,
+      "posX": 13500,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112510,
+          "definitionId": 117515,
+          "spellId": 381632,
+          "name": "Improved Garrote",
+          "iconId": 132297,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90626,
+      "posX": 12300,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112511,
+          "definitionId": 117516,
+          "spellId": 1249809,
+          "name": "Finish the Job",
+          "iconId": 3565717,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90628,
+      "posX": 11700,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112513,
+          "definitionId": 117518,
+          "spellId": 1247993,
+          "name": "Motivated Murderer",
+          "iconId": 458726,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90630,
+      "posX": 10500,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112515,
+          "definitionId": 117520,
+          "spellId": 381629,
+          "name": "Thrown Precision",
+          "iconId": 461114,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90633,
+      "posX": 11100,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112518,
+          "definitionId": 117523,
+          "spellId": 381626,
+          "name": "Bloody Mess",
+          "iconId": 132302,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90634,
+      "posX": 12300,
+      "posY": 2700,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112519,
+          "definitionId": 117524,
+          "spellId": 1250359,
+          "name": "Canny Strikes",
+          "iconId": 458723,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 134840,
+          "definitionId": 139608,
+          "spellId": 381627,
+          "name": "Internal Bleeding",
+          "iconId": 236268,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90635,
+      "posX": 12300,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112520,
+          "definitionId": 117525,
+          "spellId": 381624,
+          "name": "Improved Poisons",
+          "iconId": 132273,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90636,
+      "posX": 2700,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112521,
+          "definitionId": 117526,
+          "spellId": 378436,
+          "name": "Master Poisoner",
+          "iconId": 132108,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90637,
+      "posX": 2100,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112522,
+          "definitionId": 117527,
+          "spellId": 319066,
+          "name": "Improved Wound Poison",
+          "iconId": 134197,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90638,
+      "posX": 3900,
+      "posY": 6900,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112524,
+          "definitionId": 117529,
+          "spellId": 470669,
+          "name": "Echoing Reprimand",
+          "iconId": 6035317,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 112523,
+          "definitionId": 117528,
+          "spellId": 470668,
+          "name": "Forced Induction",
+          "iconId": 133864,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 90639,
+      "posX": 3900,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112525,
+          "definitionId": 117530,
+          "spellId": 470347,
+          "name": "Supercharger",
+          "iconId": 3610503,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90640,
+      "posX": 3900,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112526,
+          "definitionId": 117531,
+          "spellId": 378996,
+          "name": "Recuperator",
+          "iconId": 237031,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90641,
+      "posX": 9900,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112527,
+          "definitionId": 117532,
+          "spellId": 381845,
+          "name": "Audacity",
+          "iconId": 132282,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90643,
+      "posX": 11100,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112529,
+          "definitionId": 117534,
+          "spellId": 1259612,
+          "name": "Deadly Pursuit",
+          "iconId": 236277,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90644,
+      "posX": 12900,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112530,
+          "definitionId": 117535,
+          "spellId": 1259480,
+          "name": "Fast Action",
+          "iconId": 134536,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90645,
+      "posX": 11700,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112531,
+          "definitionId": 117536,
+          "spellId": 1259498,
+          "name": "Expert Duelist",
+          "iconId": 135610,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90647,
+      "posX": 13500,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112533,
+          "definitionId": 117538,
+          "spellId": 381878,
+          "name": "Deft Maneuvers",
+          "iconId": 589068,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90648,
+      "posX": 12900,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112534,
+          "definitionId": 117539,
+          "spellId": 61329,
+          "name": "Combat Potency",
+          "iconId": 135673,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90649,
+      "posX": 11100,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112535,
+          "definitionId": 117540,
+          "spellId": 271877,
+          "name": "Blade Rush",
+          "iconId": 1016243,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90651,
+      "posX": 12900,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112537,
+          "definitionId": 117542,
+          "spellId": 381839,
+          "name": "Sleight of Hand",
+          "iconId": 237285,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90652,
+      "posX": 12300,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112538,
+          "definitionId": 117543,
+          "spellId": 381989,
+          "name": "Keep It Rolling",
+          "iconId": 4667423,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90653,
+      "posX": 12300,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112539,
+          "definitionId": 117544,
+          "spellId": 1259481,
+          "name": "Dragon-Bone Dice",
+          "iconId": 1373910,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90654,
+      "posX": 12300,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112540,
+          "definitionId": 117545,
+          "spellId": 395422,
+          "name": "Improved Adrenaline Rush",
+          "iconId": 136206,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90655,
+      "posX": 12300,
+      "posY": 5700,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112541,
+          "definitionId": 117546,
+          "spellId": 1259465,
+          "name": "Heightened Rush",
+          "iconId": 136224,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 135732,
+          "definitionId": 140487,
+          "spellId": 1256630,
+          "name": "Menacing Rush",
+          "iconId": 6712968,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90656,
+      "posX": 11700,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112542,
+          "definitionId": 117547,
+          "spellId": 256170,
+          "name": "Loaded Dice",
+          "iconId": 1373910,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90659,
+      "posX": 12300,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112545,
+          "definitionId": 117550,
+          "spellId": 13750,
+          "name": "Adrenaline Rush",
+          "iconId": 136206,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90661,
+      "posX": 12900,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112547,
+          "definitionId": 117552,
+          "spellId": 1259499,
+          "name": "Crescendo of Violence",
+          "iconId": 460691,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90662,
+      "posX": 12300,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112548,
+          "definitionId": 117553,
+          "spellId": 35551,
+          "name": "Fatal Flourish",
+          "iconId": 236285,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90663,
+      "posX": 13500,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112549,
+          "definitionId": 117554,
+          "spellId": 196938,
+          "name": "Quick Draw",
+          "iconId": 331438,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90664,
+      "posX": 11700,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112551,
+          "definitionId": 117556,
+          "spellId": 455143,
+          "name": "Acrobatic Strikes",
+          "iconId": 589068,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90665,
+      "posX": 14100,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112552,
+          "definitionId": 117557,
+          "spellId": 1277933,
+          "name": "Preparation",
+          "iconId": 460693,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90666,
+      "posX": 13500,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112553,
+          "definitionId": 117558,
+          "spellId": 381846,
+          "name": "Fan the Hammer",
+          "iconId": 1373908,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90667,
+      "posX": 14100,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112554,
+          "definitionId": 117559,
+          "spellId": 1259469,
+          "name": "Grand Melee",
+          "iconId": 1269440,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90668,
+      "posX": 13500,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112555,
+          "definitionId": 117560,
+          "spellId": 381828,
+          "name": "Ace Up Your Sleeve",
+          "iconId": 3717311,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90669,
+      "posX": 14700,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112556,
+          "definitionId": 117561,
+          "spellId": 272026,
+          "name": "Dancing Steel",
+          "iconId": 132350,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90670,
+      "posX": 12900,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112557,
+          "definitionId": 117562,
+          "spellId": 1259485,
+          "name": "Zero In",
+          "iconId": 878211,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90671,
+      "posX": 14100,
+      "posY": 4500,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112558,
+          "definitionId": 117563,
+          "spellId": 381619,
+          "name": "Thief's Versatility",
+          "iconId": 636277,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 135731,
+          "definitionId": 140486,
+          "spellId": 1259492,
+          "name": "Flickering Steel",
+          "iconId": 6712967,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90673,
+      "posX": 12900,
+      "posY": 2100,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112560,
+          "definitionId": 117565,
+          "spellId": 256188,
+          "name": "Retractable Hook",
+          "iconId": 1373906,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 135733,
+          "definitionId": 140488,
+          "spellId": 256165,
+          "name": "Blinding Powder",
+          "iconId": 133592,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90675,
+      "posX": 10500,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112562,
+          "definitionId": 117567,
+          "spellId": 383281,
+          "name": "Hidden Opportunity",
+          "iconId": 132282,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90676,
+      "posX": 11100,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112563,
+          "definitionId": 117568,
+          "spellId": 381990,
+          "name": "Summarily Dispatched",
+          "iconId": 236286,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90677,
+      "posX": 10500,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112565,
+          "definitionId": 117570,
+          "spellId": 1259457,
+          "name": "Find an Opening",
+          "iconId": 1373908,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90678,
+      "posX": 11100,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112566,
+          "definitionId": 117571,
+          "spellId": 381885,
+          "name": "Heavy Hitter",
+          "iconId": 136189,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90679,
+      "posX": 11100,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112567,
+          "definitionId": 117572,
+          "spellId": 394321,
+          "name": "Devious Stratagem",
+          "iconId": 644377,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90680,
+      "posX": 10500,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112568,
+          "definitionId": 117573,
+          "spellId": 14161,
+          "name": "Ruthlessness",
+          "iconId": 132122,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90681,
+      "posX": 11700,
+      "posY": 2100,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112569,
+          "definitionId": 117574,
+          "spellId": 196922,
+          "name": "Hit and Run",
+          "iconId": 132296,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 135734,
+          "definitionId": 140489,
+          "spellId": 381877,
+          "name": "Combat Stamina",
+          "iconId": 460692,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90683,
+      "posX": 12300,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112571,
+          "definitionId": 117576,
+          "spellId": 279876,
+          "name": "Opportunity",
+          "iconId": 1373908,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90684,
+      "posX": 3900,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112572,
+          "definitionId": 117577,
+          "spellId": 2094,
+          "name": "Blind",
+          "iconId": 136175,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90686,
+      "posX": 5100,
+      "posY": 2700,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112574,
+          "definitionId": 117579,
+          "spellId": 57934,
+          "name": "Tricks of the Trade",
+          "iconId": 236283,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 117143,
+          "definitionId": 122155,
+          "spellId": 379005,
+          "name": "Blackjack",
+          "iconId": 458797,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 90687,
+      "posX": 5700,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112575,
+          "definitionId": 117580,
+          "spellId": 231691,
+          "name": "Improved Sprint",
+          "iconId": 132307,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90688,
+      "posX": 5100,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112576,
+          "definitionId": 117581,
+          "spellId": 108208,
+          "name": "Subterfuge",
+          "iconId": 571317,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90690,
+      "posX": 12300,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112578,
+          "definitionId": 117583,
+          "spellId": 91023,
+          "name": "Find Weakness",
+          "iconId": 132295,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90691,
+      "posX": 5100,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112579,
+          "definitionId": 117584,
+          "spellId": 393970,
+          "name": "Soothing Darkness",
+          "iconId": 136223,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90692,
+      "posX": 5100,
+      "posY": 5100,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112580,
+          "definitionId": 117585,
+          "spellId": 381620,
+          "name": "Improved Ambush",
+          "iconId": 132282,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 117152,
+          "definitionId": 122164,
+          "spellId": 381621,
+          "name": "Tight Spender",
+          "iconId": 133786,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 90695,
+      "posX": 4500,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112583,
+          "definitionId": 117588,
+          "spellId": 394931,
+          "name": "Thrill Seeking",
+          "iconId": 5415954,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90697,
+      "posX": 5100,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112585,
+          "definitionId": 117590,
+          "spellId": 31224,
+          "name": "Cloak of Shadows",
+          "iconId": 136177,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90698,
+      "posX": 10500,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112586,
+          "definitionId": 117591,
+          "spellId": 382507,
+          "name": "Shrouded in Darkness",
+          "iconId": 132291,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90699,
+      "posX": 11700,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112587,
+          "definitionId": 117592,
+          "spellId": 200758,
+          "name": "Gloomblade",
+          "iconId": 1035040,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90700,
+      "posX": 11100,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112588,
+          "definitionId": 117593,
+          "spellId": 343160,
+          "name": "Premeditation",
+          "iconId": 136183,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90701,
+      "posX": 11700,
+      "posY": 3300,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112589,
+          "definitionId": 117594,
+          "spellId": 257505,
+          "name": "Shot in the Dark",
+          "iconId": 132092,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136807,
+          "definitionId": 141570,
+          "spellId": 428486,
+          "name": "Exhilarating Execution",
+          "iconId": 135595,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90703,
+      "posX": 11100,
+      "posY": 4500,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112591,
+          "definitionId": 117596,
+          "spellId": 382508,
+          "name": "Planned Execution",
+          "iconId": 132094,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 117172,
+          "definitionId": 122184,
+          "spellId": 426555,
+          "name": "Warning Signs",
+          "iconId": 236358,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90704,
+      "posX": 11100,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112592,
+          "definitionId": 117597,
+          "spellId": 382512,
+          "name": "Improved Find Weakness",
+          "iconId": 132295,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90705,
+      "posX": 11100,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112593,
+          "definitionId": 117598,
+          "spellId": 382015,
+          "name": "The Rotten",
+          "iconId": 136179,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90706,
+      "posX": 11100,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112594,
+          "definitionId": 117599,
+          "spellId": 469642,
+          "name": "Death Perception",
+          "iconId": 3163628,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90707,
+      "posX": 11700,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112595,
+          "definitionId": 117600,
+          "spellId": 382518,
+          "name": "Perforated Veins",
+          "iconId": 132334,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90709,
+      "posX": 13500,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112597,
+          "definitionId": 117602,
+          "spellId": 58423,
+          "name": "Relentless Strikes",
+          "iconId": 132340,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90710,
+      "posX": 12900,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112598,
+          "definitionId": 117603,
+          "spellId": 319951,
+          "name": "Improved Shuriken Storm",
+          "iconId": 1373913,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90713,
+      "posX": 12900,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112601,
+          "definitionId": 117606,
+          "spellId": 382017,
+          "name": "Veiltouched",
+          "iconId": 135752,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90714,
+      "posX": 14100,
+      "posY": 3300,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112602,
+          "definitionId": 117607,
+          "spellId": 277953,
+          "name": "Night Terrors",
+          "iconId": 136194,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136488,
+          "definitionId": 141261,
+          "spellId": 428387,
+          "name": "Terrifying Pace",
+          "iconId": 236170,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90715,
+      "posX": 12900,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112603,
+          "definitionId": 117608,
+          "spellId": 1279444,
+          "name": "Improved Secret Technique",
+          "iconId": 132305,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90716,
+      "posX": 14100,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112604,
+          "definitionId": 117609,
+          "spellId": 382506,
+          "name": "Replicating Shadows",
+          "iconId": 237532,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90717,
+      "posX": 14100,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112605,
+          "definitionId": 117610,
+          "spellId": 1264764,
+          "name": "Shuriken Tornado",
+          "iconId": 236282,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90718,
+      "posX": 13500,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112606,
+          "definitionId": 117611,
+          "spellId": 1265952,
+          "name": "Potent Powder",
+          "iconId": 608955,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90719,
+      "posX": 13500,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112607,
+          "definitionId": 117612,
+          "spellId": 382504,
+          "name": "Dark Brew",
+          "iconId": 136093,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90720,
+      "posX": 13500,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112608,
+          "definitionId": 117613,
+          "spellId": 382525,
+          "name": "Finality",
+          "iconId": 132292,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90721,
+      "posX": 12900,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112609,
+          "definitionId": 117614,
+          "spellId": 382517,
+          "name": "Deeper Daggers",
+          "iconId": 135651,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90722,
+      "posX": 13500,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112610,
+          "definitionId": 117615,
+          "spellId": 394320,
+          "name": "Secret Stratagem",
+          "iconId": 644377,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90723,
+      "posX": 12900,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112611,
+          "definitionId": 117616,
+          "spellId": 382511,
+          "name": "Shadowed Finishers",
+          "iconId": 132292,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90724,
+      "posX": 12300,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112612,
+          "definitionId": 117617,
+          "spellId": 185314,
+          "name": "Deepening Shadows",
+          "iconId": 136223,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90726,
+      "posX": 12300,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112614,
+          "definitionId": 117619,
+          "spellId": 121471,
+          "name": "Shadow Blades",
+          "iconId": 376022,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90727,
+      "posX": 11100,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112615,
+          "definitionId": 117620,
+          "spellId": 196976,
+          "name": "Master of Shadows",
+          "iconId": 136129,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90728,
+      "posX": 12300,
+      "posY": 2700,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112616,
+          "definitionId": 117621,
+          "spellId": 382503,
+          "name": "Quick Decisions",
+          "iconId": 134226,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136808,
+          "definitionId": 141571,
+          "spellId": 426563,
+          "name": "Ephemeral Bond",
+          "iconId": 607854,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90730,
+      "posX": 12300,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112618,
+          "definitionId": 117623,
+          "spellId": 382528,
+          "name": "Danse Macabre",
+          "iconId": 538039,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90731,
+      "posX": 12300,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112619,
+          "definitionId": 117624,
+          "spellId": 382524,
+          "name": "Lingering Shadow",
+          "iconId": 425958,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90732,
+      "posX": 12300,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112620,
+          "definitionId": 117625,
+          "spellId": 245687,
+          "name": "Dark Shadow",
+          "iconId": 463284,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90733,
+      "posX": 12900,
+      "posY": 3300,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112622,
+          "definitionId": 117627,
+          "spellId": 382515,
+          "name": "Cloaked in Shadows",
+          "iconId": 1045771,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 112621,
+          "definitionId": 117626,
+          "spellId": 382514,
+          "name": "Fade to Nothing",
+          "iconId": 236296,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90734,
+      "posX": 12300,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112623,
+          "definitionId": 117628,
+          "spellId": 108209,
+          "name": "Shadow Focus",
+          "iconId": 571316,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90735,
+      "posX": 11700,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112625,
+          "definitionId": 117630,
+          "spellId": 382505,
+          "name": "The First Dance",
+          "iconId": 236279,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90737,
+      "posX": 10500,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112627,
+          "definitionId": 117632,
+          "spellId": 193537,
+          "name": "Weaponmaster",
+          "iconId": 1035036,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90738,
+      "posX": 10500,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112628,
+          "definitionId": 117633,
+          "spellId": 1281468,
+          "name": "Umbral Edge",
+          "iconId": 1373907,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90739,
+      "posX": 11700,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112629,
+          "definitionId": 117634,
+          "spellId": 319949,
+          "name": "Improved Backstab",
+          "iconId": 132090,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 90740,
+      "posX": 2700,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112630,
+          "definitionId": 117635,
+          "spellId": 5938,
+          "name": "Shiv",
+          "iconId": 135428,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90741,
+      "posX": 3900,
+      "posY": 2100,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112631,
+          "definitionId": 117636,
+          "spellId": 1776,
+          "name": "Gouge",
+          "iconId": 132155,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 117740,
+          "definitionId": 122752,
+          "spellId": 200733,
+          "name": "Airborne Irritant",
+          "iconId": 132284,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 90742,
+      "posX": 3900,
+      "posY": 2700,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112632,
+          "definitionId": 117637,
+          "spellId": 79008,
+          "name": "Elusiveness",
+          "iconId": 236284,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 114737,
+          "definitionId": 119744,
+          "spellId": 31230,
+          "name": "Cheat Death",
+          "iconId": 132285,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 90743,
+      "posX": 3300,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112633,
+          "definitionId": 117638,
+          "spellId": 381542,
+          "name": "Deadly Precision",
+          "iconId": 132286,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90744,
+      "posX": 3300,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112634,
+          "definitionId": 117639,
+          "spellId": 193546,
+          "name": "Iron Stomach",
+          "iconId": 237415,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90745,
+      "posX": 3300,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112635,
+          "definitionId": 117640,
+          "spellId": 378427,
+          "name": "Nimble Fingers",
+          "iconId": 1373904,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90746,
+      "posX": 4500,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112636,
+          "definitionId": 117641,
+          "spellId": 1267210,
+          "name": "Quick Fingers",
+          "iconId": 457635,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90747,
+      "posX": 3900,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112638,
+          "definitionId": 117643,
+          "spellId": 381543,
+          "name": "Virulent Poisons",
+          "iconId": 132108,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90748,
+      "posX": 3300,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112639,
+          "definitionId": 117644,
+          "spellId": 382245,
+          "name": "Cold Blooded Killer",
+          "iconId": 135988,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90749,
+      "posX": 3300,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112640,
+          "definitionId": 117645,
+          "spellId": 382238,
+          "name": "Lethality",
+          "iconId": 132109,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90750,
+      "posX": 4500,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112642,
+          "definitionId": 117647,
+          "spellId": 193531,
+          "name": "Deeper Stratagem",
+          "iconId": 644377,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90751,
+      "posX": 4500,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112643,
+          "definitionId": 117648,
+          "spellId": 193539,
+          "name": "Alacrity",
+          "iconId": 571558,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90752,
+      "posX": 3900,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112644,
+          "definitionId": 117649,
+          "spellId": 381988,
+          "name": "Swift Slasher",
+          "iconId": 132306,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90753,
+      "posX": 13500,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112645,
+          "definitionId": 117650,
+          "spellId": 235484,
+          "name": "Improved Between the Eyes",
+          "iconId": 1269439,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90754,
+      "posX": 5100,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112646,
+          "definitionId": 117651,
+          "spellId": 423647,
+          "name": "Graceful Guile",
+          "iconId": 1373905,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 90755,
+      "posX": 11700,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112647,
+          "definitionId": 117652,
+          "spellId": 428377,
+          "name": "Precision Shot",
+          "iconId": 645221,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 90756,
+      "posX": 2700,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112648,
+          "definitionId": 117653,
+          "spellId": 469779,
+          "name": "Thistle Tea",
+          "iconId": 132819,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90757,
+      "posX": 11700,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112649,
+          "definitionId": 117654,
+          "spellId": 14190,
+          "name": "Seal Fate",
+          "iconId": 236281,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90758,
+      "posX": 2700,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112650,
+          "definitionId": 117655,
+          "spellId": 280716,
+          "name": "Leeching Poison",
+          "iconId": 538440,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90759,
+      "posX": 2700,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112651,
+          "definitionId": 117656,
+          "spellId": 14983,
+          "name": "Vigor",
+          "iconId": 458737,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90760,
+      "posX": 2700,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112652,
+          "definitionId": 117657,
+          "spellId": 1267220,
+          "name": "Danger Sense",
+          "iconId": 236287,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90762,
+      "posX": 2700,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112654,
+          "definitionId": 117659,
+          "spellId": 5277,
+          "name": "Evasion",
+          "iconId": 136205,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90763,
+      "posX": 2700,
+      "posY": 4500,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112656,
+          "definitionId": 117661,
+          "spellId": 5761,
+          "name": "Numbing Poison",
+          "iconId": 136066,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 112655,
+          "definitionId": 117660,
+          "spellId": 381637,
+          "name": "Atrophic Poison",
+          "iconId": 132300,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 90764,
+      "posX": 3300,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112657,
+          "definitionId": 117662,
+          "spellId": 378813,
+          "name": "Fleet Footed",
+          "iconId": 132301,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90766,
+      "posX": 12300,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112659,
+          "definitionId": 117664,
+          "spellId": 455072,
+          "name": "Rapid Injection",
+          "iconId": 249171,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90767,
+      "posX": 12300,
+      "posY": 6300,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112660,
+          "definitionId": 117665,
+          "spellId": 1250036,
+          "name": "Inspiring Strike",
+          "iconId": 132287,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 134835,
+          "definitionId": 139603,
+          "spellId": 1250318,
+          "name": "Poisoner's Drive",
+          "iconId": 6035319,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90768,
+      "posX": 12300,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112661,
+          "definitionId": 117666,
+          "spellId": 79134,
+          "name": "Venomous Wounds",
+          "iconId": 458736,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90769,
+      "posX": 12300,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112662,
+          "definitionId": 117667,
+          "spellId": 360194,
+          "name": "Deathmark",
+          "iconId": 4667421,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90770,
+      "posX": 11700,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112663,
+          "definitionId": 117668,
+          "spellId": 385627,
+          "name": "Kingsbane",
+          "iconId": 1259291,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90771,
+      "posX": 11100,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112664,
+          "definitionId": 117669,
+          "spellId": 381652,
+          "name": "Systemic Failure",
+          "iconId": 878217,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90772,
+      "posX": 11700,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112665,
+          "definitionId": 117670,
+          "spellId": 392384,
+          "name": "Fatal Concoction",
+          "iconId": 132108,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90774,
+      "posX": 12900,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112667,
+          "definitionId": 117672,
+          "spellId": 1250271,
+          "name": "Deadly Momentum",
+          "iconId": 458727,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90775,
+      "posX": 13500,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112668,
+          "definitionId": 117673,
+          "spellId": 381799,
+          "name": "Scent of Blood",
+          "iconId": 132302,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90776,
+      "posX": 12900,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112669,
+          "definitionId": 117674,
+          "spellId": 385478,
+          "name": "Shrouded Suffocation",
+          "iconId": 132297,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90777,
+      "posX": 13500,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112670,
+          "definitionId": 117675,
+          "spellId": 381664,
+          "name": "Amplifying Poison",
+          "iconId": 134207,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90779,
+      "posX": 13500,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112672,
+          "definitionId": 117677,
+          "spellId": 421975,
+          "name": "Caustic Spatter",
+          "iconId": 132104,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90780,
+      "posX": 14100,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112673,
+          "definitionId": 117678,
+          "spellId": 1249802,
+          "name": "Razor Wire",
+          "iconId": 4067366,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90783,
+      "posX": 12300,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112676,
+          "definitionId": 117681,
+          "spellId": 2823,
+          "name": "Deadly Poison",
+          "iconId": 132290,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90784,
+      "posX": 11100,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112677,
+          "definitionId": 117682,
+          "spellId": 381797,
+          "name": "Dashing Scoundrel",
+          "iconId": 458736,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90785,
+      "posX": 11100,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112678,
+          "definitionId": 117683,
+          "spellId": 381798,
+          "name": "Zoldyck Recipe",
+          "iconId": 646682,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 90786,
+      "posX": 11100,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112679,
+          "definitionId": 117684,
+          "spellId": 328085,
+          "name": "Blindside",
+          "iconId": 236274,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 94536,
+      "posX": 12900,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117106,
+          "definitionId": 122118,
+          "spellId": 423054,
+          "name": "Path of Blood",
+          "iconId": 1394887,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 94551,
+      "posX": 13500,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117129,
+          "definitionId": 122141,
+          "spellId": 423136,
+          "name": "Sudden Demise",
+          "iconId": 460687,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 94552,
+      "posX": 11700,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117130,
+          "definitionId": 122142,
+          "spellId": 1250325,
+          "name": "Regicide's Reward",
+          "iconId": 1120131,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 94553,
+      "posX": 12300,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117131,
+          "definitionId": 122143,
+          "spellId": 381801,
+          "name": "Dragon-Tempered Blades",
+          "iconId": 135811,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 94554,
+      "posX": 10500,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117133,
+          "definitionId": 122145,
+          "spellId": 457512,
+          "name": "Sanguine Stratagem",
+          "iconId": 644377,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 94555,
+      "posX": 14100,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117135,
+          "definitionId": 122147,
+          "spellId": 255544,
+          "name": "Poison Bomb",
+          "iconId": 538441,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 94556,
+      "posX": 12900,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117137,
+          "definitionId": 122149,
+          "spellId": 381673,
+          "name": "Doomblade",
+          "iconId": 538040,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 94557,
+      "posX": 11100,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117139,
+          "definitionId": 122151,
+          "spellId": 1247227,
+          "name": "Crimson Tempest",
+          "iconId": 7439214,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 94561,
+      "posX": 5100,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117144,
+          "definitionId": 122156,
+          "spellId": 400804,
+          "name": "Unbreakable Stride",
+          "iconId": 132309,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 94562,
+      "posX": 4500,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117145,
+          "definitionId": 122157,
+          "spellId": 1267216,
+          "name": "Deep Cuts",
+          "iconId": 6439626,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 94563,
+      "posX": 4500,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117146,
+          "definitionId": 122158,
+          "spellId": 423662,
+          "name": "Stillshroud",
+          "iconId": 635350,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 94565,
+      "posX": 11700,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117148,
+          "definitionId": 122160,
+          "spellId": 51690,
+          "name": "Killing Spree",
+          "iconId": 6735718,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 94567,
+      "posX": 2100,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117151,
+          "definitionId": 122163,
+          "spellId": 423701,
+          "name": "Superior Mixture",
+          "iconId": 463547,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 94580,
+      "posX": 11700,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117168,
+          "definitionId": 122180,
+          "spellId": 426594,
+          "name": "Shadowcraft",
+          "iconId": 136192,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 94581,
+      "posX": 12900,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117169,
+          "definitionId": 122181,
+          "spellId": 426591,
+          "name": "Goremaw's Bite",
+          "iconId": 1120132,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 94582,
+      "posX": 13500,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117170,
+          "definitionId": 122182,
+          "spellId": 385722,
+          "name": "Silent Storm",
+          "iconId": 1373913,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 95106,
+      "posX": 7200,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117703,
+          "definitionId": 122715,
+          "spellId": 457022,
+          "name": "Ethereal Cloak",
+          "iconId": 135752,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 126029,
+          "definitionId": 130861,
+          "spellId": 457034,
+          "name": "Bait and Switch",
+          "iconId": 236150,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 95107,
+      "posX": 14700,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117704,
+          "definitionId": 122716,
+          "spellId": 454419,
+          "name": "Deal Fate",
+          "iconId": 460693,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 95108,
+      "posX": 7800,
+      "posY": 2401,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117705,
+          "definitionId": 122717,
+          "spellId": 1248785,
+          "name": "Corrupt the Blood",
+          "iconId": 1035037,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 95109,
+      "posX": 8400,
+      "posY": 2401,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117706,
+          "definitionId": 122718,
+          "spellId": 457056,
+          "name": "Lingering Darkness",
+          "iconId": 132291,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 126030,
+          "definitionId": 130862,
+          "spellId": 457062,
+          "name": "Symbolic Victory",
+          "iconId": 633004,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 95110,
+      "posX": 7200,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117707,
+          "definitionId": 122719,
+          "spellId": 1248793,
+          "name": "Clear the Witnesses",
+          "iconId": 236273,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 95111,
+      "posX": 8400,
+      "posY": 4799,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117708,
+          "definitionId": 122720,
+          "spellId": 441321,
+          "name": "Flawless Form",
+          "iconId": 134888,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 95114,
+      "posX": 15300,
+      "posY": 2700,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117711,
+          "definitionId": 122723,
+          "spellId": 1249190,
+          "name": "Overflowing Purse",
+          "iconId": 901746,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 125139,
+          "definitionId": 129971,
+          "spellId": 454435,
+          "name": "Destiny Defined",
+          "iconId": 4067928,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 95115,
+      "posX": 8100,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117712,
+          "definitionId": 122724,
+          "spellId": 441423,
+          "name": "Coup de Grace",
+          "iconId": 5927656,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 95116,
+      "posX": 7800,
+      "posY": 6000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117713,
+          "definitionId": 122725,
+          "spellId": 441429,
+          "name": "Cloud Cover",
+          "iconId": 458733,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 120132,
+          "definitionId": 125032,
+          "spellId": 441398,
+          "name": "No Scruples",
+          "iconId": 132308,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 95117,
+      "posX": 8400,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117714,
+          "definitionId": 122726,
+          "spellId": 457055,
+          "name": "Singular Focus",
+          "iconId": 1033497,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 95118,
+      "posX": 7200,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117715,
+          "definitionId": 122727,
+          "spellId": 441274,
+          "name": "Disorienting Strikes",
+          "iconId": 648208,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 95119,
+      "posX": 14700,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117716,
+          "definitionId": 122728,
+          "spellId": 1249194,
+          "name": "Delivered Doom",
+          "iconId": 1120185,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 95120,
+      "posX": 15900,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117717,
+          "definitionId": 122729,
+          "spellId": 453457,
+          "name": "Edge Case",
+          "iconId": 348281,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 95121,
+      "posX": 7200,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117718,
+          "definitionId": 122730,
+          "spellId": 441273,
+          "name": "Surprising Strikes",
+          "iconId": 643249,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 95122,
+      "posX": 15300,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117719,
+          "definitionId": 122731,
+          "spellId": 453428,
+          "name": "Mean Streak",
+          "iconId": 254885,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 95123,
+      "posX": 8400,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117720,
+          "definitionId": 122732,
+          "spellId": 457057,
+          "name": "Shadewalker",
+          "iconId": 1020341,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 126027,
+          "definitionId": 130859,
+          "spellId": 457063,
+          "name": "Shroud of Night",
+          "iconId": 135900,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 95125,
+      "posX": 15600,
+      "posY": 900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117722,
+          "definitionId": 122734,
+          "spellId": 452536,
+          "name": "Hand of Fate",
+          "iconId": 5927626,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 95127,
+      "posX": 15600,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117724,
+          "definitionId": 122736,
+          "spellId": 1248970,
+          "name": "Lucky Coin",
+          "iconId": 513195,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 95128,
+      "posX": 8400,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117725,
+          "definitionId": 122737,
+          "spellId": 441367,
+          "name": "Nimble Flurry",
+          "iconId": 132283,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 95129,
+      "posX": 15900,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117726,
+          "definitionId": 122738,
+          "spellId": 1249204,
+          "name": "Rush to the Inevitable",
+          "iconId": 458737,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 95130,
+      "posX": 15900,
+      "posY": 1500,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117727,
+          "definitionId": 122739,
+          "spellId": 454432,
+          "name": "Inexorable March",
+          "iconId": 1381298,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 125140,
+          "definitionId": 129972,
+          "spellId": 454433,
+          "name": "Death's Arrival",
+          "iconId": 413583,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 95131,
+      "posX": 7800,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117728,
+          "definitionId": 122740,
+          "spellId": 457067,
+          "name": "Momentum of Despair",
+          "iconId": 136194,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 126028,
+          "definitionId": 130860,
+          "spellId": 457068,
+          "name": "Follow the Blood",
+          "iconId": 1357795,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 95132,
+      "posX": 7800,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117729,
+          "definitionId": 122741,
+          "spellId": 457054,
+          "name": "Hunt Them Down",
+          "iconId": 1398086,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 95133,
+      "posX": 7800,
+      "posY": 5401,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117730,
+          "definitionId": 122742,
+          "spellId": 441263,
+          "name": "Devious Distractions",
+          "iconId": 1373905,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 95134,
+      "posX": 7200,
+      "posY": 5400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117731,
+          "definitionId": 122743,
+          "spellId": 441403,
+          "name": "So Tricky",
+          "iconId": 236283,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 120133,
+          "definitionId": 125033,
+          "spellId": 441415,
+          "name": "Don't Be Suspicious",
+          "iconId": 132288,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 95135,
+      "posX": 7200,
+      "posY": 2401,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117732,
+          "definitionId": 122744,
+          "spellId": 1248774,
+          "name": "Unshakeable Drive",
+          "iconId": 4067373,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 95136,
+      "posX": 8100,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117733,
+          "definitionId": 122745,
+          "spellId": 457052,
+          "name": "Deathstalker's Mark",
+          "iconId": 5927622,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 95137,
+      "posX": 8400,
+      "posY": 5400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117734,
+          "definitionId": 122746,
+          "spellId": 441346,
+          "name": "Thousand Cuts",
+          "iconId": 4624383,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 120131,
+          "definitionId": 125031,
+          "spellId": 441359,
+          "name": "Flickerstrike",
+          "iconId": 136047,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 95138,
+      "posX": 14700,
+      "posY": 1500,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117735,
+          "definitionId": 122747,
+          "spellId": 1249201,
+          "name": "Chosen's Revelry",
+          "iconId": 458228,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 125132,
+          "definitionId": 129964,
+          "spellId": 454286,
+          "name": "Tempted Fate",
+          "iconId": 1373911,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 95139,
+      "posX": 15300,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117736,
+          "definitionId": 122748,
+          "spellId": 1249215,
+          "name": "Fate Intertwined",
+          "iconId": 4913233,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 95140,
+      "posX": 8100,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117737,
+          "definitionId": 122749,
+          "spellId": 441146,
+          "name": "Unseen Blade",
+          "iconId": 135690,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 95141,
+      "posX": 7800,
+      "posY": 4799,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117738,
+          "definitionId": 122750,
+          "spellId": 441247,
+          "name": "Smoke",
+          "iconId": 571694,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 120130,
+          "definitionId": 125030,
+          "spellId": 441250,
+          "name": "Mirrors",
+          "iconId": 458243,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 95142,
+      "posX": 8100,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117739,
+          "definitionId": 122751,
+          "spellId": 457058,
+          "name": "Darkest Night",
+          "iconId": 136223,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 99842,
+      "posX": 8100,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123373,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123370,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 99843,
+      "posX": 7799,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123374,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123372,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    },
+    {
+      "id": 99844,
+      "posX": 6900,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123375,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123371,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 101713,
+      "posX": 5100,
+      "posY": 6900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125614,
+          "definitionId": 130446,
+          "spellId": 382513,
+          "name": "Without a Trace",
+          "iconId": 132331,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 101714,
+      "posX": 5700,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125615,
+          "definitionId": 130447,
+          "spellId": 423683,
+          "name": "Featherfoot",
+          "iconId": 135992,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 101715,
+      "posX": 11700,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125619,
+          "definitionId": 130451,
+          "spellId": 394930,
+          "name": "Double Dance",
+          "iconId": 589546,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 109003,
+      "posX": 13500,
+      "posY": 4500,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 134837,
+          "definitionId": 139605,
+          "spellId": 381631,
+          "name": "Flying Daggers",
+          "iconId": 236273,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 134836,
+          "definitionId": 139604,
+          "spellId": 1250141,
+          "name": "Secondary Poisoning",
+          "iconId": 132273,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 109004,
+      "posX": 11100,
+      "posY": 4500,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 134839,
+          "definitionId": 139607,
+          "spellId": 381630,
+          "name": "Intent to Kill",
+          "iconId": 132284,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 134838,
+          "definitionId": 139606,
+          "spellId": 196861,
+          "name": "Iron Wire",
+          "iconId": 133243,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 109760,
+      "posX": 9000,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136018,
+          "definitionId": 140773,
+          "spellId": 1273035,
+          "name": "Mass Casualty",
+          "iconId": 132205,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 109761,
+      "posX": 9000,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136019,
+          "definitionId": 140774,
+          "spellId": 1273017,
+          "name": "Quietus Celeris",
+          "iconId": 1778226,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 109762,
+      "posX": 9000,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136020,
+          "definitionId": 140775,
+          "spellId": 1272989,
+          "name": "Precise Killer",
+          "iconId": 1020351,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        261
+      ]
+    },
+    {
+      "id": 109763,
+      "posX": 9000,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136021,
+          "definitionId": 140776,
+          "spellId": 1276679,
+          "name": "Clever Combatant",
+          "iconId": 636277,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 109764,
+      "posX": 9000,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136022,
+          "definitionId": 140777,
+          "spellId": 1276630,
+          "name": "Flashing Steel",
+          "iconId": 6712967,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 109765,
+      "posX": 9000,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136023,
+          "definitionId": 140778,
+          "spellId": 1276626,
+          "name": "Hoodwink",
+          "iconId": 135899,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        260,
+        261
+      ]
+    },
+    {
+      "id": 109766,
+      "posX": 16500,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136024,
+          "definitionId": 140779,
+          "spellId": 1276809,
+          "name": "Ravenholdt Mint",
+          "iconId": 133785,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 109767,
+      "posX": 16500,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136025,
+          "definitionId": 140780,
+          "spellId": 1277030,
+          "name": "Sometimes Lucky",
+          "iconId": 1519351,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 109768,
+      "posX": 16500,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136026,
+          "definitionId": 140781,
+          "spellId": 1276816,
+          "name": "Controlled Chaos",
+          "iconId": 7137506,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": 110323,
+      "posX": 3900,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136881,
+          "definitionId": 141644,
+          "spellId": 231719,
+          "name": "Deadened Nerves",
+          "iconId": 132300,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110324,
+      "posX": 5700,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136882,
+          "definitionId": 141645,
+          "spellId": 378807,
+          "name": "Shadowrunner",
+          "iconId": 132320,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110325,
+      "posX": 2100,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136883,
+          "definitionId": 141646,
+          "spellId": 1267182,
+          "name": "Toxic Stiletto",
+          "iconId": 1373909,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110432,
+      "posX": 12300,
+      "posY": 7650,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 137064,
+          "definitionId": 141827,
+          "spellId": 1268932,
+          "name": "Ancient Arts",
+          "iconId": 7636561,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 137063,
+          "definitionId": 141826,
+          "spellId": 1268936,
+          "name": "Ancient Arts",
+          "iconId": 7636561,
+          "maxRanks": 2,
+          "entryIndex": 200
+        },
+        {
+          "id": 137062,
+          "definitionId": 141825,
+          "spellId": 1268939,
+          "name": "Ancient Arts",
+          "iconId": 7636561,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        261
+      ]
+    },
+    {
+      "id": 110433,
+      "posX": 12300,
+      "posY": 7650,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 137067,
+          "definitionId": 141831,
+          "spellId": 1265385,
+          "name": "Implacable",
+          "iconId": 7636563,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 137066,
+          "definitionId": 141830,
+          "spellId": 1265386,
+          "name": "Implacable",
+          "iconId": 7636563,
+          "maxRanks": 2,
+          "entryIndex": 200
+        },
+        {
+          "id": 137065,
+          "definitionId": 141829,
+          "spellId": 1265387,
+          "name": "Implacable",
+          "iconId": 7636563,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        259
+      ]
+    },
+    {
+      "id": 110434,
+      "posX": 12300,
+      "posY": 7650,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 137070,
+          "definitionId": 141834,
+          "spellId": 1265861,
+          "name": "Gravedigger",
+          "iconId": 7636562,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 137069,
+          "definitionId": 141833,
+          "spellId": 1265862,
+          "name": "Gravedigger",
+          "iconId": 7636562,
+          "maxRanks": 2,
+          "entryIndex": 200
+        },
+        {
+          "id": 137068,
+          "definitionId": 141832,
+          "spellId": 1265863,
+          "name": "Gravedigger",
+          "iconId": 7636562,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        260
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "fromNodeId": 90783,
+      "toNodeId": 90635,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90783,
+      "toNodeId": 90628,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90667,
+      "toNodeId": 90666,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90666,
+      "toNodeId": 90665,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90676,
+      "toNodeId": 90675,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90677,
+      "toNodeId": 90676,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90777,
+      "toNodeId": 90622,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90786,
+      "toNodeId": 90785,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90771,
+      "toNodeId": 90786,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90622,
+      "toNodeId": 90775,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90740,
+      "toNodeId": 90764,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90639,
+      "toNodeId": 90638,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90751,
+      "toNodeId": 90750,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90749,
+      "toNodeId": 90748,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90757,
+      "toNodeId": 90633,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90757,
+      "toNodeId": 90769,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90759,
+      "toNodeId": 90756,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90630,
+      "toNodeId": 90633,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94554,
+      "toNodeId": 90771,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90633,
+      "toNodeId": 94554,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94557,
+      "toNodeId": 90630,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94555,
+      "toNodeId": 90777,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94557,
+      "toNodeId": 90757,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90628,
+      "toNodeId": 94557,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90633,
+      "toNodeId": 90772,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90769,
+      "toNodeId": 90772,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90769,
+      "toNodeId": 90624,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90772,
+      "toNodeId": 90771,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90624,
+      "toNodeId": 90777,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90626,
+      "toNodeId": 90768,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90769,
+      "toNodeId": 90626,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90745,
+      "toNodeId": 90747,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90746,
+      "toNodeId": 90747,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90686,
+      "toNodeId": 90687,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90686,
+      "toNodeId": 90746,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90684,
+      "toNodeId": 90764,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90754,
+      "toNodeId": 94562,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90746,
+      "toNodeId": 90754,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90687,
+      "toNodeId": 90754,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90754,
+      "toNodeId": 94561,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90747,
+      "toNodeId": 90743,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90747,
+      "toNodeId": 94562,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90684,
+      "toNodeId": 90741,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94563,
+      "toNodeId": 94562,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90746,
+      "toNodeId": 94563,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90661,
+      "toNodeId": 90663,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90669,
+      "toNodeId": 90667,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90641,
+      "toNodeId": 90677,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90668,
+      "toNodeId": 90667,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90651,
+      "toNodeId": 90668,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90676,
+      "toNodeId": 94565,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90663,
+      "toNodeId": 90651,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90679,
+      "toNodeId": 90656,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90683,
+      "toNodeId": 90659,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94536,
+      "toNodeId": 90625,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90783,
+      "toNodeId": 94536,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90692,
+      "toNodeId": 90751,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90692,
+      "toNodeId": 90691,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94561,
+      "toNodeId": 90692,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94562,
+      "toNodeId": 90692,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90760,
+      "toNodeId": 90749,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90758,
+      "toNodeId": 90759,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90760,
+      "toNodeId": 90758,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90743,
+      "toNodeId": 90760,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90684,
+      "toNodeId": 90695,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90695,
+      "toNodeId": 90686,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90697,
+      "toNodeId": 90695,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90678,
+      "toNodeId": 90677,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90656,
+      "toNodeId": 90678,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90755,
+      "toNodeId": 90679,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90645,
+      "toNodeId": 90755,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90648,
+      "toNodeId": 90661,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90659,
+      "toNodeId": 90648,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90659,
+      "toNodeId": 90645,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90671,
+      "toNodeId": 90668,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90680,
+      "toNodeId": 90678,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90679,
+      "toNodeId": 90680,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90663,
+      "toNodeId": 90671,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90649,
+      "toNodeId": 90678,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90679,
+      "toNodeId": 90649,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90671,
+      "toNodeId": 90669,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90680,
+      "toNodeId": 90641,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90762,
+      "toNodeId": 90743,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90745,
+      "toNodeId": 90762,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90744,
+      "toNodeId": 90743,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90745,
+      "toNodeId": 90744,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90717,
+      "toNodeId": 90716,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90731,
+      "toNodeId": 90732,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90707,
+      "toNodeId": 90732,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90707,
+      "toNodeId": 90706,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90732,
+      "toNodeId": 90730,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90706,
+      "toNodeId": 90705,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90720,
+      "toNodeId": 90719,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90690,
+      "toNodeId": 90739,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90690,
+      "toNodeId": 90710,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90690,
+      "toNodeId": 90726,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90724,
+      "toNodeId": 90731,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90724,
+      "toNodeId": 90707,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90704,
+      "toNodeId": 90706,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90718,
+      "toNodeId": 90720,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90716,
+      "toNodeId": 90718,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90722,
+      "toNodeId": 90716,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90733,
+      "toNodeId": 90709,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90709,
+      "toNodeId": 90717,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90709,
+      "toNodeId": 90722,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90720,
+      "toNodeId": 94581,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90732,
+      "toNodeId": 94581,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90732,
+      "toNodeId": 94580,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90706,
+      "toNodeId": 94580,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90722,
+      "toNodeId": 90713,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90723,
+      "toNodeId": 90724,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90724,
+      "toNodeId": 90721,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90713,
+      "toNodeId": 90718,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90721,
+      "toNodeId": 90720,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90721,
+      "toNodeId": 90732,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90713,
+      "toNodeId": 90721,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90723,
+      "toNodeId": 90713,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90709,
+      "toNodeId": 90723,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90738,
+      "toNodeId": 90704,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90703,
+      "toNodeId": 90738,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90737,
+      "toNodeId": 90738,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90653,
+      "toNodeId": 94565,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90653,
+      "toNodeId": 90652,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90655,
+      "toNodeId": 90653,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95139,
+      "toNodeId": 95114,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95122,
+      "toNodeId": 95139,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95125,
+      "toNodeId": 95138,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95125,
+      "toNodeId": 95122,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95125,
+      "toNodeId": 95130,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95116,
+      "toNodeId": 95115,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95110,
+      "toNodeId": 95135,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95136,
+      "toNodeId": 95132,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95136,
+      "toNodeId": 95110,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95136,
+      "toNodeId": 95117,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95130,
+      "toNodeId": 95120,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95140,
+      "toNodeId": 95141,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95140,
+      "toNodeId": 95111,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95141,
+      "toNodeId": 95133,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95111,
+      "toNodeId": 95137,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95107,
+      "toNodeId": 95119,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95133,
+      "toNodeId": 95116,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95131,
+      "toNodeId": 95142,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95132,
+      "toNodeId": 95108,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95106,
+      "toNodeId": 95142,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95108,
+      "toNodeId": 95131,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95135,
+      "toNodeId": 95106,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95114,
+      "toNodeId": 95127,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95118,
+      "toNodeId": 95115,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95138,
+      "toNodeId": 95107,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95119,
+      "toNodeId": 95127,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95117,
+      "toNodeId": 95109,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90779,
+      "toNodeId": 90624,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94556,
+      "toNodeId": 90769,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90625,
+      "toNodeId": 94556,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94556,
+      "toNodeId": 90779,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90779,
+      "toNodeId": 94555,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90780,
+      "toNodeId": 90779,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90625,
+      "toNodeId": 90780,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90636,
+      "toNodeId": 90745,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90764,
+      "toNodeId": 90636,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90785,
+      "toNodeId": 90784,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90775,
+      "toNodeId": 94551,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90768,
+      "toNodeId": 90766,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90637,
+      "toNodeId": 90762,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90763,
+      "toNodeId": 90760,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90762,
+      "toNodeId": 90763,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94567,
+      "toNodeId": 90763,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90637,
+      "toNodeId": 94567,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90636,
+      "toNodeId": 90637,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95134,
+      "toNodeId": 95118,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95121,
+      "toNodeId": 95134,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95140,
+      "toNodeId": 95121,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95129,
+      "toNodeId": 95127,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95120,
+      "toNodeId": 95129,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95123,
+      "toNodeId": 95142,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95109,
+      "toNodeId": 95123,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95128,
+      "toNodeId": 95115,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95137,
+      "toNodeId": 95128,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90670,
+      "toNodeId": 90666,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90668,
+      "toNodeId": 90670,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90678,
+      "toNodeId": 90664,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90664,
+      "toNodeId": 90676,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90753,
+      "toNodeId": 90668,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90663,
+      "toNodeId": 90753,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90653,
+      "toNodeId": 90644,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90666,
+      "toNodeId": 90644,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90688,
+      "toNodeId": 101713,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90703,
+      "toNodeId": 90735,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90735,
+      "toNodeId": 90704,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90735,
+      "toNodeId": 90707,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90640,
+      "toNodeId": 90639,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90752,
+      "toNodeId": 90640,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90752,
+      "toNodeId": 90751,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90752,
+      "toNodeId": 90749,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90743,
+      "toNodeId": 90752,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94562,
+      "toNodeId": 90752,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101714,
+      "toNodeId": 94561,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90687,
+      "toNodeId": 101714,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90691,
+      "toNodeId": 90688,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90699,
+      "toNodeId": 101715,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101715,
+      "toNodeId": 90735,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101715,
+      "toNodeId": 90724,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90734,
+      "toNodeId": 101715,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90734,
+      "toNodeId": 90723,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90733,
+      "toNodeId": 90734,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90776,
+      "toNodeId": 90774,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90776,
+      "toNodeId": 90775,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90625,
+      "toNodeId": 90779,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94557,
+      "toNodeId": 90633,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90770,
+      "toNodeId": 90785,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90770,
+      "toNodeId": 94552,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90777,
+      "toNodeId": 90776,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90768,
+      "toNodeId": 90776,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90771,
+      "toNodeId": 90770,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90768,
+      "toNodeId": 90770,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90772,
+      "toNodeId": 90768,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90624,
+      "toNodeId": 90768,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90767,
+      "toNodeId": 94553,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90766,
+      "toNodeId": 90767,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90766,
+      "toNodeId": 90774,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109003,
+      "toNodeId": 90777,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90779,
+      "toNodeId": 109003,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109004,
+      "toNodeId": 90771,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90633,
+      "toNodeId": 109004,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90634,
+      "toNodeId": 90757,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90634,
+      "toNodeId": 94556,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94536,
+      "toNodeId": 90634,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90628,
+      "toNodeId": 90634,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90647,
+      "toNodeId": 90663,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90643,
+      "toNodeId": 90679,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90654,
+      "toNodeId": 90655,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90654,
+      "toNodeId": 90670,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90654,
+      "toNodeId": 90664,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90662,
+      "toNodeId": 90654,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90670,
+      "toNodeId": 90653,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90664,
+      "toNodeId": 90653,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90662,
+      "toNodeId": 90651,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90662,
+      "toNodeId": 90656,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90648,
+      "toNodeId": 90647,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90645,
+      "toNodeId": 90643,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90659,
+      "toNodeId": 90662,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90681,
+      "toNodeId": 90645,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90673,
+      "toNodeId": 90648,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90683,
+      "toNodeId": 90673,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90683,
+      "toNodeId": 90681,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109760,
+      "toNodeId": 95142,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109761,
+      "toNodeId": 109760,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109762,
+      "toNodeId": 109761,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95136,
+      "toNodeId": 109762,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109763,
+      "toNodeId": 95115,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109764,
+      "toNodeId": 109763,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109765,
+      "toNodeId": 109764,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95140,
+      "toNodeId": 109765,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109766,
+      "toNodeId": 95127,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109768,
+      "toNodeId": 109766,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109767,
+      "toNodeId": 109768,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95125,
+      "toNodeId": 109767,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90727,
+      "toNodeId": 90737,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90727,
+      "toNodeId": 90703,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90727,
+      "toNodeId": 101715,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90700,
+      "toNodeId": 90698,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90698,
+      "toNodeId": 90727,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90700,
+      "toNodeId": 90701,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90739,
+      "toNodeId": 90700,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90701,
+      "toNodeId": 90727,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90701,
+      "toNodeId": 90699,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90701,
+      "toNodeId": 90734,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90728,
+      "toNodeId": 90733,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90728,
+      "toNodeId": 90701,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90726,
+      "toNodeId": 90728,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90715,
+      "toNodeId": 90723,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90733,
+      "toNodeId": 90715,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90714,
+      "toNodeId": 90709,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94582,
+      "toNodeId": 90714,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94582,
+      "toNodeId": 90733,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90710,
+      "toNodeId": 94582,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110323,
+      "toNodeId": 90747,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90742,
+      "toNodeId": 110323,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90695,
+      "toNodeId": 90742,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90741,
+      "toNodeId": 90742,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90764,
+      "toNodeId": 90742,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110324,
+      "toNodeId": 90686,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90697,
+      "toNodeId": 110324,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110325,
+      "toNodeId": 90636,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90740,
+      "toNodeId": 110325,
+      "type": 2
+    }
+  ]
+}

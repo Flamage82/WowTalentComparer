@@ -1,0 +1,6110 @@
+{
+  "specId": 72,
+  "specName": "Fury",
+  "className": "Warrior",
+  "treeId": 850,
+  "nodes": [
+    {
+      "id": 90261,
+      "posX": 2400,
+      "posY": 900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112112,
+          "definitionId": 117117,
+          "spellId": 386164,
+          "name": "Battle Stance",
+          "iconId": 132349,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90264,
+      "posX": 12600,
+      "posY": 3900,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112115,
+          "definitionId": 117120,
+          "spellId": 385704,
+          "name": "Bloodborne",
+          "iconId": 1394887,
+          "maxRanks": 1,
+          "entryIndex": 200
+        },
+        {
+          "id": 132884,
+          "definitionId": 137670,
+          "spellId": 29725,
+          "name": "Sudden Death",
+          "iconId": 132346,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90265,
+      "posX": 12602,
+      "posY": 5697,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112116,
+          "definitionId": 117121,
+          "spellId": 386477,
+          "name": "Violent Outburst",
+          "iconId": 236308,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90267,
+      "posX": 13200,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135932,
+          "definitionId": 140687,
+          "spellId": 202316,
+          "name": "Fervor of Battle",
+          "iconId": 236286,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90269,
+      "posX": 12600,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112121,
+          "definitionId": 117126,
+          "spellId": 118038,
+          "name": "Die by the Sword",
+          "iconId": 132336,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90270,
+      "posX": 12000,
+      "posY": 900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112122,
+          "definitionId": 117127,
+          "spellId": 12294,
+          "name": "Mortal Strike",
+          "iconId": 132355,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90271,
+      "posX": 11400,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112123,
+          "definitionId": 117128,
+          "spellId": 7384,
+          "name": "Overpower",
+          "iconId": 132223,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90273,
+      "posX": 12600,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112125,
+          "definitionId": 117130,
+          "spellId": 316405,
+          "name": "Improved Execute",
+          "iconId": 135358,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90274,
+      "posX": 12600,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112126,
+          "definitionId": 117131,
+          "spellId": 29725,
+          "name": "Sudden Death",
+          "iconId": 132346,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90276,
+      "posX": 11400,
+      "posY": 2100,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112128,
+          "definitionId": 117133,
+          "spellId": 383103,
+          "name": "Fueled by Violence",
+          "iconId": 1450139,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136701,
+          "definitionId": 141473,
+          "spellId": 1277297,
+          "name": "Ignore Pain",
+          "iconId": 1377132,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90277,
+      "posX": 10800,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112129,
+          "definitionId": 117134,
+          "spellId": 384361,
+          "name": "Bloodsurge",
+          "iconId": 236306,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90279,
+      "posX": 11400,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112131,
+          "definitionId": 117136,
+          "spellId": 385571,
+          "name": "Improved Overpower",
+          "iconId": 132223,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90282,
+      "posX": 10800,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112134,
+          "definitionId": 117139,
+          "spellId": 184783,
+          "name": "Tactician",
+          "iconId": 236317,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90283,
+      "posX": 10800,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112135,
+          "definitionId": 117140,
+          "spellId": 383287,
+          "name": "Bloodborne",
+          "iconId": 1394887,
+          "maxRanks": 2,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90285,
+      "posX": 10800,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112137,
+          "definitionId": 117142,
+          "spellId": 262150,
+          "name": "Dreadnaught",
+          "iconId": 135275,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90290,
+      "posX": 12000,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112144,
+          "definitionId": 117149,
+          "spellId": 167105,
+          "name": "Colossus Smash",
+          "iconId": 2065633,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90291,
+      "posX": 12600,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112145,
+          "definitionId": 117150,
+          "spellId": 281001,
+          "name": "Massacre",
+          "iconId": 800997,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90292,
+      "posX": 13200,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112146,
+          "definitionId": 117151,
+          "spellId": 383430,
+          "name": "Impale",
+          "iconId": 132312,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90293,
+      "posX": 13200,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112147,
+          "definitionId": 117152,
+          "spellId": 845,
+          "name": "Cleave",
+          "iconId": 132338,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90295,
+      "posX": 12002,
+      "posY": 899,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112149,
+          "definitionId": 117154,
+          "spellId": 190456,
+          "name": "Ignore Pain",
+          "iconId": 1377132,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90296,
+      "posX": 12600,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112150,
+          "definitionId": 117155,
+          "spellId": 1264330,
+          "name": "Devastating Focus",
+          "iconId": 1033497,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90297,
+      "posX": 13200,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112151,
+          "definitionId": 117156,
+          "spellId": 236279,
+          "name": "Devastator",
+          "iconId": 135291,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90298,
+      "posX": 12600,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112152,
+          "definitionId": 117157,
+          "spellId": 6572,
+          "name": "Revenge",
+          "iconId": 132353,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90299,
+      "posX": 12300,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112153,
+          "definitionId": 117158,
+          "spellId": 452494,
+          "name": "Fight Through the Flames",
+          "iconId": 1786407,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90300,
+      "posX": 12603,
+      "posY": 3301,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112154,
+          "definitionId": 117159,
+          "spellId": 384361,
+          "name": "Bloodsurge",
+          "iconId": 236306,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90301,
+      "posX": 11402,
+      "posY": 3297,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112155,
+          "definitionId": 117160,
+          "spellId": 394311,
+          "name": "Instigate",
+          "iconId": 236272,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90302,
+      "posX": 12002,
+      "posY": 3301,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112156,
+          "definitionId": 117161,
+          "spellId": 871,
+          "name": "Shield Wall",
+          "iconId": 132362,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90303,
+      "posX": 12002,
+      "posY": 2697,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112157,
+          "definitionId": 117162,
+          "spellId": 384041,
+          "name": "Strategist",
+          "iconId": 134951,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90304,
+      "posX": 10800,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112158,
+          "definitionId": 117163,
+          "spellId": 386030,
+          "name": "Brace For Impact",
+          "iconId": 132359,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90305,
+      "posX": 11400,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112159,
+          "definitionId": 117164,
+          "spellId": 1160,
+          "name": "Demoralizing Shout",
+          "iconId": 132366,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90306,
+      "posX": 11700,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112160,
+          "definitionId": 117165,
+          "spellId": 1234769,
+          "name": "Armor Specialization",
+          "iconId": 132740,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90308,
+      "posX": 10802,
+      "posY": 3897,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112162,
+          "definitionId": 117167,
+          "spellId": 385840,
+          "name": "Thunderlord",
+          "iconId": 252174,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90309,
+      "posX": 13200,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112163,
+          "definitionId": 117168,
+          "spellId": 202560,
+          "name": "Best Served Cold",
+          "iconId": 132353,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90310,
+      "posX": 13800,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112165,
+          "definitionId": 117170,
+          "spellId": 1261060,
+          "name": "Deep Wounds",
+          "iconId": 132090,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90311,
+      "posX": 12002,
+      "posY": 4497,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112166,
+          "definitionId": 117171,
+          "spellId": 386027,
+          "name": "Enduring Defenses",
+          "iconId": 132110,
+          "maxRanks": 2,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90312,
+      "posX": 10800,
+      "posY": 5100,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112167,
+          "definitionId": 117172,
+          "spellId": 203177,
+          "name": "Heavy Repercussions",
+          "iconId": 134977,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 132885,
+          "definitionId": 137671,
+          "spellId": 202603,
+          "name": "Into the Fray",
+          "iconId": 132334,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90313,
+      "posX": 13800,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112169,
+          "definitionId": 117174,
+          "spellId": 1235088,
+          "name": "Heavy Handed",
+          "iconId": 6712966,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90314,
+      "posX": 11402,
+      "posY": 5697,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112170,
+          "definitionId": 117175,
+          "spellId": 202743,
+          "name": "Booming Voice",
+          "iconId": 132339,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90315,
+      "posX": 12002,
+      "posY": 5097,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112171,
+          "definitionId": 117176,
+          "spellId": 386011,
+          "name": "Shield Specialization",
+          "iconId": 331053,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90317,
+      "posX": 10800,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112173,
+          "definitionId": 117178,
+          "spellId": 385952,
+          "name": "Shield Charge",
+          "iconId": 4667427,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90318,
+      "posX": 11400,
+      "posY": 3900,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112174,
+          "definitionId": 117179,
+          "spellId": 397103,
+          "name": "Defender's Aegis",
+          "iconId": 236313,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 132881,
+          "definitionId": 137667,
+          "spellId": 384072,
+          "name": "Impenetrable Wall",
+          "iconId": 132359,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90319,
+      "posX": 10800,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112176,
+          "definitionId": 117181,
+          "spellId": 383103,
+          "name": "Fueled by Violence",
+          "iconId": 1450139,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90320,
+      "posX": 10200,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112177,
+          "definitionId": 117182,
+          "spellId": 385888,
+          "name": "Tough as Nails",
+          "iconId": 237488,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90322,
+      "posX": 3600,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112179,
+          "definitionId": 117184,
+          "spellId": 382896,
+          "name": "Two-Handed Weapon Specialization",
+          "iconId": 132400,
+          "maxRanks": 2,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90324,
+      "posX": 3600,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112181,
+          "definitionId": 117186,
+          "spellId": 382895,
+          "name": "One-Handed Weapon Specialization",
+          "iconId": 135321,
+          "maxRanks": 2,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90325,
+      "posX": 2401,
+      "posY": 900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112182,
+          "definitionId": 117187,
+          "spellId": 386196,
+          "name": "Berserker Stance",
+          "iconId": 132275,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90326,
+      "posX": 2400,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112183,
+          "definitionId": 117188,
+          "spellId": 202168,
+          "name": "Impending Victory",
+          "iconId": 589768,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90327,
+      "posX": 2400,
+      "posY": 900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112184,
+          "definitionId": 117189,
+          "spellId": 386164,
+          "name": "Battle Stance",
+          "iconId": 132349,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90328,
+      "posX": 3000,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112185,
+          "definitionId": 117190,
+          "spellId": 262231,
+          "name": "War Machine",
+          "iconId": 132205,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 90329,
+      "posX": 5400,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112186,
+          "definitionId": 117191,
+          "spellId": 3411,
+          "name": "Intervene",
+          "iconId": 132365,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90330,
+      "posX": 4800,
+      "posY": 900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112187,
+          "definitionId": 117192,
+          "spellId": 386208,
+          "name": "Defensive Stance",
+          "iconId": 132341,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90331,
+      "posX": 3600,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112188,
+          "definitionId": 117193,
+          "spellId": 97462,
+          "name": "Rallying Cry",
+          "iconId": 132351,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90332,
+      "posX": 2400,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112190,
+          "definitionId": 117195,
+          "spellId": 29838,
+          "name": "Second Wind",
+          "iconId": 132175,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90337,
+      "posX": 4800,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112198,
+          "definitionId": 117203,
+          "spellId": 107570,
+          "name": "Storm Bolt",
+          "iconId": 613535,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 90343,
+      "posX": 4200,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112205,
+          "definitionId": 117210,
+          "spellId": 6343,
+          "name": "Thunder Clap",
+          "iconId": 136105,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90344,
+      "posX": 1800,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112206,
+          "definitionId": 117211,
+          "spellId": 382260,
+          "name": "Fast Footwork",
+          "iconId": 461119,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90346,
+      "posX": 3600,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112208,
+          "definitionId": 117213,
+          "spellId": 6544,
+          "name": "Heroic Leap",
+          "iconId": 236171,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90347,
+      "posX": 1800,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112209,
+          "definitionId": 117214,
+          "spellId": 383082,
+          "name": "Barbaric Training",
+          "iconId": 892449,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 90348,
+      "posX": 3000,
+      "posY": 3900,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112211,
+          "definitionId": 117216,
+          "spellId": 384100,
+          "name": "Berserker Shout",
+          "iconId": 136009,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 112210,
+          "definitionId": 117215,
+          "spellId": 1271925,
+          "name": "Fearless",
+          "iconId": 132344,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 90351,
+      "posX": 1800,
+      "posY": 3900,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112215,
+          "definitionId": 117220,
+          "spellId": 384110,
+          "name": "Wrecking Throw",
+          "iconId": 460959,
+          "maxRanks": 1,
+          "entryIndex": 0
+        },
+        {
+          "id": 112214,
+          "definitionId": 117219,
+          "spellId": 64382,
+          "name": "Shattering Throw",
+          "iconId": 311430,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90352,
+      "posX": 3000,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112216,
+          "definitionId": 117221,
+          "spellId": 392792,
+          "name": "Frothing Berserker",
+          "iconId": 458971,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90353,
+      "posX": 4200,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112217,
+          "definitionId": 117222,
+          "spellId": 382549,
+          "name": "Pain and Gain",
+          "iconId": 135936,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 90355,
+      "posX": 3600,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112219,
+          "definitionId": 117224,
+          "spellId": 202163,
+          "name": "Bounding Stride",
+          "iconId": 236171,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 90360,
+      "posX": 4800,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112224,
+          "definitionId": 117229,
+          "spellId": 382946,
+          "name": "Wild Strikes",
+          "iconId": 132307,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90366,
+      "posX": 2400,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112233,
+          "definitionId": 117238,
+          "spellId": 384124,
+          "name": "Armored to the Teeth",
+          "iconId": 135053,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90368,
+      "posX": 4800,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112235,
+          "definitionId": 117240,
+          "spellId": 382939,
+          "name": "Reinforced Plates",
+          "iconId": 132739,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90371,
+      "posX": 5400,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112238,
+          "definitionId": 117243,
+          "spellId": 382258,
+          "name": "Leeching Strikes",
+          "iconId": 1394887,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90373,
+      "posX": 3600,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112240,
+          "definitionId": 117245,
+          "spellId": 382900,
+          "name": "Dual Wield Specialization",
+          "iconId": 132147,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90374,
+      "posX": 2400,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112241,
+          "definitionId": 117246,
+          "spellId": 275339,
+          "name": "Rumbling Earth",
+          "iconId": 451165,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 90375,
+      "posX": 2400,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112242,
+          "definitionId": 117247,
+          "spellId": 46968,
+          "name": "Shockwave",
+          "iconId": 236312,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90378,
+      "posX": 3000,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112245,
+          "definitionId": 117250,
+          "spellId": 382767,
+          "name": "Overwhelming Rage",
+          "iconId": 135726,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90380,
+      "posX": 3000,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112247,
+          "definitionId": 117252,
+          "spellId": 376079,
+          "name": "Champion's Spear",
+          "iconId": 6035322,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90381,
+      "posX": 2400,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112248,
+          "definitionId": 117253,
+          "spellId": 392777,
+          "name": "Cruel Strikes",
+          "iconId": 132109,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90382,
+      "posX": 3602,
+      "posY": 4501,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112249,
+          "definitionId": 117254,
+          "spellId": 103827,
+          "name": "Double Time",
+          "iconId": 237377,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90385,
+      "posX": 4800,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112253,
+          "definitionId": 117258,
+          "spellId": 23920,
+          "name": "Spell Reflection",
+          "iconId": 132361,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 90387,
+      "posX": 13800,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112255,
+          "definitionId": 117260,
+          "spellId": 392936,
+          "name": "Wrath and Fury",
+          "iconId": 1260690,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90388,
+      "posX": 12000,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 119139,
+          "definitionId": 124039,
+          "spellId": 396749,
+          "name": "Reckless Abandon",
+          "iconId": 135818,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90390,
+      "posX": 13200,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112259,
+          "definitionId": 117264,
+          "spellId": 383854,
+          "name": "Improved Raging Blow",
+          "iconId": 589119,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90391,
+      "posX": 13800,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112260,
+          "definitionId": 117265,
+          "spellId": 1265357,
+          "name": "Rampaging Ruin",
+          "iconId": 132364,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90392,
+      "posX": 12002,
+      "posY": 899,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112261,
+          "definitionId": 117266,
+          "spellId": 23881,
+          "name": "Bloodthirst",
+          "iconId": 136012,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90394,
+      "posX": 12600,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112263,
+          "definitionId": 117268,
+          "spellId": 208154,
+          "name": "Warpaint",
+          "iconId": 460693,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90395,
+      "posX": 11400,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112264,
+          "definitionId": 117269,
+          "spellId": 184364,
+          "name": "Enraged Regeneration",
+          "iconId": 132345,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90396,
+      "posX": 12000,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112265,
+          "definitionId": 117270,
+          "spellId": 85288,
+          "name": "Raging Blow",
+          "iconId": 589119,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90397,
+      "posX": 10800,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112266,
+          "definitionId": 117271,
+          "spellId": 383852,
+          "name": "Spite",
+          "iconId": 458971,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90398,
+      "posX": 12000,
+      "posY": 2100,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112267,
+          "definitionId": 117272,
+          "spellId": 383848,
+          "name": "Frenzied Enrage",
+          "iconId": 136224,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 119112,
+          "definitionId": 124012,
+          "spellId": 440277,
+          "name": "Powerful Enrage",
+          "iconId": 236314,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90399,
+      "posX": 10800,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112268,
+          "definitionId": 117273,
+          "spellId": 215568,
+          "name": "Fresh Meat",
+          "iconId": 538039,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90401,
+      "posX": 12600,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112270,
+          "definitionId": 117275,
+          "spellId": 385703,
+          "name": "Bloodborne",
+          "iconId": 1394887,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90402,
+      "posX": 10200,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112271,
+          "definitionId": 117276,
+          "spellId": 383959,
+          "name": "Cold Steel, Hot Blood",
+          "iconId": 236276,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90403,
+      "posX": 10200,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112272,
+          "definitionId": 117277,
+          "spellId": 383486,
+          "name": "Focus in Chaos",
+          "iconId": 132177,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90405,
+      "posX": 12600,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112274,
+          "definitionId": 117279,
+          "spellId": 393950,
+          "name": "Bloodcraze",
+          "iconId": 132094,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90406,
+      "posX": 12000,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112275,
+          "definitionId": 117280,
+          "spellId": 335077,
+          "name": "Frenzy",
+          "iconId": 132284,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90407,
+      "posX": 12600,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112276,
+          "definitionId": 117281,
+          "spellId": 383877,
+          "name": "Hack and Slash",
+          "iconId": 1269440,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90408,
+      "posX": 12007,
+      "posY": 3301,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112277,
+          "definitionId": 117282,
+          "spellId": 184367,
+          "name": "Rampage",
+          "iconId": 132352,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90410,
+      "posX": 10200,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112279,
+          "definitionId": 117284,
+          "spellId": 206315,
+          "name": "Massacre",
+          "iconId": 800997,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90412,
+      "posX": 12002,
+      "posY": 4497,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112281,
+          "definitionId": 117286,
+          "spellId": 1719,
+          "name": "Recklessness",
+          "iconId": 458972,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90415,
+      "posX": 13200,
+      "posY": 6300,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112285,
+          "definitionId": 117290,
+          "spellId": 107574,
+          "name": "Avatar",
+          "iconId": 613534,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 112284,
+          "definitionId": 117289,
+          "spellId": 227847,
+          "name": "Bladestorm",
+          "iconId": 236303,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90421,
+      "posX": 10800,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112292,
+          "definitionId": 117297,
+          "spellId": 383295,
+          "name": "Deft Experience",
+          "iconId": 133739,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90425,
+      "posX": 13200,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112296,
+          "definitionId": 117301,
+          "spellId": 383297,
+          "name": "Critical Thinking",
+          "iconId": 132109,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90427,
+      "posX": 13800,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112298,
+          "definitionId": 117303,
+          "spellId": 12950,
+          "name": "Improved Whirlwind",
+          "iconId": 132369,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90428,
+      "posX": 13200,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112299,
+          "definitionId": 117304,
+          "spellId": 392931,
+          "name": "Cruelty",
+          "iconId": 136035,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90429,
+      "posX": 13200,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112300,
+          "definitionId": 117305,
+          "spellId": 316402,
+          "name": "Improved Execute",
+          "iconId": 135358,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90430,
+      "posX": 10800,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112301,
+          "definitionId": 117306,
+          "spellId": 29725,
+          "name": "Sudden Death",
+          "iconId": 132346,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 90432,
+      "posX": 13200,
+      "posY": 6300,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112304,
+          "definitionId": 117309,
+          "spellId": 1235113,
+          "name": "Whirling Blade",
+          "iconId": 970854,
+          "maxRanks": 1,
+          "entryIndex": 200
+        },
+        {
+          "id": 132880,
+          "definitionId": 137666,
+          "spellId": 228920,
+          "name": "Ravager",
+          "iconId": 970854,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90433,
+      "posX": 13200,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112305,
+          "definitionId": 117310,
+          "spellId": 107574,
+          "name": "Avatar",
+          "iconId": 613534,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90434,
+      "posX": 12002,
+      "posY": 5697,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112306,
+          "definitionId": 117311,
+          "spellId": 202095,
+          "name": "Indomitable",
+          "iconId": 236310,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90435,
+      "posX": 12002,
+      "posY": 6297,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112307,
+          "definitionId": 117312,
+          "spellId": 386394,
+          "name": "Battle-Scarred Veteran",
+          "iconId": 132344,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90438,
+      "posX": 11400,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112310,
+          "definitionId": 117315,
+          "spellId": 383154,
+          "name": "Bloodletting",
+          "iconId": 878217,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90439,
+      "posX": 13800,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112311,
+          "definitionId": 117316,
+          "spellId": 383703,
+          "name": "Fatality",
+          "iconId": 236364,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90441,
+      "posX": 12000,
+      "posY": 5100,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112314,
+          "definitionId": 117319,
+          "spellId": 227847,
+          "name": "Bladestorm",
+          "iconId": 236303,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136702,
+          "definitionId": 141474,
+          "spellId": 228920,
+          "name": "Ravager",
+          "iconId": 970854,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90444,
+      "posX": 13200,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112317,
+          "definitionId": 117322,
+          "spellId": 389306,
+          "name": "Critical Thinking",
+          "iconId": 132109,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90445,
+      "posX": 12600,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112318,
+          "definitionId": 117323,
+          "spellId": 386634,
+          "name": "Executioner's Precision",
+          "iconId": 3565727,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90447,
+      "posX": 12600,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 112320,
+          "definitionId": 117325,
+          "spellId": 383341,
+          "name": "Sharpened Blades",
+          "iconId": 135328,
+          "maxRanks": 2,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 90448,
+      "posX": 13200,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112321,
+          "definitionId": 117326,
+          "spellId": 275334,
+          "name": "Punish",
+          "iconId": 458719,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90449,
+      "posX": 13200,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112323,
+          "definitionId": 117328,
+          "spellId": 1235047,
+          "name": "Unyielding Stance",
+          "iconId": 132341,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90450,
+      "posX": 10200,
+      "posY": 3900,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112324,
+          "definitionId": 117329,
+          "spellId": 1235023,
+          "name": "Spellbreaker",
+          "iconId": 2459461,
+          "maxRanks": 1,
+          "entryIndex": 0
+        },
+        {
+          "id": 112110,
+          "definitionId": 117115,
+          "spellId": 1235022,
+          "name": "Hunker Down",
+          "iconId": 132361,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 90451,
+      "posX": 10800,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 112325,
+          "definitionId": 117330,
+          "spellId": 384036,
+          "name": "Brutal Vitality",
+          "iconId": 1377132,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 92536,
+      "posX": 13800,
+      "posY": 3900,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 114641,
+          "definitionId": 119647,
+          "spellId": 383155,
+          "name": "Improved Sweeping Strikes",
+          "iconId": 132306,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 114739,
+          "definitionId": 119746,
+          "spellId": 1261050,
+          "name": "Powerful Momentum",
+          "iconId": 6712966,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 92537,
+      "posX": 4800,
+      "posY": 900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 114643,
+          "definitionId": 119649,
+          "spellId": 386208,
+          "name": "Defensive Stance",
+          "iconId": 132341,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 92538,
+      "posX": 4800,
+      "posY": 900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 114644,
+          "definitionId": 119650,
+          "spellId": 386208,
+          "name": "Defensive Stance",
+          "iconId": 132341,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 92614,
+      "posX": 10800,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 114733,
+          "definitionId": 119740,
+          "spellId": 400205,
+          "name": "Overpowering Finish",
+          "iconId": 132350,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 92615,
+      "posX": 10200,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 114740,
+          "definitionId": 119747,
+          "spellId": 386630,
+          "name": "Battlelord",
+          "iconId": 1322721,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 94784,
+      "posX": 6900,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117381,
+          "definitionId": 122393,
+          "spellId": 444771,
+          "name": "Show No Mercy",
+          "iconId": 458973,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 94785,
+      "posX": 14102,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117382,
+          "definitionId": 122394,
+          "spellId": 435607,
+          "name": "Thunder Blast",
+          "iconId": 460957,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 94786,
+      "posX": 7500,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117383,
+          "definitionId": 122395,
+          "spellId": 444778,
+          "name": "Culling Cyclone",
+          "iconId": 236303,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123409,
+          "definitionId": 128247,
+          "spellId": 446085,
+          "name": "Brutal Finish",
+          "iconId": 3565727,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 94787,
+      "posX": 8100,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117384,
+          "definitionId": 122396,
+          "spellId": 444773,
+          "name": "Fierce Followthrough",
+          "iconId": 237517,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123770,
+          "definitionId": 128608,
+          "spellId": 444774,
+          "name": "Opportunist",
+          "iconId": 132367,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 94788,
+      "posX": 6900,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117385,
+          "definitionId": 122397,
+          "spellId": 444769,
+          "name": "Imminent Demise",
+          "iconId": 132346,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 94789,
+      "posX": 8100,
+      "posY": 4799,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117386,
+          "definitionId": 122398,
+          "spellId": 429639,
+          "name": "Boneshaker",
+          "iconId": 460686,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 119858,
+          "definitionId": 124758,
+          "spellId": 440992,
+          "name": "Earthquaker",
+          "iconId": 451165,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 94792,
+      "posX": 14697,
+      "posY": 2097,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117389,
+          "definitionId": 122401,
+          "spellId": 436201,
+          "name": "Gathering Clouds",
+          "iconId": 136099,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 118834,
+          "definitionId": 123734,
+          "spellId": 436152,
+          "name": "Thorim's Might",
+          "iconId": 5927639,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 94793,
+      "posX": 7850,
+      "posY": 6649,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117390,
+          "definitionId": 122402,
+          "spellId": 429636,
+          "name": "Dominance of the Colossus",
+          "iconId": 236316,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 94794,
+      "posX": 7500,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117391,
+          "definitionId": 122403,
+          "spellId": 431548,
+          "name": "Precise Might",
+          "iconId": 1033497,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 94795,
+      "posX": 8101,
+      "posY": 1800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117392,
+          "definitionId": 122404,
+          "spellId": 444776,
+          "name": "Relentless Pursuit",
+          "iconId": 132307,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123408,
+          "definitionId": 128246,
+          "spellId": 444777,
+          "name": "Vicious Agility",
+          "iconId": 571558,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 94796,
+      "posX": 6900,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117393,
+          "definitionId": 122405,
+          "spellId": 429647,
+          "name": "Practiced Strikes",
+          "iconId": 1380678,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 94797,
+      "posX": 14102,
+      "posY": 2099,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117394,
+          "definitionId": 122406,
+          "spellId": 437079,
+          "name": "Flashing Skies",
+          "iconId": 135990,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 118833,
+          "definitionId": 123733,
+          "spellId": 456270,
+          "name": "Snap Induction",
+          "iconId": 839983,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 94798,
+      "posX": 15311,
+      "posY": 1503,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117395,
+          "definitionId": 122407,
+          "spellId": 438590,
+          "name": "Keep Your Feet on the Ground",
+          "iconId": 839979,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 118836,
+          "definitionId": 123736,
+          "spellId": 434970,
+          "name": "Steadfast as the Peaks",
+          "iconId": 132342,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 94799,
+      "posX": 6900,
+      "posY": 5400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117396,
+          "definitionId": 122408,
+          "spellId": 429637,
+          "name": "One Against Many",
+          "iconId": 236309,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 119856,
+          "definitionId": 124756,
+          "spellId": 440995,
+          "name": "Arterial Bleed",
+          "iconId": 999950,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 94800,
+      "posX": 14697,
+      "posY": 895,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117397,
+          "definitionId": 122409,
+          "spellId": 436148,
+          "name": "Ground Current",
+          "iconId": 458976,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 94801,
+      "posX": 8101,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117398,
+          "definitionId": 122410,
+          "spellId": 444779,
+          "name": "Slayer's Malice",
+          "iconId": 132353,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 94803,
+      "posX": 15003,
+      "posY": 298,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117400,
+          "definitionId": 122412,
+          "spellId": 434969,
+          "name": "Lightning Strikes",
+          "iconId": 252174,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 94805,
+      "posX": 15008,
+      "posY": 2705,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117402,
+          "definitionId": 122414,
+          "spellId": 437134,
+          "name": "Avatar of the Storm",
+          "iconId": 432002,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 94806,
+      "posX": 8100,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117403,
+          "definitionId": 122415,
+          "spellId": 429642,
+          "name": "Mountain of Muscle and Scars",
+          "iconId": 236310,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 94807,
+      "posX": 15300,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117404,
+          "definitionId": 122416,
+          "spellId": 437118,
+          "name": "Burst of Power",
+          "iconId": 1385916,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 94808,
+      "posX": 15311,
+      "posY": 896,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117405,
+          "definitionId": 122417,
+          "spellId": 437068,
+          "name": "Strength of the Mountain",
+          "iconId": 236316,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 94809,
+      "posX": 7500,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117406,
+          "definitionId": 122418,
+          "spellId": 444775,
+          "name": "Reap the Storm",
+          "iconId": 1016243,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 94810,
+      "posX": 7500,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117407,
+          "definitionId": 122419,
+          "spellId": 444772,
+          "name": "Overwhelming Blades",
+          "iconId": 4624383,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 94811,
+      "posX": 7500,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117408,
+          "definitionId": 122420,
+          "spellId": 429641,
+          "name": "Tide of Battle",
+          "iconId": 132367,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 94812,
+      "posX": 6900,
+      "posY": 4799,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117409,
+          "definitionId": 122421,
+          "spellId": 429638,
+          "name": "Martial Expert",
+          "iconId": 236313,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 94813,
+      "posX": 6900,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117410,
+          "definitionId": 122422,
+          "spellId": 444770,
+          "name": "Death Drive",
+          "iconId": 132345,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 94814,
+      "posX": 7850,
+      "posY": 1250,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117411,
+          "definitionId": 122423,
+          "spellId": 444767,
+          "name": "Slayer's Dominance",
+          "iconId": 5927649,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 94815,
+      "posX": 8100,
+      "posY": 5400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117412,
+          "definitionId": 122424,
+          "spellId": 429644,
+          "name": "No Stranger to Pain",
+          "iconId": 1377132,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 119857,
+          "definitionId": 124757,
+          "spellId": 440993,
+          "name": "Veteran Vitality",
+          "iconId": 132175,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 94816,
+      "posX": 14081,
+      "posY": 894,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117413,
+          "definitionId": 122425,
+          "spellId": 436707,
+          "name": "Crashing Thunder",
+          "iconId": 136105,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 94817,
+      "posX": 14700,
+      "posY": 1500,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117414,
+          "definitionId": 122426,
+          "spellId": 436162,
+          "name": "Storm Bolts",
+          "iconId": 613535,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 118835,
+          "definitionId": 123735,
+          "spellId": 438597,
+          "name": "Storm Shield",
+          "iconId": 1320371,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 94818,
+      "posX": 7849,
+      "posY": 4250,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117415,
+          "definitionId": 122427,
+          "spellId": 436358,
+          "name": "Demolish",
+          "iconId": 5927618,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 94819,
+      "posX": 7500,
+      "posY": 4799,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117416,
+          "definitionId": 122428,
+          "spellId": 429634,
+          "name": "Colossal Might",
+          "iconId": 236314,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 94820,
+      "posX": 7850,
+      "posY": 3649,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117417,
+          "definitionId": 122429,
+          "spellId": 444780,
+          "name": "Unrelenting Onslaught",
+          "iconId": 132339,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 95956,
+      "posX": 5400,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 118850,
+          "definitionId": 123750,
+          "spellId": 391271,
+          "name": "Honed Reflexes",
+          "iconId": 237538,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 95959,
+      "posX": 4200,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 118853,
+          "definitionId": 123753,
+          "spellId": 203201,
+          "name": "Crackling Thunder",
+          "iconId": 839979,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 99851,
+      "posX": 8700,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123391,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123388,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 99852,
+      "posX": 7800,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123392,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123389,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 99853,
+      "posX": 6900,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123393,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123390,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 107575,
+      "posX": 10200,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 132878,
+          "definitionId": 137664,
+          "spellId": 281001,
+          "name": "Massacre",
+          "iconId": 800997,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 107576,
+      "posX": 12000,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 132879,
+          "definitionId": 137665,
+          "spellId": 1243659,
+          "name": "Last Stand",
+          "iconId": 135871,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 107577,
+      "posX": 12600,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 132882,
+          "definitionId": 137668,
+          "spellId": 384063,
+          "name": "Enduring Alacrity",
+          "iconId": 136112,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 107578,
+      "posX": 11400,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 132883,
+          "definitionId": 137669,
+          "spellId": 384067,
+          "name": "Focused Vigor",
+          "iconId": 136101,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 107579,
+      "posX": 11400,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 132886,
+          "definitionId": 137672,
+          "spellId": 386071,
+          "name": "Disrupting Shout",
+          "iconId": 132091,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 108542,
+      "posX": 4200,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 134031,
+          "definitionId": 138814,
+          "spellId": 1280961,
+          "name": "Stance Mastery",
+          "iconId": 1362372,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 108543,
+      "posX": 1800,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 134032,
+          "definitionId": 138815,
+          "spellId": 152278,
+          "name": "Anger Management",
+          "iconId": 971080,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 108544,
+      "posX": 5400,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 134033,
+          "definitionId": 138816,
+          "spellId": 424742,
+          "name": "Battlefield Commander",
+          "iconId": 132339,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 108674,
+      "posX": 5400,
+      "posY": 2700,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 134214,
+          "definitionId": 138992,
+          "spellId": 3411,
+          "name": "Intervene",
+          "iconId": 132365,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 134213,
+          "definitionId": 138991,
+          "spellId": 1244088,
+          "name": "Interpose",
+          "iconId": 571558,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 108676,
+      "posX": 5400,
+      "posY": 2700,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 134217,
+          "definitionId": 141828,
+          "spellId": 3411,
+          "name": "Intervene",
+          "iconId": 132365,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 134216,
+          "definitionId": 138994,
+          "spellId": 1244088,
+          "name": "Interpose",
+          "iconId": 571558,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 108685,
+      "posX": 4200,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 134225,
+          "definitionId": 139003,
+          "spellId": 1243660,
+          "name": "Resonant Voice",
+          "iconId": 589118,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 108686,
+      "posX": 5400,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 134226,
+          "definitionId": 139004,
+          "spellId": 382764,
+          "name": "Crushing Force",
+          "iconId": 136225,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 108705,
+      "posX": 4200,
+      "posY": 3900,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 134254,
+          "definitionId": 139027,
+          "spellId": 5246,
+          "name": "Intimidating Shout",
+          "iconId": 132154,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136627,
+          "definitionId": 141399,
+          "spellId": 12323,
+          "name": "Piercing Howl",
+          "iconId": 136147,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 109391,
+      "posX": 1800,
+      "posY": 2700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135597,
+          "definitionId": 140353,
+          "spellId": 772,
+          "name": "Rend",
+          "iconId": 132155,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109679,
+      "posX": 10800,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135933,
+          "definitionId": 140688,
+          "spellId": 1261057,
+          "name": "Master Tactician",
+          "iconId": 132353,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 109680,
+      "posX": 10200,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135934,
+          "definitionId": 140689,
+          "spellId": 1273062,
+          "name": "Martial Prowess",
+          "iconId": 970853,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 109681,
+      "posX": 10200,
+      "posY": 3900,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135936,
+          "definitionId": 140691,
+          "spellId": 1261046,
+          "name": "Brute Force",
+          "iconId": 132318,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 135935,
+          "definitionId": 140690,
+          "spellId": 1261047,
+          "name": "Efficiency",
+          "iconId": 132353,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 109682,
+      "posX": 13800,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135937,
+          "definitionId": 140692,
+          "spellId": 334779,
+          "name": "Collateral Damage",
+          "iconId": 236309,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 109683,
+      "posX": 12000,
+      "posY": 4500,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135939,
+          "definitionId": 140694,
+          "spellId": 1261051,
+          "name": "Tactical Edge",
+          "iconId": 7439233,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 135938,
+          "definitionId": 140693,
+          "spellId": 1261056,
+          "name": "Crushing Combo",
+          "iconId": 132338,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 109684,
+      "posX": 11400,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135940,
+          "definitionId": 140695,
+          "spellId": 1261060,
+          "name": "Deep Wounds",
+          "iconId": 132090,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 109685,
+      "posX": 12000,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135941,
+          "definitionId": 140696,
+          "spellId": 1261062,
+          "name": "Mortal Wounds",
+          "iconId": 236304,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 109686,
+      "posX": 12000,
+      "posY": 3900,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135943,
+          "definitionId": 140698,
+          "spellId": 1261048,
+          "name": "Just Warming Up",
+          "iconId": 132344,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 135942,
+          "definitionId": 140697,
+          "spellId": 1261049,
+          "name": "Broad Strokes",
+          "iconId": 6035317,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 109687,
+      "posX": 11400,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 135944,
+          "definitionId": 140699,
+          "spellId": 400803,
+          "name": "Strength of Arms",
+          "iconId": 132960,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 109809,
+      "posX": 15900,
+      "posY": 2100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136068,
+          "definitionId": 140823,
+          "spellId": 1270724,
+          "name": "Capacitance",
+          "iconId": 136075,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 109810,
+      "posX": 15900,
+      "posY": 1500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136069,
+          "definitionId": 140824,
+          "spellId": 1270723,
+          "name": "Conductivity",
+          "iconId": 237589,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 109811,
+      "posX": 15900,
+      "posY": 900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136070,
+          "definitionId": 140825,
+          "spellId": 275336,
+          "name": "Storm Surge",
+          "iconId": 132275,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        73,
+        72
+      ]
+    },
+    {
+      "id": 109812,
+      "posX": 8700,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136071,
+          "definitionId": 140826,
+          "spellId": 1270710,
+          "name": "Celeritous Conclusion",
+          "iconId": 6712968,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 109813,
+      "posX": 8700,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136072,
+          "definitionId": 140827,
+          "spellId": 1270709,
+          "name": "Cut to the Bone",
+          "iconId": 4067373,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 109814,
+      "posX": 8700,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136073,
+          "definitionId": 140828,
+          "spellId": 1270704,
+          "name": "Decimator",
+          "iconId": 4622283,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71,
+        73
+      ]
+    },
+    {
+      "id": 109815,
+      "posX": 8700,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136074,
+          "definitionId": 140829,
+          "spellId": 386628,
+          "name": "Unhinged",
+          "iconId": 136215,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 109816,
+      "posX": 8700,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136075,
+          "definitionId": 140830,
+          "spellId": 1270718,
+          "name": "Deadly Focus",
+          "iconId": 1033497,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 109817,
+      "posX": 8700,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136076,
+          "definitionId": 140831,
+          "spellId": 1270717,
+          "name": "Violent Euphoria",
+          "iconId": 999949,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72,
+        71
+      ]
+    },
+    {
+      "id": 109962,
+      "posX": 11400,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136447,
+          "definitionId": 141220,
+          "spellId": 1265356,
+          "name": "Ragedrinker",
+          "iconId": 3163621,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 109963,
+      "posX": 10200,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136448,
+          "definitionId": 141221,
+          "spellId": 383885,
+          "name": "Vicious Contempt",
+          "iconId": 1035053,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 109964,
+      "posX": 13800,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136449,
+          "definitionId": 141222,
+          "spellId": 1265359,
+          "name": "Surge of Adrenaline",
+          "iconId": 6712968,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 109965,
+      "posX": 12000,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136450,
+          "definitionId": 141223,
+          "spellId": 1265361,
+          "name": "Kill or Be Killed",
+          "iconId": 7439235,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 109966,
+      "posX": 10200,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136451,
+          "definitionId": 141224,
+          "spellId": 1261060,
+          "name": "Deep Wounds",
+          "iconId": 132090,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 109967,
+      "posX": 13800,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136452,
+          "definitionId": 141225,
+          "spellId": 280392,
+          "name": "Meat Cleaver",
+          "iconId": 460959,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 109968,
+      "posX": 10800,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136453,
+          "definitionId": 141226,
+          "spellId": 1265570,
+          "name": "Executioner's Wrath",
+          "iconId": 7214195,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 109969,
+      "posX": 11400,
+      "posY": 3900,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136454,
+          "definitionId": 141227,
+          "spellId": 1265355,
+          "name": "Scent of Blood",
+          "iconId": 132175,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 110118,
+      "posX": 3000,
+      "posY": 5100,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136625,
+          "definitionId": 141397,
+          "spellId": 1271948,
+          "name": "Javelineer",
+          "iconId": 135124,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110119,
+      "posX": 4200,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136626,
+          "definitionId": 141398,
+          "spellId": 1271926,
+          "name": "Field Dressing",
+          "iconId": 133678,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110175,
+      "posX": 13200,
+      "posY": 4500,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136700,
+          "definitionId": 141472,
+          "spellId": 1273075,
+          "name": "Mass Execution",
+          "iconId": 460959,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 110176,
+      "posX": 13200,
+      "posY": 6300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136703,
+          "definitionId": 141475,
+          "spellId": 107574,
+          "name": "Avatar",
+          "iconId": 613534,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 110203,
+      "posX": 11400,
+      "posY": 5700,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136735,
+          "definitionId": 141507,
+          "spellId": 385059,
+          "name": "Odyn's Fury",
+          "iconId": 1278409,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 110330,
+      "posX": 11400,
+      "posY": 3300,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136890,
+          "definitionId": 141653,
+          "spellId": 383468,
+          "name": "Invigorating Fury",
+          "iconId": 237553,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    },
+    {
+      "id": 110407,
+      "posX": 12000,
+      "posY": 7050,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136989,
+          "definitionId": 141752,
+          "spellId": 1269314,
+          "name": "Master of Warfare",
+          "iconId": 7636570,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136988,
+          "definitionId": 141751,
+          "spellId": 1269306,
+          "name": "Master of Warfare",
+          "iconId": 7636570,
+          "maxRanks": 2,
+          "entryIndex": 200
+        },
+        {
+          "id": 136987,
+          "definitionId": 141750,
+          "spellId": 1269307,
+          "name": "Master of Warfare",
+          "iconId": 7636570,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        71
+      ]
+    },
+    {
+      "id": 110411,
+      "posX": 12000,
+      "posY": 7050,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 137001,
+          "definitionId": 141764,
+          "spellId": 1269311,
+          "name": "Phalanx",
+          "iconId": 7636571,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 137000,
+          "definitionId": 141763,
+          "spellId": 1269312,
+          "name": "Phalanx",
+          "iconId": 7636571,
+          "maxRanks": 2,
+          "entryIndex": 200
+        },
+        {
+          "id": 136999,
+          "definitionId": 141762,
+          "spellId": 1269313,
+          "name": "Phalanx",
+          "iconId": 7636571,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        73
+      ]
+    },
+    {
+      "id": 110412,
+      "posX": 12000,
+      "posY": 7050,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 137004,
+          "definitionId": 141767,
+          "spellId": 1269308,
+          "name": "Rampaging Berserker",
+          "iconId": 7658123,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 137003,
+          "definitionId": 141766,
+          "spellId": 1269309,
+          "name": "Rampaging Berserker",
+          "iconId": 7658123,
+          "maxRanks": 2,
+          "entryIndex": 200
+        },
+        {
+          "id": 137002,
+          "definitionId": 141765,
+          "spellId": 1269310,
+          "name": "Rampaging Berserker",
+          "iconId": 7658123,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        72
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "fromNodeId": 90449,
+      "toNodeId": 90433,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90265,
+      "toNodeId": 90435,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90434,
+      "toNodeId": 90435,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90314,
+      "toNodeId": 90435,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90315,
+      "toNodeId": 90434,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90315,
+      "toNodeId": 90265,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90315,
+      "toNodeId": 90314,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90303,
+      "toNodeId": 90300,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90303,
+      "toNodeId": 90301,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90303,
+      "toNodeId": 90302,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90299,
+      "toNodeId": 90303,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90308,
+      "toNodeId": 90319,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90407,
+      "toNodeId": 90412,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90408,
+      "toNodeId": 90407,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90270,
+      "toNodeId": 90271,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90315,
+      "toNodeId": 90314,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90311,
+      "toNodeId": 90315,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90448,
+      "toNodeId": 90449,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90298,
+      "toNodeId": 90299,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90295,
+      "toNodeId": 90298,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94817,
+      "toNodeId": 94792,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94800,
+      "toNodeId": 94817,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94803,
+      "toNodeId": 94816,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94803,
+      "toNodeId": 94800,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94803,
+      "toNodeId": 94808,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94794,
+      "toNodeId": 94793,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94788,
+      "toNodeId": 94813,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94814,
+      "toNodeId": 94810,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94814,
+      "toNodeId": 94788,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94814,
+      "toNodeId": 94795,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94808,
+      "toNodeId": 94798,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94799,
+      "toNodeId": 94796,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94818,
+      "toNodeId": 94812,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94818,
+      "toNodeId": 94819,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94818,
+      "toNodeId": 94789,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94819,
+      "toNodeId": 94811,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94785,
+      "toNodeId": 94797,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94811,
+      "toNodeId": 94794,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94809,
+      "toNodeId": 94820,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94810,
+      "toNodeId": 94786,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94784,
+      "toNodeId": 94820,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94786,
+      "toNodeId": 94809,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94813,
+      "toNodeId": 94784,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94796,
+      "toNodeId": 94793,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94816,
+      "toNodeId": 94785,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94812,
+      "toNodeId": 94799,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94797,
+      "toNodeId": 94805,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94792,
+      "toNodeId": 94805,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94807,
+      "toNodeId": 94805,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94798,
+      "toNodeId": 94807,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90328,
+      "toNodeId": 90346,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90327,
+      "toNodeId": 90328,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90346,
+      "toNodeId": 90355,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94801,
+      "toNodeId": 94820,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94787,
+      "toNodeId": 94801,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94795,
+      "toNodeId": 94787,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94789,
+      "toNodeId": 94815,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94806,
+      "toNodeId": 94793,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94815,
+      "toNodeId": 94806,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90261,
+      "toNodeId": 90344,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90325,
+      "toNodeId": 90344,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90353,
+      "toNodeId": 90331,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90346,
+      "toNodeId": 90353,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90327,
+      "toNodeId": 90344,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90261,
+      "toNodeId": 90328,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90325,
+      "toNodeId": 90328,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90433,
+      "toNodeId": 90265,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90433,
+      "toNodeId": 90432,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90311,
+      "toNodeId": 107577,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90311,
+      "toNodeId": 107578,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90264,
+      "toNodeId": 90449,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90264,
+      "toNodeId": 90311,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90302,
+      "toNodeId": 90264,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90297,
+      "toNodeId": 90296,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90305,
+      "toNodeId": 90304,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90304,
+      "toNodeId": 107579,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90306,
+      "toNodeId": 90303,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90305,
+      "toNodeId": 90306,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90298,
+      "toNodeId": 90297,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90295,
+      "toNodeId": 90305,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90348,
+      "toNodeId": 90382,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90331,
+      "toNodeId": 90348,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90352,
+      "toNodeId": 90378,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90352,
+      "toNodeId": 90331,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90326,
+      "toNodeId": 90352,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90346,
+      "toNodeId": 90352,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90344,
+      "toNodeId": 90326,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90328,
+      "toNodeId": 90326,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90328,
+      "toNodeId": 90352,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108705,
+      "toNodeId": 90382,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90331,
+      "toNodeId": 108705,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90279,
+      "toNodeId": 90282,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90276,
+      "toNodeId": 90279,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90279,
+      "toNodeId": 90290,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90273,
+      "toNodeId": 90292,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90273,
+      "toNodeId": 90290,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90269,
+      "toNodeId": 90273,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90274,
+      "toNodeId": 90269,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90269,
+      "toNodeId": 90267,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90271,
+      "toNodeId": 90276,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90276,
+      "toNodeId": 90277,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90282,
+      "toNodeId": 109681,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90290,
+      "toNodeId": 109686,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90267,
+      "toNodeId": 90292,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90277,
+      "toNodeId": 90282,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90270,
+      "toNodeId": 90274,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109809,
+      "toNodeId": 94805,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109810,
+      "toNodeId": 109809,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109811,
+      "toNodeId": 109810,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94803,
+      "toNodeId": 109811,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109812,
+      "toNodeId": 94793,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109813,
+      "toNodeId": 109812,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109814,
+      "toNodeId": 109813,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94818,
+      "toNodeId": 109814,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109815,
+      "toNodeId": 94820,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109816,
+      "toNodeId": 109815,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109817,
+      "toNodeId": 109816,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94814,
+      "toNodeId": 109817,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90312,
+      "toNodeId": 90317,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90312,
+      "toNodeId": 90314,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90319,
+      "toNodeId": 90312,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90318,
+      "toNodeId": 90311,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90318,
+      "toNodeId": 90319,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90302,
+      "toNodeId": 90318,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90309,
+      "toNodeId": 90448,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90297,
+      "toNodeId": 90309,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90451,
+      "toNodeId": 90308,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90304,
+      "toNodeId": 90451,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109686,
+      "toNodeId": 109683,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90292,
+      "toNodeId": 90293,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90387,
+      "toNodeId": 90425,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90421,
+      "toNodeId": 109963,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90425,
+      "toNodeId": 109964,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90412,
+      "toNodeId": 90406,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90391,
+      "toNodeId": 109967,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90427,
+      "toNodeId": 90391,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109969,
+      "toNodeId": 90412,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90408,
+      "toNodeId": 109969,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108686,
+      "toNodeId": 90360,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90368,
+      "toNodeId": 108686,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90381,
+      "toNodeId": 108543,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90360,
+      "toNodeId": 108544,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90347,
+      "toNodeId": 90381,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90366,
+      "toNodeId": 90347,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90385,
+      "toNodeId": 95956,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90385,
+      "toNodeId": 108705,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90353,
+      "toNodeId": 90385,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90353,
+      "toNodeId": 110119,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90330,
+      "toNodeId": 90371,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90330,
+      "toNodeId": 90343,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92538,
+      "toNodeId": 90371,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92538,
+      "toNodeId": 90343,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90348,
+      "toNodeId": 90366,
+      "type": 2
+    },
+    {
+      "fromNodeId": 95956,
+      "toNodeId": 90368,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108705,
+      "toNodeId": 90368,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92537,
+      "toNodeId": 90371,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90343,
+      "toNodeId": 90346,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92537,
+      "toNodeId": 90343,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90343,
+      "toNodeId": 95959,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92614,
+      "toNodeId": 90285,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90285,
+      "toNodeId": 90283,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92614,
+      "toNodeId": 109680,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109687,
+      "toNodeId": 90285,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90282,
+      "toNodeId": 92614,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110175,
+      "toNodeId": 90444,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90447,
+      "toNodeId": 110175,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90293,
+      "toNodeId": 110175,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90438,
+      "toNodeId": 109679,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90438,
+      "toNodeId": 109685,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92615,
+      "toNodeId": 109679,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90441,
+      "toNodeId": 90438,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90283,
+      "toNodeId": 92615,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90283,
+      "toNodeId": 90438,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109680,
+      "toNodeId": 90283,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109681,
+      "toNodeId": 109680,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109684,
+      "toNodeId": 90283,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90291,
+      "toNodeId": 90441,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90291,
+      "toNodeId": 90444,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90447,
+      "toNodeId": 90291,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90444,
+      "toNodeId": 90439,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90439,
+      "toNodeId": 110176,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90444,
+      "toNodeId": 90445,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90292,
+      "toNodeId": 90447,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90290,
+      "toNodeId": 90447,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109687,
+      "toNodeId": 109684,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90282,
+      "toNodeId": 109687,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90290,
+      "toNodeId": 109687,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109684,
+      "toNodeId": 90441,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90441,
+      "toNodeId": 90445,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90445,
+      "toNodeId": 110176,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90445,
+      "toNodeId": 109685,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109683,
+      "toNodeId": 90441,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90401,
+      "toNodeId": 90415,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90401,
+      "toNodeId": 90388,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90425,
+      "toNodeId": 90401,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90406,
+      "toNodeId": 90401,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109965,
+      "toNodeId": 90412,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90408,
+      "toNodeId": 109965,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109964,
+      "toNodeId": 90415,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110203,
+      "toNodeId": 90388,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109963,
+      "toNodeId": 109968,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110203,
+      "toNodeId": 109968,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90406,
+      "toNodeId": 110203,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90421,
+      "toNodeId": 110203,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90433,
+      "toNodeId": 90313,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90312,
+      "toNodeId": 107575,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90337,
+      "toNodeId": 108674,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108674,
+      "toNodeId": 90385,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108674,
+      "toNodeId": 95956,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90371,
+      "toNodeId": 108674,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90373,
+      "toNodeId": 108542,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90373,
+      "toNodeId": 90380,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110118,
+      "toNodeId": 90373,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108685,
+      "toNodeId": 90373,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108676,
+      "toNodeId": 95956,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108676,
+      "toNodeId": 90385,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90337,
+      "toNodeId": 108676,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90371,
+      "toNodeId": 108676,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90322,
+      "toNodeId": 90380,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90322,
+      "toNodeId": 108542,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110118,
+      "toNodeId": 90322,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108685,
+      "toNodeId": 90322,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90375,
+      "toNodeId": 90348,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90381,
+      "toNodeId": 90380,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90324,
+      "toNodeId": 90380,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90324,
+      "toNodeId": 108542,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90360,
+      "toNodeId": 108542,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90329,
+      "toNodeId": 90385,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90329,
+      "toNodeId": 95956,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90337,
+      "toNodeId": 90353,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90337,
+      "toNodeId": 90329,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90371,
+      "toNodeId": 90337,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90343,
+      "toNodeId": 90337,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90371,
+      "toNodeId": 90329,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90382,
+      "toNodeId": 108685,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108685,
+      "toNodeId": 90360,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108685,
+      "toNodeId": 90324,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110118,
+      "toNodeId": 90324,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110118,
+      "toNodeId": 90381,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90366,
+      "toNodeId": 110118,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90382,
+      "toNodeId": 110118,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90368,
+      "toNodeId": 108685,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90351,
+      "toNodeId": 90366,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90375,
+      "toNodeId": 90351,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109391,
+      "toNodeId": 90351,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109391,
+      "toNodeId": 90375,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90352,
+      "toNodeId": 90375,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90375,
+      "toNodeId": 90374,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90344,
+      "toNodeId": 109391,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90326,
+      "toNodeId": 109391,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90326,
+      "toNodeId": 90332,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90302,
+      "toNodeId": 107576,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90308,
+      "toNodeId": 90320,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90448,
+      "toNodeId": 90310,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90451,
+      "toNodeId": 90450,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90395,
+      "toNodeId": 110330,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90399,
+      "toNodeId": 109966,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90405,
+      "toNodeId": 90406,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90402,
+      "toNodeId": 90421,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109962,
+      "toNodeId": 90406,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109962,
+      "toNodeId": 90421,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90405,
+      "toNodeId": 90425,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90428,
+      "toNodeId": 90387,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90428,
+      "toNodeId": 90405,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90397,
+      "toNodeId": 90402,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90397,
+      "toNodeId": 109962,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109969,
+      "toNodeId": 109962,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90407,
+      "toNodeId": 90405,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90390,
+      "toNodeId": 109967,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90390,
+      "toNodeId": 90428,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90427,
+      "toNodeId": 90390,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90394,
+      "toNodeId": 90390,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90394,
+      "toNodeId": 90408,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90399,
+      "toNodeId": 90397,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90395,
+      "toNodeId": 90399,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90410,
+      "toNodeId": 109966,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90403,
+      "toNodeId": 90410,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90403,
+      "toNodeId": 90399,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90429,
+      "toNodeId": 90394,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90395,
+      "toNodeId": 90408,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90430,
+      "toNodeId": 90395,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90430,
+      "toNodeId": 90403,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90429,
+      "toNodeId": 90427,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90396,
+      "toNodeId": 90429,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90392,
+      "toNodeId": 90396,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90396,
+      "toNodeId": 90430,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90398,
+      "toNodeId": 90394,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90398,
+      "toNodeId": 90395,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90396,
+      "toNodeId": 90398,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109682,
+      "toNodeId": 90444,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92536,
+      "toNodeId": 109682,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90293,
+      "toNodeId": 109682,
+      "type": 2
+    },
+    {
+      "fromNodeId": 90292,
+      "toNodeId": 92536,
+      "type": 2
+    }
+  ]
+}

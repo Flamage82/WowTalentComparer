@@ -20,6 +20,12 @@ const TABLES = [
   'TraitDefinition',
   'TraitEdge',
   'SpellName',
+  'SpellMisc',
+  'TraitCond',
+  'TraitNodeXTraitCond',
+  'TraitNodeGroupXTraitCond',
+  'TraitNodeGroupXTraitNode',
+  'SpecSetMember',
 ] as const
 
 type TableName = (typeof TABLES)[number]
@@ -84,6 +90,46 @@ interface SpellName {
   Name_lang: string
 }
 
+interface SpellMisc {
+  ID: number
+  SpellID: number
+  SpellIconFileDataID: number
+}
+
+interface TraitCond {
+  ID: number
+  CondType: number
+  TraitTreeID: number
+  SpecSetID: number
+  TraitNodeGroupID: number
+  TraitNodeID: number
+}
+
+interface TraitNodeXTraitCond {
+  ID: number
+  TraitCondID: number
+  TraitNodeID: number
+}
+
+interface TraitNodeGroupXTraitCond {
+  ID: number
+  TraitCondID: number
+  TraitNodeGroupID: number
+}
+
+interface TraitNodeGroupXTraitNode {
+  ID: number
+  TraitNodeGroupID: number
+  TraitNodeID: number
+  _Index: number
+}
+
+interface SpecSetMember {
+  ID: number
+  ChrSpecializationID: number
+  SpecSet: number
+}
+
 // Output format for our app
 interface SpecTalentData {
   specId: number
@@ -101,6 +147,7 @@ interface TalentNodeData {
   type: number
   maxRanks: number
   entries: TalentEntryData[]
+  allowedSpecs?: number[] // Specs that can use this node (empty/undefined = all specs)
 }
 
 interface TalentEntryData {
@@ -108,6 +155,7 @@ interface TalentEntryData {
   definitionId: number
   spellId: number
   name: string
+  iconId: number
   maxRanks: number
   entryIndex: number
 }
@@ -236,6 +284,12 @@ async function main() {
     definitionsCsv,
     edgesCsv,
     spellNamesCsv,
+    spellMiscCsv,
+    traitCondCsv,
+    traitNodeXTraitCondCsv,
+    traitNodeGroupXTraitCondCsv,
+    traitNodeGroupXTraitNodeCsv,
+    specSetMemberCsv,
   ] = await Promise.all(TABLES.map(fetchCSV))
 
   console.log('\nParsing CSV data...')
@@ -249,6 +303,12 @@ async function main() {
   const definitions = parseCSV<TraitDefinition>(definitionsCsv)
   const edges = parseCSV<TraitEdge>(edgesCsv)
   const spellNames = parseCSV<SpellName>(spellNamesCsv)
+  const spellMiscs = parseCSV<SpellMisc>(spellMiscCsv)
+  const traitConds = parseCSV<TraitCond>(traitCondCsv)
+  const traitNodeXTraitConds = parseCSV<TraitNodeXTraitCond>(traitNodeXTraitCondCsv)
+  const traitNodeGroupXTraitConds = parseCSV<TraitNodeGroupXTraitCond>(traitNodeGroupXTraitCondCsv)
+  const traitNodeGroupXTraitNodes = parseCSV<TraitNodeGroupXTraitNode>(traitNodeGroupXTraitNodeCsv)
+  const specSetMembers = parseCSV<SpecSetMember>(specSetMemberCsv)
 
   console.log(`  Specs: ${specs.length}`)
   console.log(`  Trees: ${trees.length}`)
@@ -259,12 +319,20 @@ async function main() {
   console.log(`  Definitions: ${definitions.length}`)
   console.log(`  Edges: ${edges.length}`)
   console.log(`  SpellNames: ${spellNames.length}`)
+  console.log(`  SpellMiscs: ${spellMiscs.length}`)
+  console.log(`  TraitConds: ${traitConds.length}`)
+  console.log(`  TraitNodeXTraitConds: ${traitNodeXTraitConds.length}`)
+  console.log(`  TraitNodeGroupXTraitConds: ${traitNodeGroupXTraitConds.length}`)
+  console.log(`  TraitNodeGroupXTraitNodes: ${traitNodeGroupXTraitNodes.length}`)
+  console.log(`  SpecSetMembers: ${specSetMembers.length}`)
 
   // Build lookup maps
   const nodeById = new Map(nodes.map(n => [n.ID, n]))
   const entryById = new Map(entries.map(e => [e.ID, e]))
   const definitionById = new Map(definitions.map(d => [d.ID, d]))
   const spellNameById = new Map(spellNames.map(s => [s.ID, s.Name_lang]))
+  // Map spell ID to icon FileDataID
+  const spellIconById = new Map(spellMiscs.map(s => [s.SpellID, s.SpellIconFileDataID]))
 
   // Map nodes to their entries
   const nodeToEntries = new Map<number, TraitNodeXTraitNodeEntry[]>()
@@ -293,10 +361,64 @@ async function main() {
     }
   }
 
+  // Build spec restriction mapping
+  // 1. SpecSetID -> [SpecIDs] mapping
+  const specSetToSpecIds = new Map<number, number[]>()
+  for (const member of specSetMembers) {
+    const existing = specSetToSpecIds.get(member.SpecSet) || []
+    existing.push(member.ChrSpecializationID)
+    specSetToSpecIds.set(member.SpecSet, existing)
+  }
+
+  // 2. Build TraitCond lookup
+  const traitCondById = new Map(traitConds.map(c => [c.ID, c]))
+
+  // 3. Build NodeGroupID -> [AllowedSpecIDs] mapping from group conditions
+  const nodeGroupToAllowedSpecs = new Map<number, number[]>()
+  for (const groupCond of traitNodeGroupXTraitConds) {
+    const cond = traitCondById.get(groupCond.TraitCondID)
+    // CondType 1 = spec restriction
+    if (cond && cond.CondType === 1 && cond.SpecSetID > 0) {
+      const specIds = specSetToSpecIds.get(cond.SpecSetID) || []
+      if (specIds.length > 0) {
+        const existing = nodeGroupToAllowedSpecs.get(groupCond.TraitNodeGroupID) || []
+        nodeGroupToAllowedSpecs.set(groupCond.TraitNodeGroupID, [...existing, ...specIds])
+      }
+    }
+  }
+
+  // 4. Build NodeID -> [AllowedSpecIDs] mapping
+  const nodeToAllowedSpecs = new Map<number, number[]>()
+
+  // From direct node conditions
+  for (const nodeCond of traitNodeXTraitConds) {
+    const cond = traitCondById.get(nodeCond.TraitCondID)
+    if (cond && cond.CondType === 1 && cond.SpecSetID > 0) {
+      const specIds = specSetToSpecIds.get(cond.SpecSetID) || []
+      if (specIds.length > 0) {
+        const existing = nodeToAllowedSpecs.get(nodeCond.TraitNodeID) || []
+        nodeToAllowedSpecs.set(nodeCond.TraitNodeID, [...existing, ...specIds])
+      }
+    }
+  }
+
+  // From node group membership
+  for (const groupNode of traitNodeGroupXTraitNodes) {
+    const allowedSpecs = nodeGroupToAllowedSpecs.get(groupNode.TraitNodeGroupID)
+    if (allowedSpecs && allowedSpecs.length > 0) {
+      const existing = nodeToAllowedSpecs.get(groupNode.TraitNodeID) || []
+      nodeToAllowedSpecs.set(groupNode.TraitNodeID, [...existing, ...allowedSpecs])
+    }
+  }
+
+  console.log(`\nBuilt spec restrictions for ${nodeToAllowedSpecs.size} nodes`)
+
   // Map spec to tree via loadouts
+  // Sort by ID descending to prefer higher IDs (main class trees) over lower IDs (hero trees)
+  const sortedLoadouts = [...loadouts].sort((a, b) => b.ID - a.ID)
   const specToTreeId = new Map<number, number>()
-  for (const loadout of loadouts) {
-    // Take the first tree for each spec
+  for (const loadout of sortedLoadouts) {
+    // Take the tree with highest loadout ID for each spec (main class tree)
     if (!specToTreeId.has(loadout.ChrSpecializationID)) {
       specToTreeId.set(loadout.ChrSpecializationID, loadout.TraitTreeID)
     }
@@ -326,15 +448,16 @@ async function main() {
     const treeNodeList = treeToNodes.get(treeId) || []
     const treeEdgeList = treeToEdges.get(treeId) || []
 
-    // Sort nodes by position (top to bottom, left to right) for consistent ordering
-    treeNodeList.sort((a, b) => {
-      if (a.PosY !== b.PosY) return a.PosY - b.PosY
-      return a.PosX - b.PosX
-    })
+    // Sort nodes by ID to match WoW talent export string order
+    // The talent string encodes nodes in node ID order
+    treeNodeList.sort((a, b) => a.ID - b.ID)
 
     const talentNodes: TalentNodeData[] = []
 
     for (const node of treeNodeList) {
+      // Get spec restrictions for this node (if any)
+      const allowedSpecs = nodeToAllowedSpecs.get(node.ID)
+
       const nodeEntryList = nodeToEntries.get(node.ID) || []
       // Sort entries by their index
       nodeEntryList.sort((a, b) => a._Index - b._Index)
@@ -349,25 +472,35 @@ async function main() {
         const spellId = definition?.SpellID || 0
         // Use override name if available, otherwise look up spell name
         const name = definition?.OverrideName_lang || spellNameById.get(spellId) || ''
+        // Use override icon if available, otherwise look up spell icon
+        const iconId = definition?.OverrideIcon || spellIconById.get(spellId) || 0
 
         talentEntries.push({
           id: entry.ID,
           definitionId: entry.TraitDefinitionID,
           spellId,
           name,
+          iconId,
           maxRanks: entry.MaxRanks,
           entryIndex: ne._Index,
         })
       }
 
-      talentNodes.push({
+      const nodeData: TalentNodeData = {
         id: node.ID,
         posX: node.PosX,
         posY: node.PosY,
         type: node.Type,
         maxRanks: talentEntries[0]?.maxRanks || 1,
         entries: talentEntries,
-      })
+      }
+
+      // Add spec restriction if this node is limited to specific specs
+      if (allowedSpecs && allowedSpecs.length > 0) {
+        nodeData.allowedSpecs = [...new Set(allowedSpecs)] // Deduplicate
+      }
+
+      talentNodes.push(nodeData)
     }
 
     const talentEdges: TalentEdgeData[] = treeEdgeList.map(e => ({

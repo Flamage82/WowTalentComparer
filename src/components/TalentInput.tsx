@@ -3,10 +3,11 @@ import './TalentInput.css'
 
 interface TalentInputProps {
   onSubmit: (talentString: string) => void
+  initialValue?: string
 }
 
-export function TalentInput({ onSubmit }: TalentInputProps) {
-  const [value, setValue] = useState('')
+export function TalentInput({ onSubmit, initialValue = '' }: TalentInputProps) {
+  const [value, setValue] = useState(initialValue)
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()

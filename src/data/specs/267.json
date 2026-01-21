@@ -1,0 +1,5882 @@
+{
+  "specId": 267,
+  "specName": "Destruction",
+  "className": "Warlock",
+  "treeId": 720,
+  "nodes": [
+    {
+      "id": 71916,
+      "posX": 4200,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91422,
+          "definitionId": 96424,
+          "spellId": 386648,
+          "name": "Nightmare",
+          "iconId": 136183,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 115459,
+          "definitionId": 120471,
+          "spellId": 56244,
+          "name": "Horrify",
+          "iconId": 3163621,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 71917,
+      "posX": 5400,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91424,
+          "definitionId": 96426,
+          "spellId": 389590,
+          "name": "Demonic Resilience",
+          "iconId": 132332,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71918,
+      "posX": 2400,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91425,
+          "definitionId": 96427,
+          "spellId": 452902,
+          "name": "Swift Artifice",
+          "iconId": 136151,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71922,
+      "posX": 5400,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91430,
+          "definitionId": 96432,
+          "spellId": 386617,
+          "name": "Demonic Fortitude",
+          "iconId": 615097,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71923,
+      "posX": 6000,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91431,
+          "definitionId": 96433,
+          "spellId": 1270701,
+          "name": "Gorefiend's Avarice",
+          "iconId": 133186,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71924,
+      "posX": 4800,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 91432,
+          "definitionId": 96434,
+          "spellId": 389367,
+          "name": "Fel Synergy",
+          "iconId": 1112519,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71926,
+      "posX": 3000,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91434,
+          "definitionId": 96436,
+          "spellId": 386689,
+          "name": "Pact of Gluttony",
+          "iconId": 538744,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71930,
+      "posX": 3000,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91438,
+          "definitionId": 96440,
+          "spellId": 288843,
+          "name": "Demonic Embrace",
+          "iconId": 136172,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71931,
+      "posX": 3000,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91439,
+          "definitionId": 96441,
+          "spellId": 333889,
+          "name": "Fel Domination",
+          "iconId": 237564,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71932,
+      "posX": 3000,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91440,
+          "definitionId": 96442,
+          "spellId": 386113,
+          "name": "Fel Pact",
+          "iconId": 136164,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71933,
+      "posX": 4200,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91441,
+          "definitionId": 96443,
+          "spellId": 108370,
+          "name": "Soul Leech",
+          "iconId": 571320,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71936,
+      "posX": 2400,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91444,
+          "definitionId": 96446,
+          "spellId": 108416,
+          "name": "Dark Pact",
+          "iconId": 136146,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71937,
+      "posX": 2400,
+      "posY": 4800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91446,
+          "definitionId": 96448,
+          "spellId": 386664,
+          "name": "Ichor of Devils",
+          "iconId": 1129418,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 91445,
+          "definitionId": 96447,
+          "spellId": 386686,
+          "name": "Frequent Donor",
+          "iconId": 1035037,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 71938,
+      "posX": 5400,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91447,
+          "definitionId": 96449,
+          "spellId": 385881,
+          "name": "Teachings of the Black Harvest",
+          "iconId": 666475,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71941,
+      "posX": 6000,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91451,
+          "definitionId": 96453,
+          "spellId": 1270255,
+          "name": "Oppressive Darkness",
+          "iconId": 136201,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71942,
+      "posX": 6000,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91452,
+          "definitionId": 96454,
+          "spellId": 6789,
+          "name": "Mortal Coil",
+          "iconId": 607853,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 71944,
+      "posX": 2400,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91454,
+          "definitionId": 96456,
+          "spellId": 710,
+          "name": "Banish",
+          "iconId": 136135,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71947,
+      "posX": 5400,
+      "posY": 5400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91458,
+          "definitionId": 96460,
+          "spellId": 5484,
+          "name": "Howl of Terror",
+          "iconId": 607852,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 91457,
+          "definitionId": 96459,
+          "spellId": 30283,
+          "name": "Shadowfury",
+          "iconId": 607865,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 71948,
+      "posX": 5400,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91459,
+          "definitionId": 96461,
+          "spellId": 386110,
+          "name": "Fiendish Stride",
+          "iconId": 1508512,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71949,
+      "posX": 5400,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91460,
+          "definitionId": 96462,
+          "spellId": 111400,
+          "name": "Burning Rush",
+          "iconId": 538043,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71950,
+      "posX": 4800,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 91461,
+          "definitionId": 96463,
+          "spellId": 386124,
+          "name": "Fel Armor",
+          "iconId": 136156,
+          "maxRanks": 2,
+          "entryIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 71952,
+      "posX": 3600,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 91463,
+          "definitionId": 96465,
+          "spellId": 219272,
+          "name": "Demon Skin",
+          "iconId": 136185,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71954,
+      "posX": 4200,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91465,
+          "definitionId": 96467,
+          "spellId": 389609,
+          "name": "Abyss Walker",
+          "iconId": 1714097,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71955,
+      "posX": 4200,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91466,
+          "definitionId": 96468,
+          "spellId": 111771,
+          "name": "Demonic Gateway",
+          "iconId": 607512,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71956,
+      "posX": 3000,
+      "posY": 5400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91468,
+          "definitionId": 96470,
+          "spellId": 317138,
+          "name": "Strength of Will",
+          "iconId": 136150,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 91467,
+          "definitionId": 96469,
+          "spellId": 386659,
+          "name": "Dark Accord",
+          "iconId": 236299,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 71957,
+      "posX": 4200,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91469,
+          "definitionId": 96471,
+          "spellId": 385899,
+          "name": "Soulburn",
+          "iconId": 463286,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 71960,
+      "posX": 12600,
+      "posY": 4800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91473,
+          "definitionId": 96475,
+          "spellId": 417234,
+          "name": "Crashing Chaos",
+          "iconId": 1367345,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 126494,
+          "definitionId": 131320,
+          "spellId": 266086,
+          "name": "Rain of Chaos",
+          "iconId": 135804,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71961,
+      "posX": 12600,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91474,
+          "definitionId": 96476,
+          "spellId": 1244460,
+          "name": "Improved Havoc",
+          "iconId": 460695,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71964,
+      "posX": 13200,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91477,
+          "definitionId": 96479,
+          "spellId": 1244928,
+          "name": "Destructive Rapidity",
+          "iconId": 136186,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71965,
+      "posX": 12600,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91478,
+          "definitionId": 96480,
+          "spellId": 387108,
+          "name": "Conflagration of Chaos",
+          "iconId": 136191,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71966,
+      "posX": 12000,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91479,
+          "definitionId": 96481,
+          "spellId": 387275,
+          "name": "Chaos Incarnate",
+          "iconId": 135799,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71968,
+      "posX": 13200,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91481,
+          "definitionId": 96483,
+          "spellId": 387173,
+          "name": "Diabolic Embers",
+          "iconId": 521223,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71969,
+      "posX": 13200,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 91482,
+          "definitionId": 96484,
+          "spellId": 387252,
+          "name": "Ashen Remains",
+          "iconId": 3528445,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71971,
+      "posX": 13800,
+      "posY": 4800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91484,
+          "definitionId": 96486,
+          "spellId": 453105,
+          "name": "Summoner's Embrace",
+          "iconId": 136230,
+          "maxRanks": 1,
+          "entryIndex": 0
+        },
+        {
+          "id": 125618,
+          "definitionId": 130450,
+          "spellId": 108503,
+          "name": "Grimoire of Sacrifice",
+          "iconId": 538443,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71972,
+      "posX": 12000,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91485,
+          "definitionId": 96487,
+          "spellId": 387259,
+          "name": "Flashpoint",
+          "iconId": 135822,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71973,
+      "posX": 13800,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91486,
+          "definitionId": 96488,
+          "spellId": 388832,
+          "name": "Scalding Flames",
+          "iconId": 429590,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71974,
+      "posX": 14400,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91488,
+          "definitionId": 96490,
+          "spellId": 152108,
+          "name": "Cataclysm",
+          "iconId": 409545,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71975,
+      "posX": 12000,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91489,
+          "definitionId": 96491,
+          "spellId": 1280483,
+          "name": "Inferno",
+          "iconId": 1380867,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71979,
+      "posX": 12600,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91494,
+          "definitionId": 96496,
+          "spellId": 387506,
+          "name": "Mayhem",
+          "iconId": 1020342,
+          "maxRanks": 1,
+          "entryIndex": 200
+        },
+        {
+          "id": 91493,
+          "definitionId": 96495,
+          "spellId": 80240,
+          "name": "Havoc",
+          "iconId": 460695,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71980,
+      "posX": 11400,
+      "posY": 4800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91496,
+          "definitionId": 96498,
+          "spellId": 205148,
+          "name": "Reverse Entropy",
+          "iconId": 840406,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 91495,
+          "definitionId": 96497,
+          "spellId": 266134,
+          "name": "Internal Combustion",
+          "iconId": 236220,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71982,
+      "posX": 13800,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91499,
+          "definitionId": 96501,
+          "spellId": 196408,
+          "name": "Fire and Brimstone",
+          "iconId": 236297,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71983,
+      "posX": 12000,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 91500,
+          "definitionId": 96502,
+          "spellId": 387384,
+          "name": "Backlash",
+          "iconId": 135823,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71985,
+      "posX": 12600,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91502,
+          "definitionId": 96504,
+          "spellId": 1122,
+          "name": "Summon Infernal",
+          "iconId": 136219,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 71987,
+      "posX": 13200,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91504,
+          "definitionId": 96506,
+          "spellId": 1280733,
+          "name": "Nether Plating",
+          "iconId": 1729935,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72032,
+      "posX": 12600,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91552,
+          "definitionId": 96554,
+          "spellId": 48181,
+          "name": "Haunt",
+          "iconId": 236298,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72033,
+      "posX": 12600,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91553,
+          "definitionId": 96555,
+          "spellId": 234876,
+          "name": "Death's Embrace",
+          "iconId": 237557,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72034,
+      "posX": 12600,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91554,
+          "definitionId": 96556,
+          "spellId": 205180,
+          "name": "Summon Darkglare",
+          "iconId": 1416161,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72037,
+      "posX": 13800,
+      "posY": 4200,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91558,
+          "definitionId": 96560,
+          "spellId": 453105,
+          "name": "Summoner's Embrace",
+          "iconId": 136230,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 124691,
+          "definitionId": 129529,
+          "spellId": 108503,
+          "name": "Grimoire of Sacrifice",
+          "iconId": 538443,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72041,
+      "posX": 14400,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91562,
+          "definitionId": 96564,
+          "spellId": 453096,
+          "name": "Contagion",
+          "iconId": 136134,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72045,
+      "posX": 11400,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91566,
+          "definitionId": 96568,
+          "spellId": 453080,
+          "name": "Improved Shadow Bolt",
+          "iconId": 136197,
+          "maxRanks": 1,
+          "entryIndex": 0
+        },
+        {
+          "id": 124692,
+          "definitionId": 129530,
+          "spellId": 388667,
+          "name": "Drain Soul",
+          "iconId": 136163,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72046,
+      "posX": 10800,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91567,
+          "definitionId": 96569,
+          "spellId": 453087,
+          "name": "Malediction",
+          "iconId": 136137,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72047,
+      "posX": 11400,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91568,
+          "definitionId": 96570,
+          "spellId": 108558,
+          "name": "Nightfall",
+          "iconId": 136223,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72049,
+      "posX": 12600,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91570,
+          "definitionId": 96572,
+          "spellId": 980,
+          "name": "Agony",
+          "iconId": 136139,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72050,
+      "posX": 13200,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91571,
+          "definitionId": 96573,
+          "spellId": 27243,
+          "name": "Seed of Corruption",
+          "iconId": 136193,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72051,
+      "posX": 13800,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91572,
+          "definitionId": 96574,
+          "spellId": 196103,
+          "name": "Absolute Corruption",
+          "iconId": 1117878,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 124693,
+          "definitionId": 129531,
+          "spellId": 452999,
+          "name": "Siphon Life",
+          "iconId": 136188,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72054,
+      "posX": 10800,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91576,
+          "definitionId": 96578,
+          "spellId": 453172,
+          "name": "Cunning Cruelty",
+          "iconId": 133792,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72055,
+      "posX": 12000,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 91577,
+          "definitionId": 96579,
+          "spellId": 386976,
+          "name": "Withering Bolt",
+          "iconId": 136197,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72058,
+      "posX": 13200,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 91580,
+          "definitionId": 96582,
+          "spellId": 264000,
+          "name": "Creeping Death",
+          "iconId": 132095,
+          "maxRanks": 2,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 72059,
+      "posX": 11400,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91581,
+          "definitionId": 96583,
+          "spellId": 388827,
+          "name": "Explosive Potential",
+          "iconId": 2175503,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 72060,
+      "posX": 10800,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91582,
+          "definitionId": 96584,
+          "spellId": 17877,
+          "name": "Shadowburn",
+          "iconId": 136191,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 72061,
+      "posX": 11400,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91583,
+          "definitionId": 96585,
+          "spellId": 1244788,
+          "name": "Chaotic Inferno",
+          "iconId": 135789,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 72062,
+      "posX": 13200,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91584,
+          "definitionId": 96586,
+          "spellId": 454744,
+          "name": "Emberstorm",
+          "iconId": 135826,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 72064,
+      "posX": 14400,
+      "posY": 6000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91586,
+          "definitionId": 96588,
+          "spellId": 1214442,
+          "name": "Demonfire Infusion",
+          "iconId": 136196,
+          "maxRanks": 1,
+          "entryIndex": 0
+        },
+        {
+          "id": 128599,
+          "definitionId": 133402,
+          "spellId": 196447,
+          "name": "Channel Demonfire",
+          "iconId": 840407,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 72065,
+      "posX": 13800,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91588,
+          "definitionId": 96590,
+          "spellId": 1244310,
+          "name": "Roaring Blaze",
+          "iconId": 460698,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 72066,
+      "posX": 11400,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 91589,
+          "definitionId": 96591,
+          "spellId": 387103,
+          "name": "Ruin",
+          "iconId": 136207,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 72067,
+      "posX": 12000,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91590,
+          "definitionId": 96592,
+          "spellId": 196406,
+          "name": "Backdraft",
+          "iconId": 236290,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 72068,
+      "posX": 12000,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91591,
+          "definitionId": 96593,
+          "spellId": 17962,
+          "name": "Conflagrate",
+          "iconId": 135807,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 72069,
+      "posX": 13200,
+      "posY": 1800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91592,
+          "definitionId": 96594,
+          "spellId": 5740,
+          "name": "Rain of Fire",
+          "iconId": 136186,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 128601,
+          "definitionId": 133404,
+          "spellId": 1214467,
+          "name": "Rain of Fire",
+          "iconId": 136186,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 94821,
+      "posX": 7200,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117418,
+          "definitionId": 122430,
+          "spellId": 449631,
+          "name": "Wicked Reaping",
+          "iconId": 1304738,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 94822,
+      "posX": 15000,
+      "posY": 1800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117419,
+          "definitionId": 122431,
+          "spellId": 440057,
+          "name": "Curse of the Satyr",
+          "iconId": 132888,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123309,
+          "definitionId": 128179,
+          "spellId": 440059,
+          "name": "Aura of Enfeeblement",
+          "iconId": 615102,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 94823,
+      "posX": 7800,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117420,
+          "definitionId": 122432,
+          "spellId": 449704,
+          "name": "Shared Fate",
+          "iconId": 607854,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123839,
+          "definitionId": 128677,
+          "spellId": 449706,
+          "name": "Feast of Souls",
+          "iconId": 236300,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 94824,
+      "posX": 8400,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117421,
+          "definitionId": 122433,
+          "spellId": 449707,
+          "name": "Eternal Servitude",
+          "iconId": 4067363,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123838,
+          "definitionId": 128676,
+          "spellId": 389623,
+          "name": "Gorefiend's Resolve",
+          "iconId": 132299,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 94825,
+      "posX": 7200,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117422,
+          "definitionId": 122434,
+          "spellId": 449620,
+          "name": "Necrolyte Teachings",
+          "iconId": 2576086,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 94826,
+      "posX": 8400,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117423,
+          "definitionId": 122435,
+          "spellId": 428518,
+          "name": "Secrets of the Coven",
+          "iconId": 1711332,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 94829,
+      "posX": 15600,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117426,
+          "definitionId": 122438,
+          "spellId": 440055,
+          "name": "Seeds of Their Demise",
+          "iconId": 840197,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 94830,
+      "posX": 8150,
+      "posY": 6649,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117427,
+          "definitionId": 122439,
+          "spellId": 428522,
+          "name": "Ruination",
+          "iconId": 1117878,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 94831,
+      "posX": 7800,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117428,
+          "definitionId": 122440,
+          "spellId": 429581,
+          "name": "Abyssal Dominion",
+          "iconId": 1589502,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 94832,
+      "posX": 8400,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117429,
+          "definitionId": 122441,
+          "spellId": 449629,
+          "name": "Demoniac's Fervor",
+          "iconId": 133067,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 94833,
+      "posX": 7200,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117430,
+          "definitionId": 122442,
+          "spellId": 429657,
+          "name": "Flames of Xoroth",
+          "iconId": 460952,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 94834,
+      "posX": 15000,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117431,
+          "definitionId": 122443,
+          "spellId": 440046,
+          "name": "Mark of Xavius",
+          "iconId": 615100,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 94835,
+      "posX": 16200,
+      "posY": 1800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117432,
+          "definitionId": 122444,
+          "spellId": 440065,
+          "name": "Zevrim's Resilience",
+          "iconId": 236310,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123308,
+          "definitionId": 128178,
+          "spellId": 440070,
+          "name": "Illhoof's Design",
+          "iconId": 1357809,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 94836,
+      "posX": 7200,
+      "posY": 5400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117433,
+          "definitionId": 122445,
+          "spellId": 428911,
+          "name": "Soul-Etched Circles",
+          "iconId": 237560,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 118837,
+          "definitionId": 123737,
+          "spellId": 429072,
+          "name": "Annihilan's Bellow",
+          "iconId": 132270,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 94837,
+      "posX": 15600,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117434,
+          "definitionId": 122446,
+          "spellId": 440043,
+          "name": "Blackened Soul",
+          "iconId": 3163618,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 94838,
+      "posX": 8400,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117435,
+          "definitionId": 122447,
+          "spellId": 449637,
+          "name": "Sataiel's Volition",
+          "iconId": 2576087,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 94840,
+      "posX": 15900,
+      "posY": 600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117437,
+          "definitionId": 122449,
+          "spellId": 445465,
+          "name": "Wither",
+          "iconId": 5927632,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 94842,
+      "posX": 15900,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117439,
+          "definitionId": 122451,
+          "spellId": 430014,
+          "name": "Malevolence",
+          "iconId": 5927631,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 94843,
+      "posX": 8400,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117440,
+          "definitionId": 122452,
+          "spellId": 429899,
+          "name": "Gloom of Nathreza",
+          "iconId": 132291,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 94844,
+      "posX": 16200,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117441,
+          "definitionId": 122453,
+          "spellId": 440045,
+          "name": "Mark of Peroth'arn",
+          "iconId": 1589502,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 94845,
+      "posX": 16200,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117442,
+          "definitionId": 122454,
+          "spellId": 440040,
+          "name": "Xalan's Cruelty",
+          "iconId": 237561,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 94846,
+      "posX": 7800,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117443,
+          "definitionId": 122455,
+          "spellId": 449634,
+          "name": "Quietus",
+          "iconId": 2576085,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 94847,
+      "posX": 7800,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117444,
+          "definitionId": 122456,
+          "spellId": 449624,
+          "name": "Soul Anathema",
+          "iconId": 2576093,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 94848,
+      "posX": 7800,
+      "posY": 5400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117445,
+          "definitionId": 122457,
+          "spellId": 429902,
+          "name": "Cruelty of Kerxan",
+          "iconId": 978470,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 118838,
+          "definitionId": 123738,
+          "spellId": 429917,
+          "name": "Infernal Machine",
+          "iconId": 4067362,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 94849,
+      "posX": 7200,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117446,
+          "definitionId": 122458,
+          "spellId": 428517,
+          "name": "Cloven Souls",
+          "iconId": 1388064,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 94850,
+      "posX": 7200,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117447,
+          "definitionId": 122459,
+          "spellId": 449701,
+          "name": "Gorebound Fortitude",
+          "iconId": 135888,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123840,
+          "definitionId": 128678,
+          "spellId": 449703,
+          "name": "Friends In Dark Places",
+          "iconId": 136146,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 94851,
+      "posX": 8150,
+      "posY": 1250,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117448,
+          "definitionId": 122460,
+          "spellId": 449614,
+          "name": "Demonic Soul",
+          "iconId": 5927650,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 94852,
+      "posX": 8400,
+      "posY": 5400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117449,
+          "definitionId": 122461,
+          "spellId": 429115,
+          "name": "Infernal Vitality",
+          "iconId": 132887,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 118839,
+          "definitionId": 123739,
+          "spellId": 429130,
+          "name": "Infernal Bulwark",
+          "iconId": 135796,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 94853,
+      "posX": 15000,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117450,
+          "definitionId": 122462,
+          "spellId": 440044,
+          "name": "Xalan's Ferocity",
+          "iconId": 135794,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 94854,
+      "posX": 15600,
+      "posY": 1800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117451,
+          "definitionId": 122463,
+          "spellId": 440048,
+          "name": "Hatefury Rituals",
+          "iconId": 1392948,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123310,
+          "definitionId": 128180,
+          "spellId": 440051,
+          "name": "Bleakheart Tactics",
+          "iconId": 237565,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 94855,
+      "posX": 8150,
+      "posY": 4250,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117452,
+          "definitionId": 122464,
+          "spellId": 428514,
+          "name": "Diabolic Ritual",
+          "iconId": 1121021,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 94856,
+      "posX": 7800,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117453,
+          "definitionId": 122465,
+          "spellId": 429893,
+          "name": "Touch of Rancora",
+          "iconId": 1118739,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 94857,
+      "posX": 8150,
+      "posY": 3649,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117454,
+          "definitionId": 122466,
+          "spellId": 449638,
+          "name": "Shadow of Death",
+          "iconId": 135752,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 99848,
+      "posX": 8700,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123385,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123382,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 99849,
+      "posX": 7799,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123386,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123383,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 99850,
+      "posX": 6900,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123387,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123384,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 100941,
+      "posX": 4200,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 124694,
+          "definitionId": 129532,
+          "spellId": 268358,
+          "name": "Demonic Circle",
+          "iconId": 237559,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 101886,
+      "posX": 12000,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125828,
+          "definitionId": 130659,
+          "spellId": 267214,
+          "name": "Sacrificed Souls",
+          "iconId": 132102,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101887,
+      "posX": 13200,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 125829,
+          "definitionId": 130660,
+          "spellId": 386194,
+          "name": "Carnivorous Stalkers",
+          "iconId": 1380868,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101888,
+      "posX": 13800,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125830,
+          "definitionId": 130661,
+          "spellId": 264078,
+          "name": "Dreadlash",
+          "iconId": 136221,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101891,
+      "posX": 12600,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125834,
+          "definitionId": 130665,
+          "spellId": 1250273,
+          "name": "Hand of Gul'dan",
+          "iconId": 535592,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101892,
+      "posX": 13800,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125835,
+          "definitionId": 130666,
+          "spellId": 453800,
+          "name": "Improved Demonic Tactics",
+          "iconId": 460694,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101893,
+      "posX": 12600,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125836,
+          "definitionId": 130667,
+          "spellId": 196277,
+          "name": "Implosion",
+          "iconId": 2065588,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136731,
+          "definitionId": 141503,
+          "spellId": 264130,
+          "name": "Power Siphon",
+          "iconId": 236290,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101894,
+      "posX": 13200,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125837,
+          "definitionId": 130668,
+          "spellId": 104316,
+          "name": "Call Dreadstalkers",
+          "iconId": 1378282,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101895,
+      "posX": 14400,
+      "posY": 6600,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125839,
+          "definitionId": 130670,
+          "spellId": 455449,
+          "name": "Mark of Shatug",
+          "iconId": 1709932,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 125838,
+          "definitionId": 130669,
+          "spellId": 455450,
+          "name": "Mark of F'harg",
+          "iconId": 1709931,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101903,
+      "posX": 13800,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 125848,
+          "definitionId": 130679,
+          "spellId": 1276947,
+          "name": "Demonic Calling",
+          "iconId": 1129035,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101905,
+      "posX": 12600,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125850,
+          "definitionId": 130681,
+          "spellId": 265187,
+          "name": "Summon Demonic Tyrant",
+          "iconId": 2065628,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101908,
+      "posX": 13200,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125854,
+          "definitionId": 130685,
+          "spellId": 1240189,
+          "name": "Master Summoner",
+          "iconId": 136082,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101909,
+      "posX": 13800,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125855,
+          "definitionId": 130686,
+          "spellId": 453699,
+          "name": "Flametouched",
+          "iconId": 459026,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101914,
+      "posX": 12000,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 125860,
+          "definitionId": 130691,
+          "spellId": 453744,
+          "name": "Rune of Shadows",
+          "iconId": 252272,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101917,
+      "posX": 10800,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125863,
+          "definitionId": 130694,
+          "spellId": 1276672,
+          "name": "Summon Doomguard",
+          "iconId": 615103,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101920,
+      "posX": 11400,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125866,
+          "definitionId": 130697,
+          "spellId": 453908,
+          "name": "Demonic Brutality",
+          "iconId": 1305149,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101923,
+      "posX": 11400,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 125869,
+          "definitionId": 130700,
+          "spellId": 416230,
+          "name": "Imp-erator",
+          "iconId": 615097,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 101992,
+      "posX": 12000,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 126002,
+          "definitionId": 130833,
+          "spellId": 456951,
+          "name": "Improved Chaos Bolt",
+          "iconId": 236291,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 101993,
+      "posX": 14400,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 126003,
+          "definitionId": 130834,
+          "spellId": 387166,
+          "name": "Raging Demonfire",
+          "iconId": 840407,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 101994,
+      "posX": 10800,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 126004,
+          "definitionId": 130835,
+          "spellId": 1245633,
+          "name": "Fiendish Cruelty",
+          "iconId": 135827,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 102003,
+      "posX": 13200,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91423,
+          "definitionId": 96425,
+          "spellId": 1244941,
+          "name": "Alythess's Ire",
+          "iconId": 1035051,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 102031,
+      "posX": 12600,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 126064,
+          "definitionId": 130896,
+          "spellId": 458034,
+          "name": "Improved Haunt",
+          "iconId": 236298,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 102247,
+      "posX": 12600,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 126303,
+          "definitionId": 131129,
+          "spellId": 459440,
+          "name": "Ravenous Afflictions",
+          "iconId": 236300,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 102427,
+      "posX": 14400,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 126493,
+          "definitionId": 131319,
+          "spellId": 1244877,
+          "name": "Lake of Fire",
+          "iconId": 525024,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 108678,
+      "posX": 13200,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 134219,
+          "definitionId": 138997,
+          "spellId": 1244284,
+          "name": "Practiced Chaos",
+          "iconId": 4226151,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 108680,
+      "posX": 11400,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 91587,
+          "definitionId": 96589,
+          "spellId": 231793,
+          "name": "Improved Conflagrate",
+          "iconId": 135807,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 108681,
+      "posX": 10800,
+      "posY": 6000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 128600,
+          "definitionId": 133403,
+          "spellId": 1280868,
+          "name": "Dimensional Rift",
+          "iconId": 1394890,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 134221,
+          "definitionId": 138999,
+          "spellId": 6353,
+          "name": "Soul Fire",
+          "iconId": 135809,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 109241,
+      "posX": 13200,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135303,
+          "definitionId": 140070,
+          "spellId": 1250921,
+          "name": "Antoran Armaments",
+          "iconId": 1604396,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 109244,
+      "posX": 12000,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135306,
+          "definitionId": 140073,
+          "spellId": 426115,
+          "name": "Demoniac",
+          "iconId": 2065566,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 109248,
+      "posX": 13200,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135310,
+          "definitionId": 140077,
+          "spellId": 1276956,
+          "name": "Blighted Maw",
+          "iconId": 132103,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 109249,
+      "posX": 11400,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 135311,
+          "definitionId": 140078,
+          "spellId": 386185,
+          "name": "Demonic Knowledge",
+          "iconId": 236299,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 109250,
+      "posX": 12000,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135312,
+          "definitionId": 140079,
+          "spellId": 1250372,
+          "name": "Fel Intellect",
+          "iconId": 878214,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 109251,
+      "posX": 13200,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135313,
+          "definitionId": 140080,
+          "spellId": 1250375,
+          "name": "Practiced Rituals",
+          "iconId": 4555012,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 109252,
+      "posX": 14400,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135314,
+          "definitionId": 140081,
+          "spellId": 1251778,
+          "name": "Summon Vilefiend",
+          "iconId": 1616211,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 109253,
+      "posX": 10800,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135315,
+          "definitionId": 140082,
+          "spellId": 1250768,
+          "name": "Imp Gang Boss",
+          "iconId": 236294,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 109257,
+      "posX": 13800,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135319,
+          "definitionId": 140086,
+          "spellId": 30146,
+          "name": "Summon Felguard",
+          "iconId": 136216,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 109831,
+      "posX": 9000,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136090,
+          "definitionId": 140845,
+          "spellId": 1268716,
+          "name": "Mind's Eyes",
+          "iconId": 135918,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 109832,
+      "posX": 9000,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136091,
+          "definitionId": 140846,
+          "spellId": 1268713,
+          "name": "Looks That Kill",
+          "iconId": 1117876,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 109833,
+      "posX": 9000,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136092,
+          "definitionId": 140847,
+          "spellId": 1268709,
+          "name": "Diabolic Oculi",
+          "iconId": 1387707,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": 109834,
+      "posX": 16800,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136093,
+          "definitionId": 140848,
+          "spellId": 1266803,
+          "name": "Alzzin's Iniquity",
+          "iconId": 136165,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 109835,
+      "posX": 16800,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136094,
+          "definitionId": 140849,
+          "spellId": 1266805,
+          "name": "Devil Fruit",
+          "iconId": 7137507,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 109836,
+      "posX": 16800,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136095,
+          "definitionId": 140850,
+          "spellId": 1266799,
+          "name": "Through the Felvine",
+          "iconId": 1357816,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        267
+      ]
+    },
+    {
+      "id": 109837,
+      "posX": 9000,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136096,
+          "definitionId": 140851,
+          "spellId": 1268903,
+          "name": "Eternal Hunger",
+          "iconId": 2120320,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 109838,
+      "posX": 9000,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136097,
+          "definitionId": 140852,
+          "spellId": 1268889,
+          "name": "Shared Vessel",
+          "iconId": 6035316,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 109839,
+      "posX": 9000,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136098,
+          "definitionId": 140853,
+          "spellId": 1268884,
+          "name": "Manifested Avarice",
+          "iconId": 458229,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265,
+        266
+      ]
+    },
+    {
+      "id": 109840,
+      "posX": 3000,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136100,
+          "definitionId": 140855,
+          "spellId": 1265813,
+          "name": "Foul Mouth",
+          "iconId": 132094,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109841,
+      "posX": 4200,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136101,
+          "definitionId": 140856,
+          "spellId": 1265801,
+          "name": "Frequent Traveler",
+          "iconId": 255348,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109842,
+      "posX": 3600,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 136102,
+          "definitionId": 140857,
+          "spellId": 108415,
+          "name": "Soul Link",
+          "iconId": 607854,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109843,
+      "posX": 3600,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136103,
+          "definitionId": 140858,
+          "spellId": 1270695,
+          "name": "Pact of the Eredar",
+          "iconId": 1711329,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109844,
+      "posX": 5400,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136104,
+          "definitionId": 140859,
+          "spellId": 1265810,
+          "name": "Infernal Beneficiary",
+          "iconId": 464118,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109845,
+      "posX": 6000,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136105,
+          "definitionId": 140860,
+          "spellId": 1265816,
+          "name": "Improved Mortal Coil",
+          "iconId": 537517,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109846,
+      "posX": 4800,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136106,
+          "definitionId": 140861,
+          "spellId": 1714,
+          "name": "Curse of Tongues",
+          "iconId": 136140,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109847,
+      "posX": 3600,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136107,
+          "definitionId": 140862,
+          "spellId": 334275,
+          "name": "Curse of Exhaustion",
+          "iconId": 136162,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109848,
+      "posX": 5400,
+      "posY": 6600,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136108,
+          "definitionId": 140863,
+          "spellId": 1265799,
+          "name": "Blight of Weakness",
+          "iconId": 5449820,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136738,
+          "definitionId": 141510,
+          "spellId": 1271802,
+          "name": "Blight of Tongues",
+          "iconId": 5449818,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 109849,
+      "posX": 11400,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136109,
+          "definitionId": 140864,
+          "spellId": 1260209,
+          "name": "Sudden Onset",
+          "iconId": 136139,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109850,
+      "posX": 13800,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136110,
+          "definitionId": 140865,
+          "spellId": 386986,
+          "name": "Sacrolash's Dark Strike",
+          "iconId": 3163624,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109851,
+      "posX": 14400,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136111,
+          "definitionId": 140866,
+          "spellId": 1260271,
+          "name": "Nocturnal Yield",
+          "iconId": 5976934,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109852,
+      "posX": 10800,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136112,
+          "definitionId": 140867,
+          "spellId": 1260229,
+          "name": "Fatal Echoes",
+          "iconId": 3033715,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109853,
+      "posX": 13200,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136113,
+          "definitionId": 140868,
+          "spellId": 1260285,
+          "name": "Patient Zero",
+          "iconId": 460857,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109854,
+      "posX": 14400,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136114,
+          "definitionId": 140869,
+          "spellId": 196226,
+          "name": "Sow the Seeds",
+          "iconId": 136193,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109855,
+      "posX": 12000,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136115,
+          "definitionId": 140870,
+          "spellId": 1261124,
+          "name": "Cascading Calamity",
+          "iconId": 136229,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109857,
+      "posX": 10800,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136117,
+          "definitionId": 140872,
+          "spellId": 1260264,
+          "name": "Shard Instability",
+          "iconId": 463285,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109858,
+      "posX": 12600,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136118,
+          "definitionId": 140873,
+          "spellId": 1261149,
+          "name": "Malefic Grasp",
+          "iconId": 236296,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109859,
+      "posX": 14400,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136119,
+          "definitionId": 140874,
+          "spellId": 1259886,
+          "name": "Cull the Weak",
+          "iconId": 460700,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109860,
+      "posX": 14400,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136120,
+          "definitionId": 140875,
+          "spellId": 1257052,
+          "name": "Dark Harvest",
+          "iconId": 6035321,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109861,
+      "posX": 13800,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136121,
+          "definitionId": 140876,
+          "spellId": 1259825,
+          "name": "Shared Agony",
+          "iconId": 136139,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109862,
+      "posX": 12000,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136122,
+          "definitionId": 140877,
+          "spellId": 1259790,
+          "name": "Unstable Affliction",
+          "iconId": 136228,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109863,
+      "posX": 12000,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136123,
+          "definitionId": 140878,
+          "spellId": 1279510,
+          "name": "Niskaran Methods",
+          "iconId": 1717019,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109864,
+      "posX": 13200,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136124,
+          "definitionId": 140879,
+          "spellId": 1259815,
+          "name": "Potent Soul Shards",
+          "iconId": 134075,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109865,
+      "posX": 11400,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 136125,
+          "definitionId": 140880,
+          "spellId": 416615,
+          "name": "Xavius' Gambit",
+          "iconId": 237565,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109866,
+      "posX": 13800,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 136126,
+          "definitionId": 140881,
+          "spellId": 1259838,
+          "name": "Seeds of Destruction",
+          "iconId": 1357799,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 109934,
+      "posX": 10800,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136227,
+          "definitionId": 141000,
+          "spellId": 1263941,
+          "name": "Infernal Rapidity",
+          "iconId": 1719208,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 109936,
+      "posX": 14400,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136229,
+          "definitionId": 141002,
+          "spellId": 1263935,
+          "name": "Fel Armaments",
+          "iconId": 133832,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110071,
+      "posX": 3000,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136568,
+          "definitionId": 141341,
+          "spellId": 1270693,
+          "name": "Pact of the Annihilan",
+          "iconId": 450904,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110072,
+      "posX": 5400,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136569,
+          "definitionId": 141342,
+          "spellId": 1270691,
+          "name": "Pact of the Satyr",
+          "iconId": 237565,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110073,
+      "posX": 4800,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136570,
+          "definitionId": 141343,
+          "spellId": 1270690,
+          "name": "Pact of the Nathrezim",
+          "iconId": 3086045,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110074,
+      "posX": 4800,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136571,
+          "definitionId": 141344,
+          "spellId": 1271694,
+          "name": "Fortified Soul",
+          "iconId": 463284,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110075,
+      "posX": 3600,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136572,
+          "definitionId": 141345,
+          "spellId": 1271699,
+          "name": "Empowered Healthstone",
+          "iconId": 5948203,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110076,
+      "posX": 6000,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136573,
+          "definitionId": 141346,
+          "spellId": 1271689,
+          "name": "Empowered Drain Life",
+          "iconId": 3154546,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110191,
+      "posX": 12000,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136719,
+          "definitionId": 141491,
+          "spellId": 1276746,
+          "name": "Tyrant's Oblation",
+          "iconId": 1378284,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110192,
+      "posX": 14400,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136720,
+          "definitionId": 141492,
+          "spellId": 1279575,
+          "name": "Empowered Felstorm",
+          "iconId": 1380962,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110193,
+      "posX": 11400,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136721,
+          "definitionId": 141493,
+          "spellId": 428394,
+          "name": "Spiteful Reconstitution",
+          "iconId": 136164,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110194,
+      "posX": 12000,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136722,
+          "definitionId": 141494,
+          "spellId": 267216,
+          "name": "Inner Demons",
+          "iconId": 236295,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110195,
+      "posX": 11400,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136723,
+          "definitionId": 141495,
+          "spellId": 1276433,
+          "name": "Dominant Hand",
+          "iconId": 615099,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110196,
+      "posX": 13200,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136724,
+          "definitionId": 141496,
+          "spellId": 1276661,
+          "name": "Stabilized Portals",
+          "iconId": 1450144,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110197,
+      "posX": 13200,
+      "posY": 6000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136726,
+          "definitionId": 141498,
+          "spellId": 1276452,
+          "name": "Grimoire: Imp Lord",
+          "iconId": 5178162,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136725,
+          "definitionId": 141497,
+          "spellId": 1276467,
+          "name": "Grimoire: Fel Ravager",
+          "iconId": 136217,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110198,
+      "posX": 12000,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136727,
+          "definitionId": 141499,
+          "spellId": 1250897,
+          "name": "Hellbent Commander",
+          "iconId": 1030292,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110199,
+      "posX": 12000,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136728,
+          "definitionId": 141500,
+          "spellId": 1281511,
+          "name": "To Hell and Back",
+          "iconId": 460856,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110200,
+      "posX": 10800,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136729,
+          "definitionId": 141501,
+          "spellId": 460551,
+          "name": "Doom",
+          "iconId": 136122,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110201,
+      "posX": 12600,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136730,
+          "definitionId": 141502,
+          "spellId": 1276748,
+          "name": "Reign of Tyranny",
+          "iconId": 236293,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110269,
+      "posX": 11400,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136812,
+          "definitionId": 141575,
+          "spellId": 1259811,
+          "name": "Practiced Pestilence",
+          "iconId": 136008,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 110270,
+      "posX": 12000,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136813,
+          "definitionId": 141576,
+          "spellId": 1279521,
+          "name": "Eye Contract",
+          "iconId": 1500879,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 110280,
+      "posX": 10800,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136833,
+          "definitionId": 141596,
+          "spellId": 1245089,
+          "name": "Avatar of Destruction",
+          "iconId": 7439231,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 110281,
+      "posX": 13800,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 136834,
+          "definitionId": 141597,
+          "spellId": 454735,
+          "name": "Devastation",
+          "iconId": 135813,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 110282,
+      "posX": 12600,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136835,
+          "definitionId": 141598,
+          "spellId": 116858,
+          "name": "Chaos Bolt",
+          "iconId": 236291,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    },
+    {
+      "id": 110404,
+      "posX": 12600,
+      "posY": 7350,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136980,
+          "definitionId": 141743,
+          "spellId": 1276163,
+          "name": "Dominion of Argus",
+          "iconId": 7636567,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136979,
+          "definitionId": 141742,
+          "spellId": 1276190,
+          "name": "Dominion of Argus",
+          "iconId": 7636567,
+          "maxRanks": 2,
+          "entryIndex": 200
+        },
+        {
+          "id": 136978,
+          "definitionId": 141741,
+          "spellId": 1276222,
+          "name": "Dominion of Argus",
+          "iconId": 7636567,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        266
+      ]
+    },
+    {
+      "id": 110405,
+      "posX": 12600,
+      "posY": 7350,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136983,
+          "definitionId": 141746,
+          "spellId": 1261984,
+          "name": "Shadow of Nathreza",
+          "iconId": 7636569,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136982,
+          "definitionId": 141745,
+          "spellId": 1261990,
+          "name": "Shadow of Nathreza",
+          "iconId": 7636569,
+          "maxRanks": 2,
+          "entryIndex": 200
+        },
+        {
+          "id": 136981,
+          "definitionId": 141744,
+          "spellId": 1261992,
+          "name": "Shadow of Nathreza",
+          "iconId": 7636569,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        265
+      ]
+    },
+    {
+      "id": 110406,
+      "posX": 12600,
+      "posY": 7350,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136986,
+          "definitionId": 141749,
+          "spellId": 1265770,
+          "name": "Embers of Nihilam",
+          "iconId": 7636568,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136985,
+          "definitionId": 141748,
+          "spellId": 1265772,
+          "name": "Embers of Nihilam",
+          "iconId": 7636568,
+          "maxRanks": 2,
+          "entryIndex": 200
+        },
+        {
+          "id": 136984,
+          "definitionId": 141747,
+          "spellId": 1265774,
+          "name": "Embers of Nihilam",
+          "iconId": 7636568,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        267
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "fromNodeId": 94854,
+      "toNodeId": 94829,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94837,
+      "toNodeId": 94854,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94840,
+      "toNodeId": 94853,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94840,
+      "toNodeId": 94837,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94840,
+      "toNodeId": 94845,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94831,
+      "toNodeId": 94830,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94825,
+      "toNodeId": 94850,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94851,
+      "toNodeId": 94847,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94851,
+      "toNodeId": 94825,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94851,
+      "toNodeId": 94832,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94845,
+      "toNodeId": 94835,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94836,
+      "toNodeId": 94833,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94855,
+      "toNodeId": 94849,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94855,
+      "toNodeId": 94856,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94855,
+      "toNodeId": 94826,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94856,
+      "toNodeId": 94848,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94826,
+      "toNodeId": 94852,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94822,
+      "toNodeId": 94834,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94848,
+      "toNodeId": 94831,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94846,
+      "toNodeId": 94857,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94847,
+      "toNodeId": 94823,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94821,
+      "toNodeId": 94857,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94823,
+      "toNodeId": 94846,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94850,
+      "toNodeId": 94821,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94829,
+      "toNodeId": 94842,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94833,
+      "toNodeId": 94830,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94853,
+      "toNodeId": 94822,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94849,
+      "toNodeId": 94836,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94834,
+      "toNodeId": 94842,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94832,
+      "toNodeId": 94824,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94843,
+      "toNodeId": 94830,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94852,
+      "toNodeId": 94843,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94838,
+      "toNodeId": 94857,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94824,
+      "toNodeId": 94838,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94844,
+      "toNodeId": 94842,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94835,
+      "toNodeId": 94844,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109251,
+      "toNodeId": 109257,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101888,
+      "toNodeId": 109257,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101891,
+      "toNodeId": 101894,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101894,
+      "toNodeId": 109251,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101894,
+      "toNodeId": 101888,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109833,
+      "toNodeId": 109832,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109831,
+      "toNodeId": 94830,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109832,
+      "toNodeId": 109831,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94855,
+      "toNodeId": 109833,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94840,
+      "toNodeId": 109836,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109834,
+      "toNodeId": 94842,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109835,
+      "toNodeId": 109834,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109836,
+      "toNodeId": 109835,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109839,
+      "toNodeId": 109838,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109838,
+      "toNodeId": 109837,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109837,
+      "toNodeId": 94857,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94851,
+      "toNodeId": 109839,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71918,
+      "toNodeId": 71926,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71956,
+      "toNodeId": 71918,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71924,
+      "toNodeId": 71957,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71955,
+      "toNodeId": 71924,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71924,
+      "toNodeId": 109848,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71947,
+      "toNodeId": 71924,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109841,
+      "toNodeId": 71957,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71955,
+      "toNodeId": 109841,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71941,
+      "toNodeId": 109848,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71947,
+      "toNodeId": 71941,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71942,
+      "toNodeId": 109845,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109861,
+      "toNodeId": 72051,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72050,
+      "toNodeId": 109861,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109860,
+      "toNodeId": 109859,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72051,
+      "toNodeId": 109860,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72049,
+      "toNodeId": 109862,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72049,
+      "toNodeId": 72050,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109257,
+      "toNodeId": 109936,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109842,
+      "toNodeId": 71957,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71955,
+      "toNodeId": 109842,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109842,
+      "toNodeId": 71926,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71956,
+      "toNodeId": 109842,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71937,
+      "toNodeId": 71956,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71936,
+      "toNodeId": 71937,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109845,
+      "toNodeId": 71923,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71933,
+      "toNodeId": 71950,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71933,
+      "toNodeId": 71952,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71949,
+      "toNodeId": 71948,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71949,
+      "toNodeId": 71950,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71931,
+      "toNodeId": 71952,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71931,
+      "toNodeId": 71932,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71917,
+      "toNodeId": 71947,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71923,
+      "toNodeId": 71917,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110074,
+      "toNodeId": 71917,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71938,
+      "toNodeId": 71917,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110072,
+      "toNodeId": 71938,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71954,
+      "toNodeId": 110073,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71954,
+      "toNodeId": 109843,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109840,
+      "toNodeId": 109843,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110071,
+      "toNodeId": 109840,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109843,
+      "toNodeId": 71956,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110073,
+      "toNodeId": 71947,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109843,
+      "toNodeId": 71955,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110075,
+      "toNodeId": 109843,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110073,
+      "toNodeId": 71955,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110074,
+      "toNodeId": 110073,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71916,
+      "toNodeId": 109846,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71916,
+      "toNodeId": 109847,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71950,
+      "toNodeId": 71916,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71952,
+      "toNodeId": 71916,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109844,
+      "toNodeId": 110072,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71922,
+      "toNodeId": 109844,
+      "type": 2
+    },
+    {
+      "fromNodeId": 100941,
+      "toNodeId": 110075,
+      "type": 2
+    },
+    {
+      "fromNodeId": 100941,
+      "toNodeId": 110074,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109846,
+      "toNodeId": 100941,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109847,
+      "toNodeId": 100941,
+      "type": 2
+    },
+    {
+      "fromNodeId": 100941,
+      "toNodeId": 71954,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71922,
+      "toNodeId": 71942,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71922,
+      "toNodeId": 109846,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71930,
+      "toNodeId": 109847,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71930,
+      "toNodeId": 71944,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110071,
+      "toNodeId": 71936,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110071,
+      "toNodeId": 110075,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110072,
+      "toNodeId": 110074,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110076,
+      "toNodeId": 71947,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71923,
+      "toNodeId": 110076,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110072,
+      "toNodeId": 71923,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71948,
+      "toNodeId": 71922,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71950,
+      "toNodeId": 71922,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71932,
+      "toNodeId": 71930,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71952,
+      "toNodeId": 71930,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109847,
+      "toNodeId": 110071,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71944,
+      "toNodeId": 110071,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109846,
+      "toNodeId": 110072,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71942,
+      "toNodeId": 110072,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109241,
+      "toNodeId": 101908,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110191,
+      "toNodeId": 101886,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110201,
+      "toNodeId": 110197,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110201,
+      "toNodeId": 110198,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110191,
+      "toNodeId": 110201,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101905,
+      "toNodeId": 110191,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101887,
+      "toNodeId": 101905,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101914,
+      "toNodeId": 101905,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101905,
+      "toNodeId": 109241,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101893,
+      "toNodeId": 101887,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101887,
+      "toNodeId": 101892,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109257,
+      "toNodeId": 101887,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101887,
+      "toNodeId": 109248,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101909,
+      "toNodeId": 101908,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101909,
+      "toNodeId": 101903,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110192,
+      "toNodeId": 101909,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101892,
+      "toNodeId": 101909,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109248,
+      "toNodeId": 101909,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109934,
+      "toNodeId": 101920,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101914,
+      "toNodeId": 101920,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101920,
+      "toNodeId": 110193,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110194,
+      "toNodeId": 110193,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101914,
+      "toNodeId": 110194,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109936,
+      "toNodeId": 101892,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110193,
+      "toNodeId": 101886,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110193,
+      "toNodeId": 109249,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109253,
+      "toNodeId": 110193,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101923,
+      "toNodeId": 109934,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109934,
+      "toNodeId": 109253,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109250,
+      "toNodeId": 101923,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110195,
+      "toNodeId": 101923,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101923,
+      "toNodeId": 101914,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109244,
+      "toNodeId": 110195,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109936,
+      "toNodeId": 110192,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109250,
+      "toNodeId": 101893,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109251,
+      "toNodeId": 101893,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101893,
+      "toNodeId": 101914,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110197,
+      "toNodeId": 110196,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101908,
+      "toNodeId": 110197,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101903,
+      "toNodeId": 110197,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109252,
+      "toNodeId": 101895,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101903,
+      "toNodeId": 109252,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110200,
+      "toNodeId": 101917,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101886,
+      "toNodeId": 110198,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109249,
+      "toNodeId": 110198,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110198,
+      "toNodeId": 110199,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109249,
+      "toNodeId": 110200,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109241,
+      "toNodeId": 110201,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109244,
+      "toNodeId": 109250,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101891,
+      "toNodeId": 109244,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110269,
+      "toNodeId": 72046,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110269,
+      "toNodeId": 109849,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72055,
+      "toNodeId": 110269,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72054,
+      "toNodeId": 110269,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72055,
+      "toNodeId": 72034,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72058,
+      "toNodeId": 72034,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72058,
+      "toNodeId": 72037,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72051,
+      "toNodeId": 72058,
+      "type": 2
+    },
+    {
+      "fromNodeId": 102031,
+      "toNodeId": 72058,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72045,
+      "toNodeId": 72055,
+      "type": 2
+    },
+    {
+      "fromNodeId": 102031,
+      "toNodeId": 72055,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109864,
+      "toNodeId": 109866,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109863,
+      "toNodeId": 109865,
+      "type": 2
+    },
+    {
+      "fromNodeId": 102247,
+      "toNodeId": 72033,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109864,
+      "toNodeId": 102247,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109863,
+      "toNodeId": 102247,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109849,
+      "toNodeId": 109863,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110270,
+      "toNodeId": 109863,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109858,
+      "toNodeId": 109863,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109850,
+      "toNodeId": 109864,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109858,
+      "toNodeId": 109864,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71987,
+      "toNodeId": 109864,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72034,
+      "toNodeId": 71987,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72034,
+      "toNodeId": 110270,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109849,
+      "toNodeId": 109857,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72037,
+      "toNodeId": 72041,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109850,
+      "toNodeId": 109851,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72037,
+      "toNodeId": 109850,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109860,
+      "toNodeId": 72037,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109859,
+      "toNodeId": 72041,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72041,
+      "toNodeId": 109851,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72046,
+      "toNodeId": 109857,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72034,
+      "toNodeId": 109858,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109857,
+      "toNodeId": 109865,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109851,
+      "toNodeId": 109866,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72045,
+      "toNodeId": 72054,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72047,
+      "toNodeId": 72045,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109862,
+      "toNodeId": 72032,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72032,
+      "toNodeId": 102031,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72050,
+      "toNodeId": 72032,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109862,
+      "toNodeId": 72047,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109865,
+      "toNodeId": 109855,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109865,
+      "toNodeId": 109852,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109866,
+      "toNodeId": 109854,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109866,
+      "toNodeId": 109853,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108681,
+      "toNodeId": 110280,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71968,
+      "toNodeId": 102003,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71980,
+      "toNodeId": 101992,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71971,
+      "toNodeId": 110281,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71971,
+      "toNodeId": 71964,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71982,
+      "toNodeId": 71971,
+      "type": 2
+    },
+    {
+      "fromNodeId": 102427,
+      "toNodeId": 71971,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72062,
+      "toNodeId": 71971,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71983,
+      "toNodeId": 72061,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72060,
+      "toNodeId": 72061,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101994,
+      "toNodeId": 71980,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72061,
+      "toNodeId": 71980,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71980,
+      "toNodeId": 72066,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71972,
+      "toNodeId": 71980,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71983,
+      "toNodeId": 71972,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71969,
+      "toNodeId": 72062,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71974,
+      "toNodeId": 71982,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71969,
+      "toNodeId": 71982,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71974,
+      "toNodeId": 102427,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72064,
+      "toNodeId": 101993,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110281,
+      "toNodeId": 72064,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110281,
+      "toNodeId": 71968,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72066,
+      "toNodeId": 108681,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71964,
+      "toNodeId": 71968,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101992,
+      "toNodeId": 71965,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71964,
+      "toNodeId": 71965,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71960,
+      "toNodeId": 71964,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71960,
+      "toNodeId": 101992,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71985,
+      "toNodeId": 71960,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71969,
+      "toNodeId": 71985,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71983,
+      "toNodeId": 71985,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71961,
+      "toNodeId": 71985,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71979,
+      "toNodeId": 71961,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72060,
+      "toNodeId": 101994,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72059,
+      "toNodeId": 72060,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71973,
+      "toNodeId": 71969,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71973,
+      "toNodeId": 71974,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71979,
+      "toNodeId": 71969,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71979,
+      "toNodeId": 71983,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72059,
+      "toNodeId": 71983,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108680,
+      "toNodeId": 72059,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72067,
+      "toNodeId": 72059,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72068,
+      "toNodeId": 108680,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72068,
+      "toNodeId": 72067,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72067,
+      "toNodeId": 71979,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108678,
+      "toNodeId": 71979,
+      "type": 2
+    },
+    {
+      "fromNodeId": 108678,
+      "toNodeId": 71973,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72065,
+      "toNodeId": 71973,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72069,
+      "toNodeId": 72065,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72069,
+      "toNodeId": 108678,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110282,
+      "toNodeId": 72069,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110282,
+      "toNodeId": 72068,
+      "type": 2
+    },
+    {
+      "fromNodeId": 71975,
+      "toNodeId": 71966,
+      "type": 2
+    },
+    {
+      "fromNodeId": 72066,
+      "toNodeId": 71975,
+      "type": 2
+    },
+    {
+      "fromNodeId": 101992,
+      "toNodeId": 71975,
+      "type": 2
+    }
+  ]
+}

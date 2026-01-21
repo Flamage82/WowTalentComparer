@@ -21,6 +21,7 @@ export interface TalentNodeData {
   type: number
   maxRanks: number
   entries: TalentEntryData[]
+  allowedSpecs?: number[] // Specs that can use this node (empty/undefined = all specs)
 }
 
 export interface TalentEntryData {
@@ -28,6 +29,7 @@ export interface TalentEntryData {
   definitionId: number
   spellId: number
   name: string
+  iconId: number
   maxRanks: number
   entryIndex: number
 }

@@ -12,83 +12,182 @@
 
 .talent-tree-svg {
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
 
-.talent-overlay {
+/* Edges */
+.edge {
+  stroke: #5a5040;
+  stroke-width: 3;
+}
+
+.edge.active {
+  stroke: #c9a54e;
+}
+
+/* Overlay layers */
+.talent-overlay,
+.talent-ranks {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.talent-ranks {
   pointer-events: none;
 }
 
-.talent-hotspot {
+/* Talent nodes with Wowhead icons */
+.talent-node {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
-  pointer-events: auto;
-  cursor: pointer;
-  background: transparent;
+  border: 2px solid #555;
+  background: rgba(20, 20, 30, 0.95);
+  overflow: hidden;
   text-decoration: none;
+  transition: all 0.15s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.talent-hotspot:hover {
-  background: rgba(255, 255, 255, 0.15);
+.talent-node:hover {
+  transform: scale(1.15);
+  z-index: 10;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
 }
 
-/* Edges */
-.edge {
-  stroke: rgba(255, 255, 255, 0.2);
-  stroke-width: 2;
+/* Selected state - golden glow like in-game */
+.talent-node.selected {
+  border-color: #c9a54e;
+  box-shadow: 0 0 8px rgba(201, 165, 78, 0.6), 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Nodes */
-.node {
-  fill: rgba(60, 60, 70, 0.8);
-  stroke: rgba(255, 255, 255, 0.3);
-  stroke-width: 2;
-  transition: all 0.2s ease;
+.talent-node.selected:hover {
+  border-color: #e6c361;
+  box-shadow: 0 0 12px rgba(201, 165, 78, 0.8), 0 4px 12px rgba(0, 0, 0, 0.7);
 }
 
-.node:hover {
-  stroke: rgba(255, 255, 255, 0.6);
-  cursor: pointer;
+/* Unselected state - desaturate */
+.talent-node.unselected {
+  filter: saturate(0.3) brightness(0.5);
+  border-color: #333;
 }
 
-/* Selected nodes */
-.node.selected {
-  fill: rgba(34, 197, 94, 0.8);
-  stroke: rgba(134, 239, 172, 0.8);
+.talent-node.unselected:hover {
+  filter: saturate(0.5) brightness(0.7);
+  border-color: #555;
 }
 
-/* Choice nodes (multiple entries) */
-.node.choice {
-  stroke-width: 3;
+/* Choice nodes - thicker gold border */
+.talent-node.choice {
+  border-width: 3px;
+  border-color: #8b6914;
 }
 
-.node.choice:not(.selected) {
-  stroke: rgba(251, 191, 36, 0.5);
+.talent-node.choice.selected {
+  border-color: #d4a017;
+  box-shadow: 0 0 10px rgba(212, 160, 23, 0.7), 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.node.choice.selected {
-  stroke: rgba(251, 191, 36, 0.9);
+.talent-node.choice.unselected {
+  border-color: #5a4510;
 }
 
-/* Hero talent nodes (type 3) */
-.node.type-3 {
-  fill: rgba(168, 85, 247, 0.6);
-  stroke: rgba(216, 180, 254, 0.6);
+/* Hero talent nodes - purple glow */
+.talent-node.hero {
+  border-color: #6b4c9a;
+  border-width: 3px;
 }
 
-.node.type-3.selected {
-  fill: rgba(168, 85, 247, 0.9);
-  stroke: rgba(216, 180, 254, 1);
+.talent-node.hero.selected {
+  border-color: #9b6ddb;
+  box-shadow: 0 0 10px rgba(155, 109, 219, 0.6), 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Rank text */
-.rank-text {
-  font-size: 8px;
-  fill: rgba(255, 255, 255, 0.5);
+.talent-node.hero.selected:hover {
+  border-color: #b68eff;
+  box-shadow: 0 0 14px rgba(155, 109, 219, 0.8), 0 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+/* Style the Wowhead-injected icon wrappers */
+.talent-node .iconsmall,
+.talent-node .iconmedium {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  position: relative !important;
+}
+
+/* Wowhead uses an <ins> element with background-image for the icon */
+.talent-node .iconsmall ins,
+.talent-node .iconmedium ins {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+  margin: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  border-radius: 50% !important;
+}
+
+/* Hide the del element Wowhead adds */
+.talent-node .iconsmall del,
+.talent-node .iconmedium del {
+  display: none !important;
+}
+
+/* Style any direct img elements (fallback) */
+.talent-node img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  object-position: center;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 50% !important;
+}
+
+/* Hide the text part of Wowhead links */
+.talent-node .iconsmall + span,
+.talent-node .iconmedium + span,
+.talent-node > span:not(.iconsmall):not(.iconmedium) {
+  display: none !important;
+}
+
+/* Ensure Wowhead wrapper spans don't interfere with sizing */
+.talent-node > span {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Rank indicators */
+.rank-indicator {
+  position: absolute;
+  transform: translateX(-50%);
+  font-size: 11px;
+  font-weight: 600;
+  color: #888;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
   pointer-events: none;
 }
 
+.rank-indicator.selected {
+  color: #c9a54e;
+}

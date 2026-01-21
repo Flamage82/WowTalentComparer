@@ -1,0 +1,6357 @@
+{
+  "specId": 263,
+  "specName": "Enhancement",
+  "className": "Shaman",
+  "treeId": 786,
+  "nodes": [
+    {
+      "id": 80938,
+      "posX": 12600,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101801,
+          "definitionId": 106880,
+          "spellId": 384149,
+          "name": "Overflowing Maelstrom",
+          "iconId": 136027,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80939,
+      "posX": 12600,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101802,
+          "definitionId": 106871,
+          "spellId": 384143,
+          "name": "Raging Maelstrom",
+          "iconId": 5929586,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80941,
+      "posX": 12600,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101804,
+          "definitionId": 106862,
+          "spellId": 187880,
+          "name": "Maelstrom Weapon",
+          "iconId": 237584,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80942,
+      "posX": 13200,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101805,
+          "definitionId": 106864,
+          "spellId": 318038,
+          "name": "Flametongue Weapon",
+          "iconId": 135814,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80943,
+      "posX": 13800,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101806,
+          "definitionId": 106863,
+          "spellId": 334033,
+          "name": "Molten Assault",
+          "iconId": 525023,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80944,
+      "posX": 12000,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101808,
+          "definitionId": 106900,
+          "spellId": 1251026,
+          "name": "Overcharge",
+          "iconId": 136111,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80945,
+      "posX": 14400,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 101809,
+          "definitionId": 106898,
+          "spellId": 201900,
+          "name": "Hot Hand",
+          "iconId": 135823,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80947,
+      "posX": 13800,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101811,
+          "definitionId": 106897,
+          "spellId": 390370,
+          "name": "Ashen Catalyst",
+          "iconId": 237588,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80948,
+      "posX": 14400,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101812,
+          "definitionId": 106896,
+          "spellId": 334046,
+          "name": "Lashing Flames",
+          "iconId": 1020305,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80949,
+      "posX": 13200,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101813,
+          "definitionId": 106882,
+          "spellId": 384444,
+          "name": "Thorim's Invocation",
+          "iconId": 237571,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80950,
+      "posX": 12600,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 101814,
+          "definitionId": 106881,
+          "spellId": 384411,
+          "name": "Static Accumulation",
+          "iconId": 136014,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80951,
+      "posX": 12000,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101815,
+          "definitionId": 106893,
+          "spellId": 210853,
+          "name": "Elemental Assault",
+          "iconId": 237581,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80953,
+      "posX": 13200,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101818,
+          "definitionId": 106868,
+          "spellId": 384355,
+          "name": "Elemental Weapons",
+          "iconId": 1006574,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80954,
+      "posX": 13800,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101819,
+          "definitionId": 106869,
+          "spellId": 470057,
+          "name": "Voltaic Blaze",
+          "iconId": 4638593,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80958,
+      "posX": 12000,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101823,
+          "definitionId": 106876,
+          "spellId": 33757,
+          "name": "Windfury Weapon",
+          "iconId": 462329,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80959,
+      "posX": 12600,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101824,
+          "definitionId": 106859,
+          "spellId": 384352,
+          "name": "Doom Winds",
+          "iconId": 1035054,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80960,
+      "posX": 10800,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101825,
+          "definitionId": 106877,
+          "spellId": 319930,
+          "name": "Stormblast",
+          "iconId": 451166,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80961,
+      "posX": 12600,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101826,
+          "definitionId": 106861,
+          "spellId": 1250364,
+          "name": "Elemental Tempo",
+          "iconId": 136028,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80962,
+      "posX": 11400,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101827,
+          "definitionId": 106860,
+          "spellId": 289874,
+          "name": "Ride the Lightning",
+          "iconId": 839974,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80963,
+      "posX": 14400,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101828,
+          "definitionId": 106883,
+          "spellId": 1218047,
+          "name": "Primordial Storm",
+          "iconId": 643246,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80964,
+      "posX": 14400,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101829,
+          "definitionId": 106884,
+          "spellId": 382042,
+          "name": "Surging Elements",
+          "iconId": 348560,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80967,
+      "posX": 11400,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101832,
+          "definitionId": 107009,
+          "spellId": 392352,
+          "name": "Storm's Wrath",
+          "iconId": 136099,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80968,
+      "posX": 11400,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101833,
+          "definitionId": 106887,
+          "spellId": 390288,
+          "name": "Unruly Winds",
+          "iconId": 1029596,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80969,
+      "posX": 11400,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101834,
+          "definitionId": 106888,
+          "spellId": 262647,
+          "name": "Forceful Winds",
+          "iconId": 462329,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80973,
+      "posX": 11400,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101839,
+          "definitionId": 106878,
+          "spellId": 384363,
+          "name": "Converging Storms",
+          "iconId": 613535,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80974,
+      "posX": 12600,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101840,
+          "definitionId": 106879,
+          "spellId": 187874,
+          "name": "Crash Lightning",
+          "iconId": 1370984,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80975,
+      "posX": 13800,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101841,
+          "definitionId": 106874,
+          "spellId": 197214,
+          "name": "Sundering",
+          "iconId": 524794,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 80976,
+      "posX": 12600,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101842,
+          "definitionId": 106901,
+          "spellId": 1217598,
+          "name": "Whispering Waves",
+          "iconId": 1385912,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 80978,
+      "posX": 13200,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101844,
+          "definitionId": 106856,
+          "spellId": 117013,
+          "name": "Primal Elementalist",
+          "iconId": 651081,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80981,
+      "posX": 13200,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101850,
+          "definitionId": 106837,
+          "spellId": 333919,
+          "name": "Echo of the Elements",
+          "iconId": 538566,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80983,
+      "posX": 12600,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101853,
+          "definitionId": 106810,
+          "spellId": 60188,
+          "name": "Elemental Fury",
+          "iconId": 135830,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80984,
+      "posX": 12600,
+      "posY": 1200,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101854,
+          "definitionId": 106811,
+          "spellId": 8042,
+          "name": "Earth Shock",
+          "iconId": 136026,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 127924,
+          "definitionId": 132733,
+          "spellId": 117014,
+          "name": "Elemental Blast",
+          "iconId": 651244,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80985,
+      "posX": 12000,
+      "posY": 1800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101855,
+          "definitionId": 106814,
+          "spellId": 462620,
+          "name": "Earthquake",
+          "iconId": 451165,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 127925,
+          "definitionId": 132734,
+          "spellId": 61882,
+          "name": "Earthquake",
+          "iconId": 451165,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80988,
+      "posX": 12600,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101859,
+          "definitionId": 106819,
+          "spellId": 191634,
+          "name": "Stormkeeper",
+          "iconId": 839977,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80989,
+      "posX": 12600,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101860,
+          "definitionId": 106820,
+          "spellId": 114050,
+          "name": "Ascendance",
+          "iconId": 135791,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80990,
+      "posX": 11400,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101861,
+          "definitionId": 106843,
+          "spellId": 381936,
+          "name": "Flash of Lightning",
+          "iconId": 135990,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80991,
+      "posX": 10800,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101862,
+          "definitionId": 106844,
+          "spellId": 468625,
+          "name": "Charged Conduit",
+          "iconId": 839983,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80992,
+      "posX": 12600,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101864,
+          "definitionId": 106846,
+          "spellId": 378255,
+          "name": "Call of Fire",
+          "iconId": 135790,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80993,
+      "posX": 10800,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101865,
+          "definitionId": 106841,
+          "spellId": 462840,
+          "name": "Fusion of Elements",
+          "iconId": 4630359,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80995,
+      "posX": 11400,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101867,
+          "definitionId": 106821,
+          "spellId": 468626,
+          "name": "Earthshatter",
+          "iconId": 136025,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80996,
+      "posX": 10800,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101869,
+          "definitionId": 106823,
+          "spellId": 191861,
+          "name": "Power of the Maelstrom",
+          "iconId": 135820,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80997,
+      "posX": 10800,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101870,
+          "definitionId": 106817,
+          "spellId": 462862,
+          "name": "Lightning Capacitor",
+          "iconId": 136051,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80998,
+      "posX": 13200,
+      "posY": 3600,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101871,
+          "definitionId": 106816,
+          "spellId": 191717,
+          "name": "Fury of the Storms",
+          "iconId": 2065626,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 128223,
+          "definitionId": 133030,
+          "spellId": 468571,
+          "name": "Herald of the Storms",
+          "iconId": 4630367,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 80999,
+      "posX": 13800,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101872,
+          "definitionId": 106832,
+          "spellId": 1258843,
+          "name": "Molten Wrath",
+          "iconId": 237582,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136714,
+          "definitionId": 141486,
+          "spellId": 16166,
+          "name": "Master of the Elements",
+          "iconId": 136027,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81000,
+      "posX": 12600,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101874,
+          "definitionId": 106831,
+          "spellId": 1258899,
+          "name": "Tectonic Collapse",
+          "iconId": 348539,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 101873,
+          "definitionId": 106830,
+          "spellId": 273221,
+          "name": "Aftershock",
+          "iconId": 136099,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81002,
+      "posX": 12000,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101876,
+          "definitionId": 106826,
+          "spellId": 381726,
+          "name": "Mountains Will Fall",
+          "iconId": 2101174,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81003,
+      "posX": 12000,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101877,
+          "definitionId": 106827,
+          "spellId": 381708,
+          "name": "Eye of the Storm",
+          "iconId": 136213,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81004,
+      "posX": 14400,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101879,
+          "definitionId": 106829,
+          "spellId": 318038,
+          "name": "Flametongue Weapon",
+          "iconId": 135814,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81005,
+      "posX": 13800,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101880,
+          "definitionId": 106847,
+          "spellId": 381782,
+          "name": "Searing Flames",
+          "iconId": 1282282,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81007,
+      "posX": 13800,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101883,
+          "definitionId": 106850,
+          "spellId": 470057,
+          "name": "Voltaic Blaze",
+          "iconId": 4638593,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81008,
+      "posX": 13200,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101885,
+          "definitionId": 106852,
+          "spellId": 1259047,
+          "name": "Inferno Arc",
+          "iconId": 1020305,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81010,
+      "posX": 13800,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101887,
+          "definitionId": 106854,
+          "spellId": 170374,
+          "name": "Earthen Rage",
+          "iconId": 1016245,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81012,
+      "posX": 11400,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101889,
+          "definitionId": 106838,
+          "spellId": 210689,
+          "name": "Lightning Rod",
+          "iconId": 237443,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81015,
+      "posX": 12600,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101892,
+          "definitionId": 106824,
+          "spellId": 382032,
+          "name": "Echo Chamber",
+          "iconId": 136050,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81016,
+      "posX": 12000,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101893,
+          "definitionId": 106815,
+          "spellId": 381707,
+          "name": "Swelling Maelstrom",
+          "iconId": 237584,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 81018,
+      "posX": 15000,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101895,
+          "definitionId": 106925,
+          "spellId": 382482,
+          "name": "Living Stream",
+          "iconId": 136061,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81019,
+      "posX": 14400,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101896,
+          "definitionId": 106923,
+          "spellId": 1252841,
+          "name": "Calm Waters",
+          "iconId": 4554453,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81021,
+      "posX": 14400,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101899,
+          "definitionId": 106921,
+          "spellId": 382030,
+          "name": "Water Totem Mastery",
+          "iconId": 538573,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81022,
+      "posX": 13800,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101900,
+          "definitionId": 106920,
+          "spellId": 392916,
+          "name": "Healing Stream Totem",
+          "iconId": 135127,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81024,
+      "posX": 13800,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101902,
+          "definitionId": 106916,
+          "spellId": 16196,
+          "name": "Resurgence",
+          "iconId": 132315,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81027,
+      "posX": 13200,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101905,
+          "definitionId": 106805,
+          "spellId": 61295,
+          "name": "Riptide",
+          "iconId": 252995,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81031,
+      "posX": 14400,
+      "posY": 4800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101911,
+          "definitionId": 106944,
+          "spellId": 382732,
+          "name": "Ancestral Reach",
+          "iconId": 6712961,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 101910,
+          "definitionId": 106943,
+          "spellId": 382039,
+          "name": "Flow of the Tides",
+          "iconId": 135859,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81032,
+      "posX": 13200,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101912,
+          "definitionId": 106942,
+          "spellId": 114052,
+          "name": "Ascendance",
+          "iconId": 135791,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 135486,
+          "definitionId": 140243,
+          "spellId": 108280,
+          "name": "Healing Tide Totem",
+          "iconId": 538569,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81033,
+      "posX": 13200,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101913,
+          "definitionId": 106933,
+          "spellId": 462440,
+          "name": "First Ascendant",
+          "iconId": 237572,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 135485,
+          "definitionId": 140242,
+          "spellId": 462443,
+          "name": "Preeminence",
+          "iconId": 451167,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81037,
+      "posX": 12000,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101919,
+          "definitionId": 106907,
+          "spellId": 200076,
+          "name": "Deluge",
+          "iconId": 893777,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81038,
+      "posX": 12000,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101920,
+          "definitionId": 106908,
+          "spellId": 1253093,
+          "name": "Current Control",
+          "iconId": 463570,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81039,
+      "posX": 12600,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101922,
+          "definitionId": 106910,
+          "spellId": 378443,
+          "name": "Acid Rain",
+          "iconId": 136007,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81040,
+      "posX": 12600,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101923,
+          "definitionId": 106911,
+          "spellId": 73920,
+          "name": "Healing Rain",
+          "iconId": 136037,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81041,
+      "posX": 13800,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101924,
+          "definitionId": 106915,
+          "spellId": 98008,
+          "name": "Spirit Link Totem",
+          "iconId": 237586,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81042,
+      "posX": 13800,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101925,
+          "definitionId": 106912,
+          "spellId": 470076,
+          "name": "Coalescing Water",
+          "iconId": 1568673,
+          "maxRanks": 1,
+          "entryIndex": 400
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81043,
+      "posX": 12000,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 101927,
+          "definitionId": 106914,
+          "spellId": 382309,
+          "name": "Ancestral Awakening",
+          "iconId": 237571,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81044,
+      "posX": 13200,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101928,
+          "definitionId": 106941,
+          "spellId": 333919,
+          "name": "Echo of the Elements",
+          "iconId": 538566,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81046,
+      "posX": 15000,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101931,
+          "definitionId": 106931,
+          "spellId": 1254210,
+          "name": "Earthweaver",
+          "iconId": 136089,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81047,
+      "posX": 13200,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101932,
+          "definitionId": 106929,
+          "spellId": 462587,
+          "name": "White Water",
+          "iconId": 893779,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81048,
+      "posX": 15000,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101934,
+          "definitionId": 106927,
+          "spellId": 1253099,
+          "name": "Quickstream",
+          "iconId": 135127,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81049,
+      "posX": 13800,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101935,
+          "definitionId": 106928,
+          "spellId": 382021,
+          "name": "Earthliving Weapon",
+          "iconId": 237578,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81050,
+      "posX": 13800,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101936,
+          "definitionId": 106938,
+          "spellId": 382315,
+          "name": "Improved Earthliving Weapon",
+          "iconId": 237578,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81051,
+      "posX": 15000,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101937,
+          "definitionId": 106936,
+          "spellId": 378270,
+          "name": "Deeply Rooted Elements",
+          "iconId": 960689,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81052,
+      "posX": 13200,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 101939,
+          "definitionId": 106935,
+          "spellId": 382194,
+          "name": "Undercurrent",
+          "iconId": 135784,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81055,
+      "posX": 12600,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101942,
+          "definitionId": 106939,
+          "spellId": 382045,
+          "name": "Primal Tide Core",
+          "iconId": 538571,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 81073,
+      "posX": 3900,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101964,
+          "definitionId": 106962,
+          "spellId": 383016,
+          "name": "Improved Purify Spirit",
+          "iconId": 236288,
+          "maxRanks": 1,
+          "entryIndex": 0
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 92219,
+      "posX": 12000,
+      "posY": 6600,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101816,
+          "definitionId": 106894,
+          "spellId": 378270,
+          "name": "Deeply Rooted Elements",
+          "iconId": 960689,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 114291,
+          "definitionId": 119296,
+          "spellId": 114051,
+          "name": "Ascendance",
+          "iconId": 135791,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 92675,
+      "posX": 12600,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 114811,
+          "definitionId": 119818,
+          "spellId": 73685,
+          "name": "Unleash Life",
+          "iconId": 462328,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 92677,
+      "posX": 11400,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 114813,
+          "definitionId": 119820,
+          "spellId": 383222,
+          "name": "Overflowing Shores",
+          "iconId": 136037,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 94858,
+      "posX": 7500,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117455,
+          "definitionId": 122467,
+          "spellId": 443442,
+          "name": "Natural Harmony",
+          "iconId": 136060,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123631,
+          "definitionId": 128469,
+          "spellId": 443441,
+          "name": "Earthen Communion",
+          "iconId": 136089,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 94859,
+      "posX": 15000,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117456,
+          "definitionId": 122468,
+          "spellId": 445026,
+          "name": "Oversized Totems",
+          "iconId": 538574,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 125825,
+          "definitionId": 130656,
+          "spellId": 445027,
+          "name": "Swift Recall",
+          "iconId": 136013,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 94860,
+      "posX": 8100,
+      "posY": 2398,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117457,
+          "definitionId": 122469,
+          "spellId": 443448,
+          "name": "Primordial Capacity",
+          "iconId": 1056569,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 94861,
+      "posX": 8700,
+      "posY": 2398,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117458,
+          "definitionId": 122470,
+          "spellId": 443425,
+          "name": "Spiritwalker's Momentum",
+          "iconId": 451170,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 94862,
+      "posX": 7500,
+      "posY": 1798,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117459,
+          "definitionId": 122471,
+          "spellId": 443449,
+          "name": "Latent Wisdom",
+          "iconId": 135977,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123632,
+          "definitionId": 128470,
+          "spellId": 443423,
+          "name": "Ancient Fellowship",
+          "iconId": 237572,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 94863,
+      "posX": 8700,
+      "posY": 4797,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117460,
+          "definitionId": 122472,
+          "spellId": 467778,
+          "name": "Lightning Conduit",
+          "iconId": 237587,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 128226,
+          "definitionId": 133033,
+          "spellId": 454022,
+          "name": "Electroshock",
+          "iconId": 839979,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 94866,
+      "posX": 15600,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117463,
+          "definitionId": 122475,
+          "spellId": 445032,
+          "name": "Pulse Capacitor",
+          "iconId": 136028,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 125824,
+          "definitionId": 130655,
+          "spellId": 445033,
+          "name": "Supportive Imbuements",
+          "iconId": 538567,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 94867,
+      "posX": 8400,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117464,
+          "definitionId": 122476,
+          "spellId": 455129,
+          "name": "Awakening Storms",
+          "iconId": 136099,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 94868,
+      "posX": 8100,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117465,
+          "definitionId": 122477,
+          "spellId": 455123,
+          "name": "Conductive Energy",
+          "iconId": 237443,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 94869,
+      "posX": 8700,
+      "posY": 1798,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117466,
+          "definitionId": 122478,
+          "spellId": 443418,
+          "name": "Elemental Reverb",
+          "iconId": 538566,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 94870,
+      "posX": 7500,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117467,
+          "definitionId": 122479,
+          "spellId": 454919,
+          "name": "Voltaic Surge",
+          "iconId": 136014,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 94871,
+      "posX": 15000,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117468,
+          "definitionId": 122480,
+          "spellId": 445028,
+          "name": "Imbuement Mastery",
+          "iconId": 462329,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 94872,
+      "posX": 16200,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117469,
+          "definitionId": 122481,
+          "spellId": 445035,
+          "name": "Splitstream",
+          "iconId": 524794,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 94873,
+      "posX": 7500,
+      "posY": 5400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117470,
+          "definitionId": 122482,
+          "spellId": 455088,
+          "name": "Storm Swell",
+          "iconId": 136111,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 128225,
+          "definitionId": 133032,
+          "spellId": 455110,
+          "name": "Supercharge",
+          "iconId": 463562,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 94874,
+      "posX": 15600,
+      "posY": 1800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117471,
+          "definitionId": 122483,
+          "spellId": 445029,
+          "name": "Amplification Core",
+          "iconId": 4630443,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 125823,
+          "definitionId": 130654,
+          "spellId": 445030,
+          "name": "Oversurge",
+          "iconId": 135791,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 94875,
+      "posX": 8700,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117472,
+          "definitionId": 122484,
+          "spellId": 443446,
+          "name": "Final Calling",
+          "iconId": 237571,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 94877,
+      "posX": 15900,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117474,
+          "definitionId": 122486,
+          "spellId": 455630,
+          "name": "Surging Totem",
+          "iconId": 5927655,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 94879,
+      "posX": 15900,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117476,
+          "definitionId": 122488,
+          "spellId": 445024,
+          "name": "Whirling Elements",
+          "iconId": 4631364,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 94880,
+      "posX": 8700,
+      "posY": 6000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117477,
+          "definitionId": 122489,
+          "spellId": 454027,
+          "name": "Nature's Protection",
+          "iconId": 136051,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 125617,
+          "definitionId": 130449,
+          "spellId": 454372,
+          "name": "Surging Currents",
+          "iconId": 839983,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 94881,
+      "posX": 16200,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117478,
+          "definitionId": 122490,
+          "spellId": 445036,
+          "name": "Totemic Coordination",
+          "iconId": 538566,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 125822,
+          "definitionId": 130653,
+          "spellId": 455590,
+          "name": "Earthsurge",
+          "iconId": 2101174,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 94882,
+      "posX": 16200,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117479,
+          "definitionId": 122491,
+          "spellId": 445034,
+          "name": "Lively Totems",
+          "iconId": 135825,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 94883,
+      "posX": 8100,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117480,
+          "definitionId": 122492,
+          "spellId": 443447,
+          "name": "Maelstrom Supremacy",
+          "iconId": 136213,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 94884,
+      "posX": 8100,
+      "posY": 1800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117481,
+          "definitionId": 122493,
+          "spellId": 443444,
+          "name": "Heed My Call",
+          "iconId": 136234,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123630,
+          "definitionId": 128468,
+          "spellId": 443445,
+          "name": "Routine Communication",
+          "iconId": 136109,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 94885,
+      "posX": 8100,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117482,
+          "definitionId": 122494,
+          "spellId": 455096,
+          "name": "Arc Discharge",
+          "iconId": 839974,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 94886,
+      "posX": 7500,
+      "posY": 4797,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117483,
+          "definitionId": 122495,
+          "spellId": 454391,
+          "name": "Unlimited Power",
+          "iconId": 136075,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 94887,
+      "posX": 7500,
+      "posY": 2398,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117484,
+          "definitionId": 122496,
+          "spellId": 443451,
+          "name": "Offering from Beyond",
+          "iconId": 237574,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 94888,
+      "posX": 8400,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117485,
+          "definitionId": 122497,
+          "spellId": 443450,
+          "name": "Call of the Ancestors",
+          "iconId": 2021574,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 94889,
+      "posX": 8700,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117486,
+          "definitionId": 122498,
+          "spellId": 454026,
+          "name": "Rolling Thunder",
+          "iconId": 135990,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 94890,
+      "posX": 15000,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117487,
+          "definitionId": 122499,
+          "spellId": 445025,
+          "name": "Totemic Rebound",
+          "iconId": 252174,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 94891,
+      "posX": 15600,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117488,
+          "definitionId": 122500,
+          "spellId": 445031,
+          "name": "Wind Barrier",
+          "iconId": 136032,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 94892,
+      "posX": 8400,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117489,
+          "definitionId": 122501,
+          "spellId": 454009,
+          "name": "Tempest",
+          "iconId": 5927653,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 94893,
+      "posX": 8100,
+      "posY": 4797,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117490,
+          "definitionId": 122502,
+          "spellId": 454021,
+          "name": "Stormcaller",
+          "iconId": 252174,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 94894,
+      "posX": 8400,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 117491,
+          "definitionId": 122503,
+          "spellId": 448861,
+          "name": "Ancestral Swiftness",
+          "iconId": 5927625,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 99845,
+      "posX": 7199,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123377,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123376,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 99846,
+      "posX": 8999,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123380,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123378,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 99847,
+      "posX": 8099,
+      "posY": 600,
+      "type": 3,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 123381,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 123379,
+          "definitionId": 0,
+          "spellId": 0,
+          "name": "",
+          "iconId": 0,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 103427,
+      "posX": 14400,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 127671,
+          "definitionId": 132480,
+          "spellId": 381946,
+          "name": "Wavespeaker's Blessing",
+          "iconId": 2451604,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 103428,
+      "posX": 12000,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127672,
+          "definitionId": 132481,
+          "spellId": 1252874,
+          "name": "Soothing Rain",
+          "iconId": 136213,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 103429,
+      "posX": 12600,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 127673,
+          "definitionId": 132482,
+          "spellId": 207401,
+          "name": "Ancestral Vigor",
+          "iconId": 237574,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 103430,
+      "posX": 15000,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127674,
+          "definitionId": 132483,
+          "spellId": 382020,
+          "name": "Earthen Harmony",
+          "iconId": 237580,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 103432,
+      "posX": 13200,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127678,
+          "definitionId": 132487,
+          "spellId": 200072,
+          "name": "Torrent",
+          "iconId": 252995,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 103433,
+      "posX": 12600,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127679,
+          "definitionId": 132488,
+          "spellId": 462424,
+          "name": "Tidewaters",
+          "iconId": 893778,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 103434,
+      "posX": 11400,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127680,
+          "definitionId": 132489,
+          "spellId": 1253014,
+          "name": "Water Expulsion",
+          "iconId": 132852,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 103436,
+      "posX": 11400,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127682,
+          "definitionId": 132491,
+          "spellId": 462486,
+          "name": "Downpour",
+          "iconId": 1698701,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 103579,
+      "posX": 4500,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127851,
+          "definitionId": 132660,
+          "spellId": 192058,
+          "name": "Capacitor Totem",
+          "iconId": 136013,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103581,
+      "posX": 5100,
+      "posY": 1800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127854,
+          "definitionId": 132663,
+          "spellId": 260878,
+          "name": "Spirit Wolf",
+          "iconId": 1033494,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 127853,
+          "definitionId": 132662,
+          "spellId": 378075,
+          "name": "Thunderous Paws",
+          "iconId": 236186,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 103582,
+      "posX": 5100,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 127855,
+          "definitionId": 132664,
+          "spellId": 381689,
+          "name": "Brimming with Life",
+          "iconId": 133439,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103583,
+      "posX": 5700,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127856,
+          "definitionId": 132665,
+          "spellId": 188443,
+          "name": "Chain Lightning",
+          "iconId": 136015,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103584,
+      "posX": 2700,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127857,
+          "definitionId": 132666,
+          "spellId": 79206,
+          "name": "Spiritwalker's Grace",
+          "iconId": 451170,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103585,
+      "posX": 5700,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127858,
+          "definitionId": 132667,
+          "spellId": 198103,
+          "name": "Earth Elemental",
+          "iconId": 136024,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103586,
+      "posX": 4500,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127859,
+          "definitionId": 132668,
+          "spellId": 381650,
+          "name": "Elemental Warding",
+          "iconId": 4554441,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103587,
+      "posX": 3900,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127860,
+          "definitionId": 132669,
+          "spellId": 381930,
+          "name": "Mana Spring",
+          "iconId": 136053,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 103588,
+      "posX": 3300,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127861,
+          "definitionId": 132670,
+          "spellId": 1064,
+          "name": "Chain Heal",
+          "iconId": 6712961,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103590,
+      "posX": 2700,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127863,
+          "definitionId": 132672,
+          "spellId": 392915,
+          "name": "Healing Stream Totem",
+          "iconId": 135127,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103591,
+      "posX": 3300,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127865,
+          "definitionId": 132674,
+          "spellId": 58875,
+          "name": "Spirit Walk",
+          "iconId": 132328,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 127864,
+          "definitionId": 132673,
+          "spellId": 192063,
+          "name": "Gust of Wind",
+          "iconId": 463565,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 103593,
+      "posX": 5100,
+      "posY": 6000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127868,
+          "definitionId": 132677,
+          "spellId": 1217622,
+          "name": "Therazane's Resilience",
+          "iconId": 1385913,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136584,
+          "definitionId": 141357,
+          "spellId": 462454,
+          "name": "Reactive Warding",
+          "iconId": 4554443,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 103594,
+      "posX": 2700,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127869,
+          "definitionId": 132678,
+          "spellId": 378211,
+          "name": "Refreshing Waters",
+          "iconId": 538567,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103596,
+      "posX": 2700,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127871,
+          "definitionId": 132680,
+          "spellId": 974,
+          "name": "Earth Shield",
+          "iconId": 136089,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103598,
+      "posX": 4500,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127873,
+          "definitionId": 132682,
+          "spellId": 51505,
+          "name": "Lava Burst",
+          "iconId": 237582,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 103599,
+      "posX": 4500,
+      "posY": 6000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127874,
+          "definitionId": 132683,
+          "spellId": 8143,
+          "name": "Tremor Totem",
+          "iconId": 136108,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136567,
+          "definitionId": 141340,
+          "spellId": 383013,
+          "name": "Poison Cleansing Totem",
+          "iconId": 136070,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 103600,
+      "posX": 6300,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127875,
+          "definitionId": 132684,
+          "spellId": 204268,
+          "name": "Voodoo Mastery",
+          "iconId": 237579,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103601,
+      "posX": 2700,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127876,
+          "definitionId": 132685,
+          "spellId": 462368,
+          "name": "Elemental Resistance",
+          "iconId": 135832,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103602,
+      "posX": 2700,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127877,
+          "definitionId": 132686,
+          "spellId": 383010,
+          "name": "Elemental Orbit",
+          "iconId": 236224,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103605,
+      "posX": 4500,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127880,
+          "definitionId": 132689,
+          "spellId": 382886,
+          "name": "Fire and Ice",
+          "iconId": 430840,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103606,
+      "posX": 5700,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127881,
+          "definitionId": 132690,
+          "spellId": 462796,
+          "name": "Enhanced Imbues",
+          "iconId": 136086,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103607,
+      "posX": 5100,
+      "posY": 4800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127883,
+          "definitionId": 132692,
+          "spellId": 462791,
+          "name": "Ascending Air",
+          "iconId": 4630367,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 127882,
+          "definitionId": 132691,
+          "spellId": 462817,
+          "name": "Jet Stream",
+          "iconId": 132845,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 103608,
+      "posX": 3900,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127884,
+          "definitionId": 132693,
+          "spellId": 51886,
+          "name": "Cleanse Spirit",
+          "iconId": 236288,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 103610,
+      "posX": 3900,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127886,
+          "definitionId": 132695,
+          "spellId": 382197,
+          "name": "Ancestral Wolf Affinity",
+          "iconId": 1027879,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103611,
+      "posX": 4500,
+      "posY": 3000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127888,
+          "definitionId": 132697,
+          "spellId": 381647,
+          "name": "Planes Traveler",
+          "iconId": 237572,
+          "maxRanks": 1,
+          "entryIndex": 200
+        },
+        {
+          "id": 127887,
+          "definitionId": 132696,
+          "spellId": 377933,
+          "name": "Astral Bulwark",
+          "iconId": 237571,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ]
+    },
+    {
+      "id": 103612,
+      "posX": 5700,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127889,
+          "definitionId": 132698,
+          "spellId": 1279819,
+          "name": "Primordial Bond",
+          "iconId": 132846,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103613,
+      "posX": 5700,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127890,
+          "definitionId": 132699,
+          "spellId": 30884,
+          "name": "Nature's Guardian",
+          "iconId": 136060,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103614,
+      "posX": 3900,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 127891,
+          "definitionId": 132700,
+          "spellId": 382215,
+          "name": "Winds of Al'Akir",
+          "iconId": 236154,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103615,
+      "posX": 6300,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127892,
+          "definitionId": 132701,
+          "spellId": 57994,
+          "name": "Wind Shear",
+          "iconId": 136018,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103616,
+      "posX": 4500,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127893,
+          "definitionId": 132702,
+          "spellId": 108271,
+          "name": "Astral Shift",
+          "iconId": 538565,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103617,
+      "posX": 4500,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 127894,
+          "definitionId": 132703,
+          "spellId": 381655,
+          "name": "Nature's Fury",
+          "iconId": 136094,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103618,
+      "posX": 4500,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 127896,
+          "definitionId": 132705,
+          "spellId": 265046,
+          "name": "Static Charge",
+          "iconId": 136013,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103620,
+      "posX": 3300,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127899,
+          "definitionId": 132708,
+          "spellId": 378081,
+          "name": "Nature's Swiftness",
+          "iconId": 136076,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103622,
+      "posX": 3300,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127902,
+          "definitionId": 132711,
+          "spellId": 51485,
+          "name": "Earthgrab Totem",
+          "iconId": 136100,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103623,
+      "posX": 6300,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127903,
+          "definitionId": 132712,
+          "spellId": 51514,
+          "name": "Hex",
+          "iconId": 237579,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103624,
+      "posX": 3300,
+      "posY": 4800,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127905,
+          "definitionId": 132714,
+          "spellId": 370,
+          "name": "Purge",
+          "iconId": 136075,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 127904,
+          "definitionId": 132713,
+          "spellId": 378773,
+          "name": "Greater Purge",
+          "iconId": 451166,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 103625,
+      "posX": 5700,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127906,
+          "definitionId": 132715,
+          "spellId": 382201,
+          "name": "Totemic Focus",
+          "iconId": 134920,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 103626,
+      "posX": 2700,
+      "posY": 6000,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127908,
+          "definitionId": 132717,
+          "spellId": 192088,
+          "name": "Graceful Spirit",
+          "iconId": 237585,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 127907,
+          "definitionId": 132716,
+          "spellId": 378077,
+          "name": "Spiritwalker's Aegis",
+          "iconId": 1851463,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 103627,
+      "posX": 5100,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127909,
+          "definitionId": 132718,
+          "spellId": 192077,
+          "name": "Wind Rush Totem",
+          "iconId": 538576,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 103628,
+      "posX": 6300,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127910,
+          "definitionId": 132719,
+          "spellId": 355630,
+          "name": "Windveil",
+          "iconId": 132845,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 103630,
+      "posX": 14400,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127912,
+          "definitionId": 132721,
+          "spellId": 378266,
+          "name": "Flames of the Cauldron",
+          "iconId": 133779,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103631,
+      "posX": 12000,
+      "posY": 4200,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127913,
+          "definitionId": 132722,
+          "spellId": 1258895,
+          "name": "Elemental Resonance",
+          "iconId": 4554441,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 135716,
+          "definitionId": 140471,
+          "spellId": 462757,
+          "name": "Thunderstrike Ward",
+          "iconId": 5975854,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103632,
+      "posX": 13800,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 2,
+      "entries": [
+        {
+          "id": 127914,
+          "definitionId": 132723,
+          "spellId": 1269215,
+          "name": "Crackling Fury",
+          "iconId": 4638591,
+          "maxRanks": 2,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103633,
+      "posX": 13200,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127915,
+          "definitionId": 132724,
+          "spellId": 462866,
+          "name": "Elemental Unity",
+          "iconId": 4554454,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103634,
+      "posX": 13200,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127916,
+          "definitionId": 132725,
+          "spellId": 462867,
+          "name": "Everlasting Elements",
+          "iconId": 136024,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103635,
+      "posX": 11400,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127917,
+          "definitionId": 132726,
+          "spellId": 462695,
+          "name": "Storm Frenzy",
+          "iconId": 136014,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103636,
+      "posX": 12000,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127918,
+          "definitionId": 132727,
+          "spellId": 1258889,
+          "name": "Storm Infusion",
+          "iconId": 463562,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103637,
+      "posX": 14400,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101884,
+          "definitionId": 106851,
+          "spellId": 1259471,
+          "name": "Purging Flames",
+          "iconId": 7439228,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103638,
+      "posX": 10800,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127919,
+          "definitionId": 132728,
+          "spellId": 1269360,
+          "name": "Amped Up",
+          "iconId": 4554440,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103639,
+      "posX": 12600,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127920,
+          "definitionId": 132729,
+          "spellId": 378193,
+          "name": "Primordial Fury",
+          "iconId": 4554451,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103640,
+      "posX": 12000,
+      "posY": 6600,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127921,
+          "definitionId": 132730,
+          "spellId": 462440,
+          "name": "First Ascendant",
+          "iconId": 237572,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 128224,
+          "definitionId": 133031,
+          "spellId": 462443,
+          "name": "Preeminence",
+          "iconId": 451167,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103641,
+      "posX": 14400,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 127922,
+          "definitionId": 132731,
+          "spellId": 381784,
+          "name": "Flames of the Firelord",
+          "iconId": 512617,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 103642,
+      "posX": 13200,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 101799,
+          "definitionId": 106872,
+          "spellId": 382888,
+          "name": "Flurry",
+          "iconId": 132152,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 103871,
+      "posX": 12000,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 128270,
+          "definitionId": 133077,
+          "spellId": 344357,
+          "name": "Stormflurry",
+          "iconId": 132314,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 103915,
+      "posX": 13800,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 128332,
+          "definitionId": 133139,
+          "spellId": 462383,
+          "name": "Spouting Spirits",
+          "iconId": 237586,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 104124,
+      "posX": 11400,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 128703,
+          "definitionId": 133505,
+          "spellId": 1252882,
+          "name": "Double Dip",
+          "iconId": 237590,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 109190,
+      "posX": 10800,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135252,
+          "definitionId": 140020,
+          "spellId": 1262635,
+          "name": "Thunder Capacitor",
+          "iconId": 839983,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 109191,
+      "posX": 12600,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135253,
+          "definitionId": 140021,
+          "spellId": 1251069,
+          "name": "Stormbind",
+          "iconId": 896468,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 109192,
+      "posX": 10800,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135254,
+          "definitionId": 140022,
+          "spellId": 334308,
+          "name": "Chaining Storms",
+          "iconId": 136015,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 109193,
+      "posX": 10800,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135255,
+          "definitionId": 140023,
+          "spellId": 384450,
+          "name": "Lightning Strikes",
+          "iconId": 132326,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 109194,
+      "posX": 13200,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 128236,
+          "definitionId": 133043,
+          "spellId": 469314,
+          "name": "Feral Spirit",
+          "iconId": 237577,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 109301,
+      "posX": 11400,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135487,
+          "definitionId": 140244,
+          "spellId": 1254251,
+          "name": "Rip Current",
+          "iconId": 135861,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 109386,
+      "posX": 3900,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135590,
+          "definitionId": 140346,
+          "spellId": 108287,
+          "name": "Totemic Projection",
+          "iconId": 538574,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109387,
+      "posX": 5700,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135591,
+          "definitionId": 140347,
+          "spellId": 1270350,
+          "name": "Instinctive Imbuements",
+          "iconId": 643246,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109388,
+      "posX": 4500,
+      "posY": 6600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135592,
+          "definitionId": 140348,
+          "spellId": 381867,
+          "name": "Totemic Surge",
+          "iconId": 136008,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109389,
+      "posX": 4500,
+      "posY": 1200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135593,
+          "definitionId": 140349,
+          "spellId": 60103,
+          "name": "Lava Lash",
+          "iconId": 236289,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 109492,
+      "posX": 6300,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135718,
+          "definitionId": 140473,
+          "spellId": 196840,
+          "name": "Frost Shock",
+          "iconId": 135849,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 109493,
+      "posX": 6300,
+      "posY": 2400,
+      "type": 2,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135719,
+          "definitionId": 140474,
+          "spellId": 462762,
+          "name": "Encasing Cold",
+          "iconId": 236209,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 135717,
+          "definitionId": 140472,
+          "spellId": 462764,
+          "name": "Arctic Snowstorm",
+          "iconId": 135852,
+          "maxRanks": 1,
+          "entryIndex": 200
+        }
+      ]
+    },
+    {
+      "id": 109724,
+      "posX": 16800,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135982,
+          "definitionId": 140737,
+          "spellId": 1260874,
+          "name": "Primal Catalyst",
+          "iconId": 1603013,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 109725,
+      "posX": 16800,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135983,
+          "definitionId": 140738,
+          "spellId": 1263288,
+          "name": "Elemental Attunement",
+          "iconId": 4554441,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 109726,
+      "posX": 16800,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135984,
+          "definitionId": 140739,
+          "spellId": 1260644,
+          "name": "Totemic Momentum",
+          "iconId": 135839,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264,
+        263
+      ]
+    },
+    {
+      "id": 109727,
+      "posX": 9300,
+      "posY": 6000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135985,
+          "definitionId": 140740,
+          "spellId": 1264688,
+          "name": "Descending Skies",
+          "iconId": 136115,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 109728,
+      "posX": 9300,
+      "posY": 5400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135986,
+          "definitionId": 140741,
+          "spellId": 1264691,
+          "name": "Natural Gift",
+          "iconId": 237584,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 109729,
+      "posX": 9300,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135987,
+          "definitionId": 140742,
+          "spellId": 1264762,
+          "name": "Stormwell",
+          "iconId": 7137526,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": 109730,
+      "posX": 9300,
+      "posY": 3000,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135988,
+          "definitionId": 140743,
+          "spellId": 1270450,
+          "name": "Mystic Knowledge",
+          "iconId": 4630359,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 109731,
+      "posX": 9300,
+      "posY": 2400,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135989,
+          "definitionId": 140744,
+          "spellId": 1270447,
+          "name": "Windspeaker",
+          "iconId": 4630367,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 109732,
+      "posX": 9300,
+      "posY": 1800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 135990,
+          "definitionId": 140745,
+          "spellId": 1270446,
+          "name": "Ancestral Influence",
+          "iconId": 1385910,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262,
+        264
+      ]
+    },
+    {
+      "id": 109909,
+      "posX": 13800,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136176,
+          "definitionId": 140949,
+          "spellId": 1260666,
+          "name": "Fire Nova",
+          "iconId": 237583,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 110066,
+      "posX": 12600,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136561,
+          "definitionId": 141334,
+          "spellId": 1269364,
+          "name": "Path of the Seer",
+          "iconId": 237576,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 110083,
+      "posX": 12600,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136582,
+          "definitionId": 141355,
+          "spellId": 1271104,
+          "name": "Earthen Accord",
+          "iconId": 5199628,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 110084,
+      "posX": 12000,
+      "posY": 4200,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136583,
+          "definitionId": 141356,
+          "spellId": 1253090,
+          "name": "Crashing Waves",
+          "iconId": 136043,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    },
+    {
+      "id": 110085,
+      "posX": 5100,
+      "posY": 3600,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136585,
+          "definitionId": 141358,
+          "spellId": 1270375,
+          "name": "Spiritual Awakening",
+          "iconId": 237574,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ]
+    },
+    {
+      "id": 110186,
+      "posX": 14400,
+      "posY": 4800,
+      "type": 0,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136713,
+          "definitionId": 141485,
+          "spellId": 1273485,
+          "name": "Lava Flows",
+          "iconId": 237583,
+          "maxRanks": 1,
+          "entryIndex": 100
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 110401,
+      "posX": 12600,
+      "posY": 7350,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136971,
+          "definitionId": 141734,
+          "spellId": 1262713,
+          "name": "Storm Unleashed",
+          "iconId": 7636566,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136970,
+          "definitionId": 141733,
+          "spellId": 1262761,
+          "name": "Storm Unleashed",
+          "iconId": 572029,
+          "maxRanks": 2,
+          "entryIndex": 200
+        },
+        {
+          "id": 136969,
+          "definitionId": 141732,
+          "spellId": 1252373,
+          "name": "Storm Unleashed",
+          "iconId": 572029,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        263
+      ]
+    },
+    {
+      "id": 110402,
+      "posX": 12600,
+      "posY": 7350,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136974,
+          "definitionId": 141737,
+          "spellId": 1270061,
+          "name": "Feedback Loop",
+          "iconId": 7636564,
+          "maxRanks": 1,
+          "entryIndex": 300
+        },
+        {
+          "id": 136973,
+          "definitionId": 141736,
+          "spellId": 1270062,
+          "name": "Feedback Loop",
+          "iconId": 7636564,
+          "maxRanks": 2,
+          "entryIndex": 400
+        },
+        {
+          "id": 136972,
+          "definitionId": 141735,
+          "spellId": 1270064,
+          "name": "Feedback Loop",
+          "iconId": 7636564,
+          "maxRanks": 1,
+          "entryIndex": 500
+        }
+      ],
+      "allowedSpecs": [
+        262
+      ]
+    },
+    {
+      "id": 110403,
+      "posX": 13200,
+      "posY": 7350,
+      "type": 1,
+      "maxRanks": 1,
+      "entries": [
+        {
+          "id": 136977,
+          "definitionId": 141740,
+          "spellId": 1267016,
+          "name": "Stormstream Totem",
+          "iconId": 7636565,
+          "maxRanks": 1,
+          "entryIndex": 100
+        },
+        {
+          "id": 136976,
+          "definitionId": 141739,
+          "spellId": 1267093,
+          "name": "Stormstream Totem",
+          "iconId": 7636565,
+          "maxRanks": 2,
+          "entryIndex": 200
+        },
+        {
+          "id": 136975,
+          "definitionId": 141738,
+          "spellId": 1267120,
+          "name": "Stormstream Totem",
+          "iconId": 7636565,
+          "maxRanks": 1,
+          "entryIndex": 300
+        }
+      ],
+      "allowedSpecs": [
+        264
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "fromNodeId": 81027,
+      "toNodeId": 81022,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81022,
+      "toNodeId": 81021,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81021,
+      "toNodeId": 81018,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81018,
+      "toNodeId": 81048,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81018,
+      "toNodeId": 81019,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80969,
+      "toNodeId": 80968,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80958,
+      "toNodeId": 80969,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80941,
+      "toNodeId": 80958,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80941,
+      "toNodeId": 80942,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80942,
+      "toNodeId": 80943,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80950,
+      "toNodeId": 80949,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80968,
+      "toNodeId": 80967,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80964,
+      "toNodeId": 80963,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80984,
+      "toNodeId": 80981,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80984,
+      "toNodeId": 80983,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80984,
+      "toNodeId": 80985,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94891,
+      "toNodeId": 94866,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94874,
+      "toNodeId": 94891,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94877,
+      "toNodeId": 94890,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94877,
+      "toNodeId": 94874,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94877,
+      "toNodeId": 94882,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94868,
+      "toNodeId": 94867,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94862,
+      "toNodeId": 94887,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94888,
+      "toNodeId": 94884,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94888,
+      "toNodeId": 94862,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94888,
+      "toNodeId": 94869,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94882,
+      "toNodeId": 94872,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94873,
+      "toNodeId": 94870,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94892,
+      "toNodeId": 94886,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94892,
+      "toNodeId": 94893,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94892,
+      "toNodeId": 94863,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94893,
+      "toNodeId": 94885,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94863,
+      "toNodeId": 94889,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94859,
+      "toNodeId": 94871,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94885,
+      "toNodeId": 94868,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94883,
+      "toNodeId": 94894,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94884,
+      "toNodeId": 94860,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94858,
+      "toNodeId": 94894,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94860,
+      "toNodeId": 94883,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94887,
+      "toNodeId": 94858,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94866,
+      "toNodeId": 94879,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94870,
+      "toNodeId": 94867,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94890,
+      "toNodeId": 94859,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94886,
+      "toNodeId": 94873,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94871,
+      "toNodeId": 94879,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94869,
+      "toNodeId": 94861,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94881,
+      "toNodeId": 94879,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94872,
+      "toNodeId": 94881,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94880,
+      "toNodeId": 94867,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94889,
+      "toNodeId": 94880,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94875,
+      "toNodeId": 94894,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94861,
+      "toNodeId": 94875,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81037,
+      "toNodeId": 103436,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81044,
+      "toNodeId": 81041,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103433,
+      "toNodeId": 80976,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103428,
+      "toNodeId": 103429,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103428,
+      "toNodeId": 92677,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81040,
+      "toNodeId": 103428,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81039,
+      "toNodeId": 103429,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81055,
+      "toNodeId": 103433,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81037,
+      "toNodeId": 81055,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81044,
+      "toNodeId": 81055,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103432,
+      "toNodeId": 81044,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81040,
+      "toNodeId": 81039,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81024,
+      "toNodeId": 81019,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81021,
+      "toNodeId": 81024,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81027,
+      "toNodeId": 81040,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81008,
+      "toNodeId": 81007,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81007,
+      "toNodeId": 103637,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80988,
+      "toNodeId": 103639,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81000,
+      "toNodeId": 80988,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80983,
+      "toNodeId": 81000,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80990,
+      "toNodeId": 103635,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80985,
+      "toNodeId": 80990,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81003,
+      "toNodeId": 81012,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81003,
+      "toNodeId": 81002,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81012,
+      "toNodeId": 80991,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80995,
+      "toNodeId": 81003,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80999,
+      "toNodeId": 81004,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80981,
+      "toNodeId": 80999,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80989,
+      "toNodeId": 81002,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80997,
+      "toNodeId": 103638,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80990,
+      "toNodeId": 80997,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103635,
+      "toNodeId": 80995,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103635,
+      "toNodeId": 103631,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103631,
+      "toNodeId": 80995,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80967,
+      "toNodeId": 103871,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81016,
+      "toNodeId": 103631,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80988,
+      "toNodeId": 81016,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103639,
+      "toNodeId": 103631,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80988,
+      "toNodeId": 80998,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103915,
+      "toNodeId": 81042,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81041,
+      "toNodeId": 103915,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103436,
+      "toNodeId": 103434,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81032,
+      "toNodeId": 81024,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81032,
+      "toNodeId": 103429,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92675,
+      "toNodeId": 81044,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92675,
+      "toNodeId": 81037,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81022,
+      "toNodeId": 81032,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81040,
+      "toNodeId": 81032,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80944,
+      "toNodeId": 80967,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80968,
+      "toNodeId": 80944,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80975,
+      "toNodeId": 109194,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80959,
+      "toNodeId": 109194,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109193,
+      "toNodeId": 109190,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80947,
+      "toNodeId": 80954,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80959,
+      "toNodeId": 80951,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80962,
+      "toNodeId": 109193,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80962,
+      "toNodeId": 80951,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80954,
+      "toNodeId": 80948,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80954,
+      "toNodeId": 80953,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80961,
+      "toNodeId": 103871,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80961,
+      "toNodeId": 80953,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80944,
+      "toNodeId": 80961,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80938,
+      "toNodeId": 80961,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103642,
+      "toNodeId": 80961,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80945,
+      "toNodeId": 80954,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80947,
+      "toNodeId": 103642,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103642,
+      "toNodeId": 80954,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80939,
+      "toNodeId": 103642,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109192,
+      "toNodeId": 80962,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80967,
+      "toNodeId": 109192,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80960,
+      "toNodeId": 109192,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80939,
+      "toNodeId": 80938,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80939,
+      "toNodeId": 80944,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80974,
+      "toNodeId": 80939,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103871,
+      "toNodeId": 80959,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80945,
+      "toNodeId": 80948,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80960,
+      "toNodeId": 80967,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80968,
+      "toNodeId": 80960,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80943,
+      "toNodeId": 80947,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80942,
+      "toNodeId": 80974,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80958,
+      "toNodeId": 80974,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80947,
+      "toNodeId": 80945,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80975,
+      "toNodeId": 80964,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80948,
+      "toNodeId": 80975,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80953,
+      "toNodeId": 80975,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103871,
+      "toNodeId": 80962,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80953,
+      "toNodeId": 80959,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80959,
+      "toNodeId": 80950,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80950,
+      "toNodeId": 92219,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103434,
+      "toNodeId": 104124,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109301,
+      "toNodeId": 81037,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109301,
+      "toNodeId": 103436,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92677,
+      "toNodeId": 109301,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81047,
+      "toNodeId": 103432,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81047,
+      "toNodeId": 92675,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81033,
+      "toNodeId": 81047,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103429,
+      "toNodeId": 81047,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81024,
+      "toNodeId": 81047,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81032,
+      "toNodeId": 81033,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103617,
+      "toNodeId": 103586,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103607,
+      "toNodeId": 103586,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103586,
+      "toNodeId": 103593,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103599,
+      "toNodeId": 109388,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103587,
+      "toNodeId": 109388,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103586,
+      "toNodeId": 103599,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103587,
+      "toNodeId": 103620,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103626,
+      "toNodeId": 103620,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103584,
+      "toNodeId": 103626,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103622,
+      "toNodeId": 81073,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103614,
+      "toNodeId": 103622,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103590,
+      "toNodeId": 103622,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103594,
+      "toNodeId": 103584,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103601,
+      "toNodeId": 103594,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103590,
+      "toNodeId": 103601,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103591,
+      "toNodeId": 103614,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81073,
+      "toNodeId": 103617,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103627,
+      "toNodeId": 103617,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103618,
+      "toNodeId": 103617,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103627,
+      "toNodeId": 103607,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103607,
+      "toNodeId": 103625,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103612,
+      "toNodeId": 103625,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103593,
+      "toNodeId": 109388,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103593,
+      "toNodeId": 109387,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103625,
+      "toNodeId": 109387,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103600,
+      "toNodeId": 109387,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103623,
+      "toNodeId": 103600,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103613,
+      "toNodeId": 103582,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103613,
+      "toNodeId": 103615,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103581,
+      "toNodeId": 103613,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103583,
+      "toNodeId": 103581,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103616,
+      "toNodeId": 103614,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103616,
+      "toNodeId": 103582,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103616,
+      "toNodeId": 103611,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103581,
+      "toNodeId": 103616,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103610,
+      "toNodeId": 103616,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103605,
+      "toNodeId": 103616,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103598,
+      "toNodeId": 103581,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103598,
+      "toNodeId": 103605,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103598,
+      "toNodeId": 103610,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103588,
+      "toNodeId": 103610,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103591,
+      "toNodeId": 103590,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103596,
+      "toNodeId": 103591,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103602,
+      "toNodeId": 103590,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103596,
+      "toNodeId": 103602,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103588,
+      "toNodeId": 103596,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81046,
+      "toNodeId": 81031,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81046,
+      "toNodeId": 103430,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81048,
+      "toNodeId": 81046,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81019,
+      "toNodeId": 81046,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81019,
+      "toNodeId": 81031,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81031,
+      "toNodeId": 103430,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81031,
+      "toNodeId": 81041,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81049,
+      "toNodeId": 81031,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81049,
+      "toNodeId": 81044,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81050,
+      "toNodeId": 81041,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81049,
+      "toNodeId": 81050,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81047,
+      "toNodeId": 81049,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81019,
+      "toNodeId": 81049,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81043,
+      "toNodeId": 80976,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81055,
+      "toNodeId": 81043,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103436,
+      "toNodeId": 81043,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103430,
+      "toNodeId": 103427,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103427,
+      "toNodeId": 81051,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103427,
+      "toNodeId": 81042,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81041,
+      "toNodeId": 103427,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103608,
+      "toNodeId": 103617,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103622,
+      "toNodeId": 103608,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109389,
+      "toNodeId": 103581,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109389,
+      "toNodeId": 103605,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109389,
+      "toNodeId": 103610,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103622,
+      "toNodeId": 103594,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103610,
+      "toNodeId": 103591,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81052,
+      "toNodeId": 81042,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81052,
+      "toNodeId": 80976,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81041,
+      "toNodeId": 81052,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81055,
+      "toNodeId": 81052,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103623,
+      "toNodeId": 103625,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103625,
+      "toNodeId": 103593,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109493,
+      "toNodeId": 103615,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109492,
+      "toNodeId": 103613,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109492,
+      "toNodeId": 109493,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103583,
+      "toNodeId": 109492,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103628,
+      "toNodeId": 103623,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103615,
+      "toNodeId": 103628,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109724,
+      "toNodeId": 94879,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109725,
+      "toNodeId": 109724,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109726,
+      "toNodeId": 109725,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94877,
+      "toNodeId": 109726,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109727,
+      "toNodeId": 94867,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109728,
+      "toNodeId": 109727,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109729,
+      "toNodeId": 109728,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94892,
+      "toNodeId": 109729,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109730,
+      "toNodeId": 94894,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109731,
+      "toNodeId": 109730,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109732,
+      "toNodeId": 109731,
+      "type": 2
+    },
+    {
+      "fromNodeId": 94888,
+      "toNodeId": 109732,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109191,
+      "toNodeId": 80959,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80961,
+      "toNodeId": 109191,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109909,
+      "toNodeId": 80975,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80954,
+      "toNodeId": 109909,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80973,
+      "toNodeId": 80962,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80967,
+      "toNodeId": 80973,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103638,
+      "toNodeId": 80995,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103638,
+      "toNodeId": 80996,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103635,
+      "toNodeId": 103638,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81007,
+      "toNodeId": 103632,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110066,
+      "toNodeId": 81015,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103639,
+      "toNodeId": 110066,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81015,
+      "toNodeId": 81003,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81015,
+      "toNodeId": 81008,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103631,
+      "toNodeId": 81015,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81015,
+      "toNodeId": 80989,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80993,
+      "toNodeId": 81012,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80996,
+      "toNodeId": 80993,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103636,
+      "toNodeId": 81003,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103631,
+      "toNodeId": 103636,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80992,
+      "toNodeId": 103640,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80989,
+      "toNodeId": 80992,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103586,
+      "toNodeId": 103587,
+      "type": 2
+    },
+    {
+      "fromNodeId": 109386,
+      "toNodeId": 103587,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103617,
+      "toNodeId": 109386,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103624,
+      "toNodeId": 103584,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103624,
+      "toNodeId": 109386,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103608,
+      "toNodeId": 103624,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103594,
+      "toNodeId": 103624,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81073,
+      "toNodeId": 103624,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103579,
+      "toNodeId": 81073,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110085,
+      "toNodeId": 103627,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103579,
+      "toNodeId": 103627,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103579,
+      "toNodeId": 103618,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103614,
+      "toNodeId": 103579,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103611,
+      "toNodeId": 103579,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103582,
+      "toNodeId": 110085,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103611,
+      "toNodeId": 110085,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110083,
+      "toNodeId": 81055,
+      "type": 2
+    },
+    {
+      "fromNodeId": 92675,
+      "toNodeId": 110083,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110084,
+      "toNodeId": 81037,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81038,
+      "toNodeId": 110084,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81038,
+      "toNodeId": 92675,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81038,
+      "toNodeId": 109301,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103429,
+      "toNodeId": 81038,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103428,
+      "toNodeId": 81038,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103430,
+      "toNodeId": 81051,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103585,
+      "toNodeId": 103623,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103585,
+      "toNodeId": 103612,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103606,
+      "toNodeId": 103585,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110085,
+      "toNodeId": 103585,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103615,
+      "toNodeId": 103606,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103582,
+      "toNodeId": 103606,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81005,
+      "toNodeId": 110186,
+      "type": 2
+    },
+    {
+      "fromNodeId": 110186,
+      "toNodeId": 103641,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103630,
+      "toNodeId": 110186,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81010,
+      "toNodeId": 81008,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81010,
+      "toNodeId": 103641,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81005,
+      "toNodeId": 81010,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80998,
+      "toNodeId": 81005,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103630,
+      "toNodeId": 81005,
+      "type": 2
+    },
+    {
+      "fromNodeId": 81004,
+      "toNodeId": 103630,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103641,
+      "toNodeId": 81007,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103634,
+      "toNodeId": 81008,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103633,
+      "toNodeId": 103634,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80998,
+      "toNodeId": 103633,
+      "type": 2
+    },
+    {
+      "fromNodeId": 80992,
+      "toNodeId": 80978,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103633,
+      "toNodeId": 81010,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103633,
+      "toNodeId": 81015,
+      "type": 2
+    },
+    {
+      "fromNodeId": 103579,
+      "toNodeId": 103608,
+      "type": 2
+    }
+  ]
+}
