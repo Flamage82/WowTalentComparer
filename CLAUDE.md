@@ -4,11 +4,35 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-WowTalentComparer - A World of Warcraft talent comparison tool.
+WowTalentComparer - A static web app for visualizing and comparing World of Warcraft talent builds. Runs entirely client-side, deployed to GitHub Pages.
 
-## Development
+## Development Commands
 
-This is a new project. Update this file as the codebase develops with:
-- Build and test commands
-- Architecture decisions
-- Key patterns and conventions
+```bash
+npm install      # Install dependencies
+npm run dev      # Start dev server
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Run ESLint
+npm test         # Run tests (Vitest)
+```
+
+## Architecture
+
+- **Framework**: React 18 + TypeScript + Vite
+- **Deployment**: GitHub Pages via GitHub Actions (auto-deploys on push to main)
+- **Data Source**: Talent tree data from wago.tools DB2 exports
+
+### Key Files
+
+- `src/lib/talentParser.ts` - Decodes WoW talent export strings
+- `src/components/TalentTree.tsx` - Renders the talent tree visualization
+- `src/components/TalentInput.tsx` - Input form for talent strings
+
+### Talent String Format
+
+WoW talent strings are base64-encoded binary containing:
+- Version byte
+- Spec ID (16-bit)
+- Tree hash (128-bit)
+- Talent node selections (bit-packed)

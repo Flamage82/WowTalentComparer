@@ -1,0 +1,49 @@
+.talent-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.talent-input textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 0.875rem;
+  font-family: monospace;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: inherit;
+  resize: vertical;
+}
+
+.talent-input textarea:focus {
+  outline: none;
+  border-color: rgba(100, 149, 237, 0.5);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.talent-input textarea::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.talent-input button {
+  align-self: flex-end;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: rgb(100, 149, 237);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.talent-input button:hover:not(:disabled) {
+  background-color: rgb(80, 129, 217);
+}
+
+.talent-input button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
