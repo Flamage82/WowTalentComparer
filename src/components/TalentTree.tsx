@@ -1,13 +1,15 @@
 import type { ParsedTalentData } from '../lib/talentParser'
+import type { TalentDiffResult } from '../lib/talentDiff'
 import { useSpecData } from '../hooks/useSpecData'
 import { TalentTreeView } from './TalentTreeView'
 import './TalentTree.css'
 
 interface TalentTreeProps {
   data: ParsedTalentData
+  diffResult?: TalentDiffResult
 }
 
-export function TalentTree({ data }: TalentTreeProps) {
+export function TalentTree({ data, diffResult }: TalentTreeProps) {
   const { data: specData, loading, error } = useSpecData(data.specId)
 
   const selectedNodes = data.nodes.filter(n => n.isSelected)
@@ -59,7 +61,7 @@ export function TalentTree({ data }: TalentTreeProps) {
       )}
 
       {specData && (
-        <TalentTreeView specData={specData} selectedNodes={data.nodes} />
+        <TalentTreeView specData={specData} selectedNodes={data.nodes} diffResult={diffResult} />
       )}
 
       {!specData && !loading && !error && (

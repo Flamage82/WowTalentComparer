@@ -1,0 +1,31 @@
+.compare-input {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.compare-input-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.compare-input-vs {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+@media (max-width: 768px) {
+  .compare-input {
+    flex-direction: column;
+  }
+
+  .compare-input-divider {
+    padding: 0.5rem 0;
+  }
+}

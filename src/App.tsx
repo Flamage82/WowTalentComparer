@@ -1,72 +1,109 @@
 import { useState, useEffect } from 'react'
-import { TalentInput } from './components/TalentInput'
-import { TalentTree } from './components/TalentTree'
-import { parseTalentString, type ParsedTalentData } from './lib/talentParser'
+import { CompareInput } from './components/CompareInput'
+import { CompareView } from './components/CompareView'
+import type { ParsedTalentData } from './lib/talentParser'
 import './App.css'
 
-function getInitialTalentString(): string {
-  const params = new URLSearchParams(window.location.search)
-  return params.get('build') || ''
+interface InitialBuilds {
+  buildA: string
+  buildB: string
 }
 
-function updateUrlWithTalentString(talentString: string) {
-  const url = new URL(window.location.href)
-  if (talentString) {
-    url.searchParams.set('build', talentString)
-  } else {
-    url.searchParams.delete('build')
+function getInitialBuilds(): InitialBuilds {
+  const params = new URLSearchParams(window.location.search)
+  return {
+    buildA: params.get('buildA') || '',
+    buildB: params.get('buildB') || '',
   }
+}
+
+function updateUrl(buildA: string | null, buildB: string | null) {
+  const url = new URL(window.location.href)
+
+  if (buildA) {
+    url.searchParams.set('buildA', buildA)
+  } else {
+    url.searchParams.delete('buildA')
+  }
+
+  if (buildB) {
+    url.searchParams.set('buildB', buildB)
+  } else {
+    url.searchParams.delete('buildB')
+  }
+
   window.history.replaceState({}, '', url.toString())
 }
 
 function App() {
-  const [talentString, setTalentString] = useState(getInitialTalentString)
-  const [parsedData, setParsedData] = useState<ParsedTalentData | null>(null)
-  const [error, setError] = useState<string | null>(null)
+  const [initialBuilds] = useState(getInitialBuilds)
+  const [buildA, setBuildA] = useState<ParsedTalentData | null>(null)
+  const [buildB, setBuildB] = useState<ParsedTalentData | null>(null)
+  const [buildAString, setBuildAString] = useState<string | null>(null)
+  const [buildBString, setBuildBString] = useState<string | null>(null)
+  const [specMismatchError, setSpecMismatchError] = useState<string | null>(null)
 
-  // Parse initial talent string from URL on mount
+  // Check for spec mismatch when both builds are loaded
   useEffect(() => {
-    if (talentString) {
-      try {
-        const data = parseTalentString(talentString)
-        setParsedData(data)
-      } catch (e) {
-        setError(e instanceof Error ? e.message : 'Failed to parse talent string')
+    if (buildA && buildB) {
+      if (buildA.specId !== buildB.specId) {
+        setSpecMismatchError(
+          `Cannot compare different specs: ${buildA.specName || `Spec ${buildA.specId}`} vs ${buildB.specName || `Spec ${buildB.specId}`}`
+        )
+      } else {
+        setSpecMismatchError(null)
       }
+    } else {
+      setSpecMismatchError(null)
     }
-  }, [])
+  }, [buildA, buildB])
 
-  const handleTalentStringSubmit = (newTalentString: string) => {
-    setError(null)
-    setTalentString(newTalentString)
-    updateUrlWithTalentString(newTalentString)
-    try {
-      const data = parseTalentString(newTalentString)
-      setParsedData(data)
-    } catch (e) {
-      setError(e instanceof Error ? e.message : 'Failed to parse talent string')
-      setParsedData(null)
-    }
+  // Update URL when builds change
+  useEffect(() => {
+    updateUrl(buildAString, buildBString)
+  }, [buildAString, buildBString])
+
+  const handleBuildAChange = (data: ParsedTalentData | null, rawString: string | null) => {
+    setBuildA(data)
+    setBuildAString(rawString)
   }
+
+  const handleBuildBChange = (data: ParsedTalentData | null, rawString: string | null) => {
+    setBuildB(data)
+    setBuildBString(rawString)
+  }
+
+  const canCompare = buildA && buildB && !specMismatchError
 
   return (
     <>
       <header>
         <h1>WoW Talent Comparer</h1>
-        <h2>Paste a talent export string to visualize your build</h2>
+        <h2>Compare two talent builds to see the differences</h2>
       </header>
 
       <main>
-        <TalentInput onSubmit={handleTalentStringSubmit} initialValue={talentString} />
+        <CompareInput
+          onBuildAChange={handleBuildAChange}
+          onBuildBChange={handleBuildBChange}
+          initialBuildA={initialBuilds.buildA}
+          initialBuildB={initialBuilds.buildB}
+        />
 
-        {error && (
+        {specMismatchError && (
           <div className="error-message">
-            {error}
+            {specMismatchError}
           </div>
         )}
 
-        {parsedData && (
-          <TalentTree data={parsedData} />
+        {canCompare && (
+          <CompareView buildA={buildA} buildB={buildB} />
+        )}
+
+        {!canCompare && (buildA || buildB) && !specMismatchError && (
+          <div className="info-message">
+            Load both builds to see the comparison
+          </div>
         )}
       </main>
     </>

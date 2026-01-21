@@ -1,0 +1,93 @@
+.build-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  min-width: 300px;
+}
+
+.build-input-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.build-input-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.build-input-spec {
+  font-size: 0.8rem;
+  color: rgb(100, 149, 237);
+  background-color: rgba(100, 149, 237, 0.1);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.build-input textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 0.8rem;
+  font-family: monospace;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: inherit;
+  resize: vertical;
+}
+
+.build-input textarea:focus {
+  outline: none;
+  border-color: rgba(100, 149, 237, 0.5);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.build-input textarea::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.build-input-error {
+  font-size: 0.75rem;
+  color: #ef4444;
+  padding: 0.25rem 0;
+}
+
+.build-input-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.build-input-actions button {
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  background-color: rgb(100, 149, 237);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.build-input-actions button:hover:not(:disabled) {
+  background-color: rgb(80, 129, 217);
+}
+
+.build-input-actions button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.build-input-actions .build-input-clear {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.build-input-actions .build-input-clear:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+}

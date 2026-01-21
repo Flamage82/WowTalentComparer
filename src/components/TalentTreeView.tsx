@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef } from 'react'
 import type { SpecTalentData, TalentNodeData } from '../data/types'
 import type { TalentNodeSelection } from '../lib/talentParser'
+import type { TalentDiffResult, TalentDiffNode } from '../lib/talentDiff'
 import { deduplicateOverlappingNodes } from '../lib/nodeFiltering'
 import './TalentTreeView.css'
 
@@ -16,14 +17,23 @@ declare global {
 interface TalentTreeViewProps {
   specData: SpecTalentData
   selectedNodes: TalentNodeSelection[]
+  diffResult?: TalentDiffResult
 }
 
 function getSpellIds(node: TalentNodeData): number[] {
   return node.entries.map(e => e.spellId).filter(id => id > 0)
 }
 
-export function TalentTreeView({ specData, selectedNodes }: TalentTreeViewProps) {
+export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTreeViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
+
+  // Create diff lookup map for O(1) access by node index
+  const diffMap = useMemo(() => {
+    if (!diffResult) return null
+    const map = new Map<number, TalentDiffNode>()
+    diffResult.diffs.forEach(d => map.set(d.nodeIndex, d))
+    return map
+  }, [diffResult])
 
   // Create a set of selected node indices for quick lookup
   const selectedIndices = useMemo(() => {
@@ -328,11 +338,15 @@ export function TalentTreeView({ specData, selectedNodes }: TalentTreeViewProps)
               ? (node.entries[choiceIndex]?.spellId || spellIds[0])
               : spellIds[0]
 
+            // Get diff info for this node (if in comparison mode)
+            const diff = diffMap?.get(originalIndex)
+            const diffClass = diff ? `diff-${diff.diffType}` : ''
+
             return (
               <a
                 key={node.id}
                 href={`https://www.wowhead.com/spell=${displaySpellId}`}
-                className={`talent-node ${isSelected ? 'selected' : 'unselected'} ${isChoice ? 'choice' : ''} ${isHero ? 'hero' : ''}`}
+                className={`talent-node ${isSelected ? 'selected' : 'unselected'} ${isChoice ? 'choice' : ''} ${isHero ? 'hero' : ''} ${diffClass}`}
                 style={{
                   left: x - size / 2,
                   top: y - size / 2,

@@ -17,3 +17,12 @@ main {
   border-radius: 8px;
   text-align: center;
 }
+
+.info-message {
+  background-color: rgba(100, 149, 237, 0.1);
+  border: 1px solid rgba(100, 149, 237, 0.3);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}

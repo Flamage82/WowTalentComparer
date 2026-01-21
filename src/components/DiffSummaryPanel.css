@@ -1,0 +1,152 @@
+.diff-summary-panel {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.diff-summary-empty {
+  padding: 1rem 1.5rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+
+.diff-summary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.diff-summary-header:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.diff-summary-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.diff-summary-count {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.diff-summary-arrow {
+  font-size: 0.75rem;
+  transition: transform 0.2s;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.diff-summary-arrow.open {
+  transform: rotate(180deg);
+}
+
+.diff-summary-content {
+  padding: 0 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.diff-section {
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.diff-section h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.diff-section ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.85rem;
+}
+
+.diff-section li {
+  padding: 0.15rem 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.diff-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* Added section - Green */
+.diff-section-added {
+  border-left: 3px solid #22c55e;
+}
+
+.diff-section-added h4 {
+  color: #22c55e;
+}
+
+.diff-section-added .diff-icon {
+  background-color: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+
+/* Removed section - Red */
+.diff-section-removed {
+  border-left: 3px solid #ef4444;
+}
+
+.diff-section-removed h4 {
+  color: #ef4444;
+}
+
+.diff-section-removed .diff-icon {
+  background-color: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+/* Changed section - Orange */
+.diff-section-changed {
+  border-left: 3px solid #f59e0b;
+}
+
+.diff-section-changed h4 {
+  color: #f59e0b;
+}
+
+.diff-section-changed .diff-icon {
+  background-color: rgba(245, 158, 11, 0.2);
+  color: #f59e0b;
+}
+
+.diff-item-name {
+  display: block;
+}
+
+.diff-item-details {
+  display: block;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.1rem;
+}
