@@ -19,6 +19,7 @@ const TABLES = [
   'TraitNodeXTraitNodeEntry',
   'TraitDefinition',
   'TraitEdge',
+  'SpellName',
 ] as const
 
 type TableName = (typeof TABLES)[number]
@@ -76,6 +77,11 @@ interface TraitEdge {
   LeftTraitNodeID: number
   RightTraitNodeID: number
   Type: number
+}
+
+interface SpellName {
+  ID: number
+  Name_lang: string
 }
 
 // Output format for our app
@@ -229,6 +235,7 @@ async function main() {
     nodeEntriesCsv,
     definitionsCsv,
     edgesCsv,
+    spellNamesCsv,
   ] = await Promise.all(TABLES.map(fetchCSV))
 
   console.log('\nParsing CSV data...')
@@ -241,6 +248,7 @@ async function main() {
   const nodeEntries = parseCSV<TraitNodeXTraitNodeEntry>(nodeEntriesCsv)
   const definitions = parseCSV<TraitDefinition>(definitionsCsv)
   const edges = parseCSV<TraitEdge>(edgesCsv)
+  const spellNames = parseCSV<SpellName>(spellNamesCsv)
 
   console.log(`  Specs: ${specs.length}`)
   console.log(`  Trees: ${trees.length}`)
@@ -250,11 +258,13 @@ async function main() {
   console.log(`  NodeEntries: ${nodeEntries.length}`)
   console.log(`  Definitions: ${definitions.length}`)
   console.log(`  Edges: ${edges.length}`)
+  console.log(`  SpellNames: ${spellNames.length}`)
 
   // Build lookup maps
   const nodeById = new Map(nodes.map(n => [n.ID, n]))
   const entryById = new Map(entries.map(e => [e.ID, e]))
   const definitionById = new Map(definitions.map(d => [d.ID, d]))
+  const spellNameById = new Map(spellNames.map(s => [s.ID, s.Name_lang]))
 
   // Map nodes to their entries
   const nodeToEntries = new Map<number, TraitNodeXTraitNodeEntry[]>()
@@ -336,12 +346,15 @@ async function main() {
         if (!entry) continue
 
         const definition = definitionById.get(entry.TraitDefinitionID)
+        const spellId = definition?.SpellID || 0
+        // Use override name if available, otherwise look up spell name
+        const name = definition?.OverrideName_lang || spellNameById.get(spellId) || ''
 
         talentEntries.push({
           id: entry.ID,
           definitionId: entry.TraitDefinitionID,
-          spellId: definition?.SpellID || 0,
-          name: definition?.OverrideName_lang || '',
+          spellId,
+          name,
           maxRanks: entry.MaxRanks,
           entryIndex: ne._Index,
         })

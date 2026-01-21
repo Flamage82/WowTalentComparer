@@ -65,3 +65,35 @@
   fill: rgba(255, 255, 255, 0.5);
   pointer-events: none;
 }
+
+/* Tooltip */
+.talent-tooltip {
+  position: absolute;
+  background-color: rgba(20, 20, 30, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  pointer-events: none;
+  z-index: 100;
+  max-width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.tooltip-name {
+  font-weight: 600;
+  color: rgb(255, 209, 0);
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.tooltip-ranks {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.tooltip-choice {
+  font-size: 0.75rem;
+  color: rgb(251, 191, 36);
+  margin-top: 0.25rem;
+  font-style: italic;
+}

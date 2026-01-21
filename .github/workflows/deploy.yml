@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Fetch talent data
+        run: npm run fetch-data
+
       - name: Build
         run: npm run build
 

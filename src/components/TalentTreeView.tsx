@@ -1,5 +1,5 @@
-import { useMemo } from 'react'
-import type { SpecTalentData } from '../data/types'
+import { useMemo, useState } from 'react'
+import type { SpecTalentData, TalentNodeData } from '../data/types'
 import type { TalentNodeSelection } from '../lib/talentParser'
 import './TalentTreeView.css'
 
@@ -8,7 +8,24 @@ interface TalentTreeViewProps {
   selectedNodes: TalentNodeSelection[]
 }
 
+function getNodeName(node: TalentNodeData): string {
+  // For choice nodes, show both options
+  if (node.entries.length > 1) {
+    const names = node.entries
+      .map(e => e.name)
+      .filter(n => n)
+    if (names.length > 1) {
+      return names.join(' / ')
+    }
+  }
+  // For regular nodes, show the first entry's name
+  return node.entries[0]?.name || ''
+}
+
 export function TalentTreeView({ specData, selectedNodes }: TalentTreeViewProps) {
+  const [hoveredNode, setHoveredNode] = useState<TalentNodeData | null>(null)
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 })
+
   // Create a set of selected node indices for quick lookup
   const selectedIndices = useMemo(() => {
     return new Set(
@@ -71,8 +88,16 @@ export function TalentTreeView({ specData, selectedNodes }: TalentTreeViewProps)
   const viewWidth = bounds.width * scale
   const viewHeight = bounds.height * scale
 
+  const handleMouseMove = (e: React.MouseEvent) => {
+    const rect = e.currentTarget.getBoundingClientRect()
+    setMousePos({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    })
+  }
+
   return (
-    <div className="talent-tree-view">
+    <div className="talent-tree-view" onMouseMove={handleMouseMove}>
       <svg
         width={viewWidth}
         height={viewHeight}
@@ -107,11 +132,15 @@ export function TalentTreeView({ specData, selectedNodes }: TalentTreeViewProps)
             const isChoice = node.entries.length > 1
 
             // Node type affects appearance
-            // Type 0 = regular, Type 1 = ?, Type 2 = ?, Type 3 = hero talent choice?
             const radius = node.type === 3 ? 12 : 8
 
             return (
-              <g key={node.id} className="node-group">
+              <g
+                key={node.id}
+                className="node-group"
+                onMouseEnter={() => setHoveredNode(node)}
+                onMouseLeave={() => setHoveredNode(null)}
+              >
                 <circle
                   cx={x}
                   cy={y}
@@ -134,6 +163,25 @@ export function TalentTreeView({ specData, selectedNodes }: TalentTreeViewProps)
           })}
         </g>
       </svg>
+
+      {/* Tooltip */}
+      {hoveredNode && (
+        <div
+          className="talent-tooltip"
+          style={{
+            left: mousePos.x + 15,
+            top: mousePos.y + 15,
+          }}
+        >
+          <div className="tooltip-name">{getNodeName(hoveredNode) || 'Unknown Talent'}</div>
+          {hoveredNode.maxRanks > 1 && (
+            <div className="tooltip-ranks">Max Ranks: {hoveredNode.maxRanks}</div>
+          )}
+          {hoveredNode.entries.length > 1 && (
+            <div className="tooltip-choice">Choice Node</div>
+          )}
+        </div>
+      )}
     </div>
   )
 }
