@@ -56,86 +56,97 @@
 
 .diff-summary-content {
   padding: 0 1.5rem 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
 }
 
-.diff-section {
+/* Horizontal two-column layout */
+.diff-tree-columns {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.diff-tree-column {
+  flex: 1;
+  min-width: 0;
   padding: 0.75rem 1rem;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.02);
 }
 
-.diff-section h4 {
-  margin: 0 0 0.5rem;
-  font-size: 0.85rem;
+.diff-tree-column h4 {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Change type subsections within each tree column */
+.diff-change-subsection {
+  margin-bottom: 0.75rem;
+}
+
+.diff-change-subsection:last-child {
+  margin-bottom: 0;
+}
+
+.diff-change-subsection h5 {
+  margin: 0 0 0.25rem;
+  font-size: 0.8rem;
   font-weight: 600;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.35rem;
 }
 
-.diff-section ul {
+.diff-change-subsection ul {
   margin: 0;
   padding-left: 1.25rem;
   font-size: 0.85rem;
 }
 
-.diff-section li {
+.diff-change-subsection li {
   padding: 0.15rem 0;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.diff-icon {
+.diff-icon-small {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.25rem;
-  height: 1.25rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
   font-weight: bold;
 }
 
-/* Added section - Green */
-.diff-section-added {
-  border-left: 3px solid #22c55e;
-}
-
-.diff-section-added h4 {
+/* Added subsection - Green */
+.diff-subsection-added h5 {
   color: #22c55e;
 }
 
-.diff-section-added .diff-icon {
+.diff-subsection-added .diff-icon-small {
   background-color: rgba(34, 197, 94, 0.2);
   color: #22c55e;
 }
 
-/* Removed section - Red */
-.diff-section-removed {
-  border-left: 3px solid #ef4444;
-}
-
-.diff-section-removed h4 {
+/* Removed subsection - Red */
+.diff-subsection-removed h5 {
   color: #ef4444;
 }
 
-.diff-section-removed .diff-icon {
+.diff-subsection-removed .diff-icon-small {
   background-color: rgba(239, 68, 68, 0.2);
   color: #ef4444;
 }
 
-/* Changed section - Orange */
-.diff-section-changed {
-  border-left: 3px solid #f59e0b;
-}
-
-.diff-section-changed h4 {
+/* Changed subsection - Orange */
+.diff-subsection-changed h5 {
   color: #f59e0b;
 }
 
-.diff-section-changed .diff-icon {
+.diff-subsection-changed .diff-icon-small {
   background-color: rgba(245, 158, 11, 0.2);
   color: #f59e0b;
 }
@@ -149,35 +160,6 @@
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 0.1rem;
-}
-
-/* Tree subsections (class/spec) */
-.diff-tree-subsection {
-  margin-top: 0.5rem;
-}
-
-.diff-tree-subsection:first-child {
-  margin-top: 0;
-}
-
-.diff-tree-subsection h5 {
-  margin: 0 0 0.25rem;
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.6);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.diff-tree-subsection ul {
-  margin: 0;
-  padding-left: 1.25rem;
-  font-size: 0.85rem;
-}
-
-.diff-tree-subsection li {
-  padding: 0.15rem 0;
-  color: rgba(255, 255, 255, 0.8);
 }
 
 /* Wowhead tooltip links in diff summary */
@@ -194,14 +176,21 @@
 }
 
 /* Color the links based on diff type */
-.diff-section-added .diff-talent-link:hover {
+.diff-subsection-added .diff-talent-link:hover {
   color: #4ade80;
 }
 
-.diff-section-removed .diff-talent-link:hover {
+.diff-subsection-removed .diff-talent-link:hover {
   color: #f87171;
 }
 
-.diff-section-changed .diff-talent-link:hover {
+.diff-subsection-changed .diff-talent-link:hover {
   color: #fbbf24;
+}
+
+/* Responsive: stack columns on narrow screens */
+@media (max-width: 600px) {
+  .diff-tree-columns {
+    flex-direction: column;
+  }
 }

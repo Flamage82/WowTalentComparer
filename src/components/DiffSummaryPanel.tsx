@@ -149,27 +149,40 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
     )
   }
 
-  // Render a subsection for a specific tree type
-  const renderTreeSubsection = (
-    treeType: TreeType,
+  // Render a change type subsection (added/removed/changed) within a tree column
+  const renderChangeSubsection = (
+    changeType: 'added' | 'removed' | 'changed',
     nodeIndices: number[],
     showDetails: boolean = false
   ) => {
     if (nodeIndices.length === 0) return null
 
-    const label = treeType === 'class'
-      ? `Class Talents (${nodeIndices.length})`
-      : `Spec Talents (${nodeIndices.length})`
+    const config = {
+      added: { icon: '+', label: 'Added', className: 'diff-subsection-added' },
+      removed: { icon: '−', label: 'Removed', className: 'diff-subsection-removed' },
+      changed: { icon: '~', label: 'Changed', className: 'diff-subsection-changed' },
+    }[changeType]
 
     return (
-      <div className={`diff-tree-subsection diff-tree-${treeType}`}>
-        <h5>{label}</h5>
+      <div className={`diff-change-subsection ${config.className}`}>
+        <h5>
+          <span className="diff-icon-small">{config.icon}</span>
+          {config.label} ({nodeIndices.length})
+        </h5>
         <ul>
           {nodeIndices.map(idx => renderTalentItem(idx, showDetails))}
         </ul>
       </div>
     )
   }
+
+  // Get all changes grouped by tree type
+  const groupedAdded = groupByTree(summary.added)
+  const groupedRemoved = groupByTree(summary.removed)
+  const groupedChanged = groupByTree(summary.changed)
+
+  const classTotal = groupedAdded.class.length + groupedRemoved.class.length + groupedChanged.class.length
+  const specTotal = groupedAdded.spec.length + groupedRemoved.spec.length + groupedChanged.spec.length
 
   if (totalChanges === 0) {
     return (
@@ -199,47 +212,27 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
 
       {isOpen && (
         <div className="diff-summary-content">
-          {summary.added.length > 0 && (() => {
-            const grouped = groupByTree(summary.added)
-            return (
-              <div className="diff-section diff-section-added">
-                <h4>
-                  <span className="diff-icon">+</span>
-                  Added in Build B ({summary.added.length})
-                </h4>
-                {renderTreeSubsection('class', grouped.class)}
-                {renderTreeSubsection('spec', grouped.spec)}
+          <div className="diff-tree-columns">
+            {/* Class Talents Column */}
+            {classTotal > 0 && (
+              <div className="diff-tree-column diff-tree-class">
+                <h4>Class Talents ({classTotal})</h4>
+                {renderChangeSubsection('added', groupedAdded.class)}
+                {renderChangeSubsection('removed', groupedRemoved.class)}
+                {renderChangeSubsection('changed', groupedChanged.class, true)}
               </div>
-            )
-          })()}
+            )}
 
-          {summary.removed.length > 0 && (() => {
-            const grouped = groupByTree(summary.removed)
-            return (
-              <div className="diff-section diff-section-removed">
-                <h4>
-                  <span className="diff-icon">−</span>
-                  Removed from Build A ({summary.removed.length})
-                </h4>
-                {renderTreeSubsection('class', grouped.class)}
-                {renderTreeSubsection('spec', grouped.spec)}
+            {/* Spec Talents Column */}
+            {specTotal > 0 && (
+              <div className="diff-tree-column diff-tree-spec">
+                <h4>Spec Talents ({specTotal})</h4>
+                {renderChangeSubsection('added', groupedAdded.spec)}
+                {renderChangeSubsection('removed', groupedRemoved.spec)}
+                {renderChangeSubsection('changed', groupedChanged.spec, true)}
               </div>
-            )
-          })()}
-
-          {summary.changed.length > 0 && (() => {
-            const grouped = groupByTree(summary.changed)
-            return (
-              <div className="diff-section diff-section-changed">
-                <h4>
-                  <span className="diff-icon">~</span>
-                  Changed ({summary.changed.length})
-                </h4>
-                {renderTreeSubsection('class', grouped.class, true)}
-                {renderTreeSubsection('spec', grouped.spec, true)}
-              </div>
-            )
-          })()}
+            )}
+          </div>
         </div>
       )}
     </div>
