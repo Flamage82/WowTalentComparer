@@ -495,7 +495,7 @@ export function TalentTreeView({ specData, selectedNodes, diffResult, comparison
 
             return (
               <a
-                key={node.id}
+                key={`${node.id}-${displaySpellId}`}
                 href={`https://www.wowhead.com/spell=${displaySpellId}`}
                 className={`talent-node ${isSelected ? 'selected' : 'unselected'} ${isChoice ? 'choice' : ''} ${isHeroNode ? 'hero' : ''} ${diffClass} ${comparisonSameClass}`}
                 style={{
