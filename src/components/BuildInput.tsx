@@ -6,10 +6,20 @@ interface BuildInputProps {
   label: string
   onLoad: (data: ParsedTalentData | null, rawString: string | null) => void
   initialValue?: string
+  value?: string
+  onValueChange?: (value: string) => void
 }
 
-export function BuildInput({ label, onLoad, initialValue = '' }: BuildInputProps) {
-  const [value, setValue] = useState(initialValue)
+export function BuildInput({ label, onLoad, initialValue = '', value: controlledValue, onValueChange }: BuildInputProps) {
+  const [internalValue, setInternalValue] = useState(initialValue)
+  const value = controlledValue !== undefined ? controlledValue : internalValue
+  const setValue = (newValue: string) => {
+    if (onValueChange) {
+      onValueChange(newValue)
+    } else {
+      setInternalValue(newValue)
+    }
+  }
   const [specName, setSpecName] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
   const lastLoadedValue = useRef<string>('')
