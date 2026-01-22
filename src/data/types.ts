@@ -12,6 +12,13 @@ export interface SpecTalentData {
   treeId: number
   nodes: TalentNodeData[]
   edges: TalentEdgeData[]
+  heroTrees?: HeroTreeData[]
+}
+
+export interface HeroTreeData {
+  id: number
+  name: string
+  nodeIds: number[]
 }
 
 export interface TalentNodeData {

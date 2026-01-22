@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { parseTalentString, type ParsedTalentData } from '../lib/talentParser'
+import { useSpecData } from '../hooks/useSpecData'
+import { getSelectedHeroTree } from '../lib/heroTreeDetection'
 import './BuildInput.css'
 
 interface BuildInputProps {
@@ -21,9 +23,19 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
     }
   }
   const [specName, setSpecName] = useState<string | null>(null)
+  const [specId, setSpecId] = useState<number | null>(null)
+  const [parsedNodes, setParsedNodes] = useState<ParsedTalentData['nodes'] | null>(null)
   const [error, setError] = useState<string | null>(null)
   const lastLoadedValue = useRef<string>('')
   const inputRef = useRef<HTMLInputElement>(null)
+
+  // Load spec data to get hero tree information
+  const { data: specData } = useSpecData(specId)
+
+  // Determine the selected hero tree
+  const heroTreeName = specData && parsedNodes
+    ? getSelectedHeroTree(specData, parsedNodes)?.name ?? null
+    : null
 
   // Auto-load when value changes
   useEffect(() => {
@@ -33,6 +45,8 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
     if (!trimmed) {
       if (lastLoadedValue.current) {
         setSpecName(null)
+        setSpecId(null)
+        setParsedNodes(null)
         setError(null)
         lastLoadedValue.current = ''
         onLoad(null, null)
@@ -46,6 +60,8 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
     try {
       const data = parseTalentString(trimmed)
       setSpecName(data.specName || `Spec ${data.specId}`)
+      setSpecId(data.specId)
+      setParsedNodes(data.nodes)
       setError(null)
       lastLoadedValue.current = trimmed
       onLoad(data, trimmed)
@@ -53,6 +69,8 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
       const errorMsg = e instanceof Error ? e.message : 'Invalid talent string'
       setError(errorMsg)
       setSpecName(null)
+      setSpecId(null)
+      setParsedNodes(null)
       lastLoadedValue.current = ''
       onLoad(null, null)
     }
@@ -66,7 +84,12 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
     <div className="build-input">
       <div className="build-input-header">
         <label className="build-input-label">{label}</label>
-        {specName && <span className="build-input-spec">{specName}</span>}
+        {specName && (
+          <span className="build-input-spec">
+            {specName}
+            {heroTreeName && ` / ${heroTreeName}`}
+          </span>
+        )}
       </div>
       <input
         type="text"

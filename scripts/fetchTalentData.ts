@@ -26,6 +26,7 @@ const TABLES = [
   'TraitNodeGroupXTraitCond',
   'TraitNodeGroupXTraitNode',
   'SpecSetMember',
+  'TraitSubTree',
 ] as const
 
 type TableName = (typeof TABLES)[number]
@@ -54,6 +55,7 @@ interface TraitNode {
   PosY: number
   Type: number
   Flags: number
+  TraitSubTreeID: number
 }
 
 interface TraitNodeEntry {
@@ -130,6 +132,12 @@ interface SpecSetMember {
   SpecSet: number
 }
 
+interface TraitSubTree {
+  ID: number
+  Name_lang: string
+  TraitTreeID: number
+}
+
 // Output format for our app
 interface SpecTalentData {
   specId: number
@@ -138,6 +146,13 @@ interface SpecTalentData {
   treeId: number
   nodes: TalentNodeData[]
   edges: TalentEdgeData[]
+  heroTrees: HeroTreeData[]
+}
+
+interface HeroTreeData {
+  id: number
+  name: string
+  nodeIds: number[]
 }
 
 interface TalentNodeData {
@@ -290,6 +305,7 @@ async function main() {
     traitNodeGroupXTraitCondCsv,
     traitNodeGroupXTraitNodeCsv,
     specSetMemberCsv,
+    traitSubTreeCsv,
   ] = await Promise.all(TABLES.map(fetchCSV))
 
   console.log('\nParsing CSV data...')
@@ -309,6 +325,7 @@ async function main() {
   const traitNodeGroupXTraitConds = parseCSV<TraitNodeGroupXTraitCond>(traitNodeGroupXTraitCondCsv)
   const traitNodeGroupXTraitNodes = parseCSV<TraitNodeGroupXTraitNode>(traitNodeGroupXTraitNodeCsv)
   const specSetMembers = parseCSV<SpecSetMember>(specSetMemberCsv)
+  const traitSubTrees = parseCSV<TraitSubTree>(traitSubTreeCsv)
 
   console.log(`  Specs: ${specs.length}`)
   console.log(`  Trees: ${trees.length}`)
@@ -325,6 +342,7 @@ async function main() {
   console.log(`  TraitNodeGroupXTraitConds: ${traitNodeGroupXTraitConds.length}`)
   console.log(`  TraitNodeGroupXTraitNodes: ${traitNodeGroupXTraitNodes.length}`)
   console.log(`  SpecSetMembers: ${specSetMembers.length}`)
+  console.log(`  TraitSubTrees: ${traitSubTrees.length}`)
 
   // Build lookup maps
   const nodeById = new Map(nodes.map(n => [n.ID, n]))
@@ -412,6 +430,31 @@ async function main() {
   }
 
   console.log(`\nBuilt spec restrictions for ${nodeToAllowedSpecs.size} nodes`)
+
+  // Build hero tree mappings
+  const subTreeById = new Map(traitSubTrees.map(st => [st.ID, st]))
+
+  // Map subtree ID to its node IDs (from TraitNode.TraitSubTreeID)
+  const subTreeToNodeIds = new Map<number, number[]>()
+  for (const node of nodes) {
+    if (node.TraitSubTreeID && node.TraitSubTreeID > 0) {
+      const existing = subTreeToNodeIds.get(node.TraitSubTreeID) || []
+      existing.push(node.ID)
+      subTreeToNodeIds.set(node.TraitSubTreeID, existing)
+    }
+  }
+
+  // Map tree ID to its subtrees (from TraitSubTree.TraitTreeID)
+  const treeToSubTreeIds = new Map<number, Set<number>>()
+  for (const subTree of traitSubTrees) {
+    if (subTree.TraitTreeID && subTree.TraitTreeID > 0) {
+      const existing = treeToSubTreeIds.get(subTree.TraitTreeID) || new Set()
+      existing.add(subTree.ID)
+      treeToSubTreeIds.set(subTree.TraitTreeID, existing)
+    }
+  }
+
+  console.log(`Built hero tree mappings for ${subTreeById.size} subtrees`)
 
   // Map spec to tree via loadouts
   // Sort by ID descending to prefer higher IDs (main class trees) over lower IDs (hero trees)
@@ -509,6 +552,21 @@ async function main() {
       type: e.Type,
     }))
 
+    // Build hero tree data for this spec
+    const subTreeIds = treeToSubTreeIds.get(treeId) || new Set()
+    const heroTrees: HeroTreeData[] = [...subTreeIds]
+      .map(subTreeId => {
+        const subTree = subTreeById.get(subTreeId)
+        if (!subTree || !subTree.Name_lang) return null
+        const nodeIds = subTreeToNodeIds.get(subTreeId) || []
+        return {
+          id: subTreeId,
+          name: subTree.Name_lang,
+          nodeIds,
+        }
+      })
+      .filter((ht): ht is HeroTreeData => ht !== null)
+
     const specData: SpecTalentData = {
       specId: spec.ID,
       specName: spec.Name_lang,
@@ -516,6 +574,7 @@ async function main() {
       treeId,
       nodes: talentNodes,
       edges: talentEdges,
+      heroTrees,
     }
 
     specDataList.push(specData)
@@ -523,7 +582,7 @@ async function main() {
     // Write individual spec file
     const filename = join(outDir, `${spec.ID}.json`)
     writeFileSync(filename, JSON.stringify(specData, null, 2))
-    console.log(`  ${spec.ID}.json - ${spec.Name_lang} ${className} (${talentNodes.length} nodes, ${talentEdges.length} edges)`)
+    console.log(`  ${spec.ID}.json - ${spec.Name_lang} ${className} (${talentNodes.length} nodes, ${talentEdges.length} edges, ${heroTrees.length} hero trees)`)
   }
 
   // Write index file
