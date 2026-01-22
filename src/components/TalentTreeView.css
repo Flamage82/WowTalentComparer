@@ -100,21 +100,6 @@
   border-color: #5a4510;
 }
 
-/* Hero talent nodes - purple glow */
-.talent-node.hero {
-  border-color: #6b4c9a;
-  border-width: 3px;
-}
-
-.talent-node.hero.selected {
-  border-color: #9b6ddb;
-  box-shadow: 0 0 10px rgba(155, 109, 219, 0.6), 0 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.talent-node.hero.selected:hover {
-  border-color: #b68eff;
-  box-shadow: 0 0 14px rgba(155, 109, 219, 0.8), 0 4px 12px rgba(0, 0, 0, 0.7);
-}
 
 /* Style the Wowhead-injected icon wrappers */
 .talent-node .iconsmall,
