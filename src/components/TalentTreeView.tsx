@@ -61,7 +61,7 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
   const MIN_NODE_SPACING = 78 // Minimum pixels between node centers
 
   // Filter hero nodes to only show the selected hero tree
-  const { visibleNodes, visibleEdges } = useMemo(() => {
+  const { visibleNodes, visibleEdges, selectedHeroNodeIds } = useMemo(() => {
     const allNodes = specData.nodes
     const allEdges = specData.edges
 
@@ -98,52 +98,41 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
       components.push(component)
     }
 
-    // Identify hero tree components by their average X position
-    // Hero trees are in the middle column (between class tree on left and spec tree on right)
+    // Identify hero tree components by their size
+    // Hero trees are small disconnected components (10-25 nodes) separate from main class/spec trees
     const componentInfo = components.map((comp, idx) => {
-      const nodes = comp.map(id => allNodes.find(n => n.id === id)!).filter(Boolean)
-      const avgX = nodes.reduce((s, n) => s + n.posX, 0) / nodes.length
-      // Only consider a node as "selected" if it's available to this spec
-      const hasSelectedNode = comp.some(id => {
+      // Count how many nodes in this component are selected (and available to this spec)
+      let selectedCount = 0
+      comp.forEach(id => {
         const node = allNodes.find(n => n.id === id)
-        if (!node) return false
+        if (!node) return
         // Skip nodes restricted to other specs
         if (node.allowedSpecs && node.allowedSpecs.length > 0 && !node.allowedSpecs.includes(specData.specId)) {
-          return false
+          return
         }
         const nodeIndex = allNodes.findIndex(n => n.id === id)
-        return selectedIndices.has(nodeIndex)
+        if (selectedIndices.has(nodeIndex)) {
+          selectedCount++
+        }
       })
-      return { index: idx, avgX, size: comp.length, hasSelectedNode }
+      return { index: idx, size: comp.length, selectedCount }
     })
 
-    // Find the X ranges to identify hero trees
-    // Group components by their X position (rounded to nearest 1000)
-    const componentsByX = new Map<number, typeof componentInfo>()
-    componentInfo.filter(c => c.size > 5).forEach(c => {
-      const roundedX = Math.round(c.avgX / 1000) * 1000
-      if (!componentsByX.has(roundedX)) componentsByX.set(roundedX, [])
-      componentsByX.get(roundedX)!.push(c)
-    })
+    // Hero trees are small disconnected components (10-25 nodes)
+    // This size range captures hero trees while excluding class/spec trees (30+ nodes)
+    const heroTreeComponents = componentInfo
+      .filter(c => c.size >= 10 && c.size <= 25)
+      .map(c => c.index)
 
-    // Hero trees are identified as: a group of 2-3 similar-sized small components
-    // at the same X position (the middle column typically has the 3 hero trees)
-    const heroTreeComponents: number[] = []
-    componentsByX.forEach((comps) => {
-      // If there are 2-3 components at this X position with similar small sizes (10-20 nodes),
-      // they're likely hero trees
-      const smallComps = comps.filter(c => c.size >= 10 && c.size <= 25)
-      if (smallComps.length >= 2 && smallComps.length <= 3) {
-        smallComps.forEach(c => heroTreeComponents.push(c.index))
-      }
-    })
-
-    // Find which hero tree component has selected nodes
+    // Find the hero tree component with the MOST selected nodes
+    // This correctly identifies which hero tree the player chose
     let selectedHeroComponent: number | null = null
+    let maxSelectedCount = 0
     for (const compIdx of heroTreeComponents) {
-      if (componentInfo[compIdx].hasSelectedNode) {
+      const info = componentInfo[compIdx]
+      if (info.selectedCount > maxSelectedCount) {
+        maxSelectedCount = info.selectedCount
         selectedHeroComponent = compIdx
-        break
       }
     }
 
@@ -203,7 +192,7 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
       visibleNodeIds.has(edge.fromNodeId) && visibleNodeIds.has(edge.toNodeId)
     )
 
-    return { visibleNodes, visibleNodeIds, visibleEdges }
+    return { visibleNodes, visibleNodeIds, visibleEdges, selectedHeroNodeIds }
   }, [specData, selectedIndices])
 
   // Calculate bounds, scale, and X offsets to normalize spacing between tree sections
@@ -226,27 +215,31 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
     // Calculate scale so minimum edge distance maps to MIN_NODE_SPACING
     const calculatedScale = minEdgeDistance < Infinity ? MIN_NODE_SPACING / minEdgeDistance : 0.1
 
-    // Group nodes into columns (class tree, hero tree, spec tree) by X position
-    // Find natural X clusters by sorting unique X positions and finding gaps
-    const xPositions = [...new Set(visibleNodes.map(n => n.posX))].sort((a, b) => a - b)
+    // Group nodes into columns (class tree, hero tree, spec tree)
+    // Hero tree nodes are always in the middle column (1), regardless of their X position
+    // Non-hero nodes are split into class tree (left/0) and spec tree (right/2) by X position
 
-    // Find large gaps in X positions to identify column boundaries
-    const gaps: { index: number; gap: number; position: number }[] = []
-    for (let i = 1; i < xPositions.length; i++) {
-      const gap = xPositions[i] - xPositions[i - 1]
-      gaps.push({ index: i, gap, position: (xPositions[i] + xPositions[i - 1]) / 2 })
+    // Find the X midpoint of non-hero nodes to separate class and spec trees
+    const nonHeroNodes = visibleNodes.filter(n => !selectedHeroNodeIds.has(n.id))
+    const nonHeroXPositions = [...new Set(nonHeroNodes.map(n => n.posX))].sort((a, b) => a - b)
+
+    // Find the largest gap in non-hero X positions to separate class from spec tree
+    let clasSpecSeparator = 0
+    let maxGap = 0
+    for (let i = 1; i < nonHeroXPositions.length; i++) {
+      const gap = nonHeroXPositions[i] - nonHeroXPositions[i - 1]
+      if (gap > maxGap) {
+        maxGap = gap
+        clasSpecSeparator = (nonHeroXPositions[i] + nonHeroXPositions[i - 1]) / 2
+      }
     }
-    gaps.sort((a, b) => b.gap - a.gap)
-
-    // Take the two largest gaps as column separators (should separate class|hero|spec)
-    const columnSeparators = gaps.slice(0, 2).map(g => g.position).sort((a, b) => a - b)
 
     // Assign each node to a column
-    const getColumn = (x: number) => {
-      if (columnSeparators.length < 2) return 0
-      if (x < columnSeparators[0]) return 0 // Class tree (left)
-      if (x < columnSeparators[1]) return 1 // Hero tree (middle)
-      return 2 // Spec tree (right)
+    const getColumn = (nodeId: number, x: number) => {
+      // Hero tree nodes always go in the middle column
+      if (selectedHeroNodeIds.has(nodeId)) return 1
+      // Non-hero nodes: left of separator = class tree, right = spec tree
+      return x < clasSpecSeparator ? 0 : 2
     }
 
     // Calculate bounds for each column
@@ -258,7 +251,7 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
 
     let minY = Infinity, maxY = -Infinity
     for (const node of visibleNodes) {
-      const col = getColumn(node.posX)
+      const col = getColumn(node.id, node.posX)
       columnBounds[col].minX = Math.min(columnBounds[col].minX, node.posX)
       columnBounds[col].maxX = Math.max(columnBounds[col].maxX, node.posX)
       minY = Math.min(minY, node.posY)
@@ -299,15 +292,15 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
         height: adjustedMaxY - adjustedMinY
       },
       scale: calculatedScale,
-      xOffsets: { offsets: xOffsets, getColumn, columnSeparators },
+      xOffsets: { offsets: xOffsets, getColumn },
     }
-  }, [visibleNodes, visibleEdges])
+  }, [visibleNodes, visibleEdges, selectedHeroNodeIds])
 
   // Create node ID to position mapping for edge rendering
   const nodePositions = useMemo(() => {
     const map = new Map<number, { x: number; y: number }>()
     visibleNodes.forEach((node) => {
-      const col = xOffsets.getColumn(node.posX)
+      const col = xOffsets.getColumn(node.id, node.posX)
       const xOffset = xOffsets.offsets.get(col) || 0
       map.set(node.id, {
         x: (node.posX + xOffset - bounds.minX) * scale,
@@ -373,7 +366,7 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
         <div className="talent-overlay">
           {visibleNodes.map((node) => {
             const originalIndex = nodeIdToOriginalIndex.get(node.id) ?? -1
-            const col = xOffsets.getColumn(node.posX)
+            const col = xOffsets.getColumn(node.id, node.posX)
             const xOffset = xOffsets.offsets.get(col) || 0
             const x = (node.posX + xOffset - bounds.minX) * scale
             const y = (node.posY - bounds.minY) * scale
@@ -422,7 +415,7 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
           {visibleNodes.map((node) => {
             if (node.maxRanks <= 1) return null
             const originalIndex = nodeIdToOriginalIndex.get(node.id) ?? -1
-            const col = xOffsets.getColumn(node.posX)
+            const col = xOffsets.getColumn(node.id, node.posX)
             const xOffset = xOffsets.offsets.get(col) || 0
             const x = (node.posX + xOffset - bounds.minX) * scale
             const y = (node.posY - bounds.minY) * scale
