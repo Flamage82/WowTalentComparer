@@ -23,7 +23,7 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
   const [specName, setSpecName] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
   const lastLoadedValue = useRef<string>('')
-  const textareaRef = useRef<HTMLTextAreaElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
 
   // Auto-load when value changes
   useEffect(() => {
@@ -59,7 +59,7 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
   }, [value, onLoad])
 
   const handleFocus = () => {
-    textareaRef.current?.select()
+    inputRef.current?.select()
   }
 
   return (
@@ -68,13 +68,13 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
         <label className="build-input-label">{label}</label>
         {specName && <span className="build-input-spec">{specName}</span>}
       </div>
-      <textarea
-        ref={textareaRef}
+      <input
+        type="text"
+        ref={inputRef}
         value={value}
         onChange={(e) => setValue(e.target.value)}
         onFocus={handleFocus}
         placeholder={`Paste ${label} talent string...`}
-        rows={2}
       />
       {error && <div className="build-input-error">{error}</div>}
     </div>

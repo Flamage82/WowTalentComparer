@@ -4,7 +4,7 @@
   gap: 0.75rem;
 }
 
-.talent-input textarea {
+.talent-input input {
   width: 100%;
   padding: 1rem;
   font-size: 0.875rem;
@@ -13,16 +13,15 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   color: inherit;
-  resize: vertical;
 }
 
-.talent-input textarea:focus {
+.talent-input input:focus {
   outline: none;
   border-color: rgba(100, 149, 237, 0.5);
   background-color: rgba(255, 255, 255, 0.08);
 }
 
-.talent-input textarea::placeholder {
+.talent-input input::placeholder {
   color: rgba(255, 255, 255, 0.4);
 }
 
