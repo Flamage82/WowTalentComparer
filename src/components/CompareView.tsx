@@ -15,6 +15,7 @@ interface CompareViewProps {
 
 export function CompareView({ buildA, buildB }: CompareViewProps) {
   const { data: specData, loading, error } = useSpecData(buildA.specId)
+  const [treeWidth, setTreeWidth] = useState<number | undefined>(undefined)
 
   // View mode state with URL initialization
   const [viewMode, setViewMode] = useState<ViewMode>(() => {
@@ -105,10 +106,11 @@ export function CompareView({ buildA, buildB }: CompareViewProps) {
           selectedNodes={selectedNodes}
           diffResult={diffResultToPass}
           comparisonNodes={comparisonNodes}
+          onDimensionsChange={setTreeWidth}
         />
       )}
 
-      <DiffSummaryPanel diffResult={diffResult} specData={specData} />
+      <DiffSummaryPanel diffResult={diffResult} specData={specData} treeWidth={treeWidth} />
 
       {!specData && !loading && !error && (
         <div className="compare-view-no-data">

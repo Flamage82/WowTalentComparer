@@ -17,9 +17,10 @@ type TreeType = 'class' | 'spec' | 'hero'
 interface DiffSummaryPanelProps {
   diffResult: TalentDiffResult
   specData: SpecTalentData | null
+  treeWidth?: number
 }
 
-export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps) {
+export function DiffSummaryPanel({ diffResult, specData, treeWidth }: DiffSummaryPanelProps) {
   const [isOpen, setIsOpen] = useState(true)
 
   const { summary } = diffResult
@@ -300,7 +301,7 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
 
       {isOpen && (
         <div className="diff-summary-content">
-          <div className="diff-tree-columns">
+          <div className="diff-tree-columns" style={treeWidth ? { maxWidth: treeWidth, margin: '0 auto' } : undefined}>
             {/* Class Talents Column */}
             {classTotal > 0 && (
               <div className="diff-tree-column diff-tree-class">

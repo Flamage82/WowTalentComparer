@@ -19,13 +19,14 @@ interface TalentTreeViewProps {
   selectedNodes: TalentNodeSelection[]
   diffResult?: TalentDiffResult
   comparisonNodes?: TalentNodeSelection[] // Build A's nodes for comparison mode
+  onDimensionsChange?: (width: number) => void
 }
 
 function getSpellIds(node: TalentNodeData): number[] {
   return node.entries.map(e => e.spellId).filter(id => id > 0)
 }
 
-export function TalentTreeView({ specData, selectedNodes, diffResult, comparisonNodes }: TalentTreeViewProps) {
+export function TalentTreeView({ specData, selectedNodes, diffResult, comparisonNodes, onDimensionsChange }: TalentTreeViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
 
   // Create diff lookup map for O(1) access by node index
@@ -414,6 +415,11 @@ export function TalentTreeView({ specData, selectedNodes, diffResult, comparison
 
   const viewWidth = bounds.width * scale
   const viewHeight = bounds.height * scale
+
+  // Report dimensions to parent when they change
+  useEffect(() => {
+    onDimensionsChange?.(viewWidth)
+  }, [viewWidth, onDimensionsChange])
 
   // Refresh Wowhead tooltips when nodes change
   useEffect(() => {
