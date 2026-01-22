@@ -40,16 +40,16 @@ export function CompareView({ buildA, buildB }: CompareViewProps) {
     return diffTalentBuilds(buildA, buildB)
   }, [buildA, buildB])
 
-  // Compute selectedNodes and diffResultToPass based on view mode
-  const { selectedNodes, diffResultToPass } = useMemo(() => {
+  // Compute selectedNodes, diffResultToPass, and comparisonNodes based on view mode
+  const { selectedNodes, diffResultToPass, comparisonNodes } = useMemo(() => {
     if (viewMode === 'buildA') {
-      return { selectedNodes: buildA.nodes, diffResultToPass: undefined }
+      return { selectedNodes: buildA.nodes, diffResultToPass: undefined, comparisonNodes: undefined }
     }
     if (viewMode === 'buildB') {
-      return { selectedNodes: buildB.nodes, diffResultToPass: undefined }
+      return { selectedNodes: buildB.nodes, diffResultToPass: undefined, comparisonNodes: undefined }
     }
-    // Comparison mode: show Build B with diff highlighting
-    return { selectedNodes: buildB.nodes, diffResultToPass: diffResult }
+    // Comparison mode: show Build B with diff highlighting, pass Build A for comparison
+    return { selectedNodes: buildB.nodes, diffResultToPass: diffResult, comparisonNodes: buildA.nodes }
   }, [viewMode, buildA.nodes, buildB.nodes, diffResult])
 
   return (
@@ -104,6 +104,7 @@ export function CompareView({ buildA, buildB }: CompareViewProps) {
           specData={specData}
           selectedNodes={selectedNodes}
           diffResult={diffResultToPass}
+          comparisonNodes={comparisonNodes}
         />
       )}
 

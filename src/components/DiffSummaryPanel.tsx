@@ -12,7 +12,7 @@ declare global {
   }
 }
 
-type TreeType = 'class' | 'spec'
+type TreeType = 'class' | 'spec' | 'hero'
 
 interface DiffSummaryPanelProps {
   diffResult: TalentDiffResult
@@ -24,12 +24,66 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
 
   const { summary } = diffResult
 
-  // Calculate column separators to determine class vs spec tree (similar to TalentTreeView)
+  // Calculate column separators and hero tree nodes to determine class vs spec vs hero tree
   const getTreeType = useMemo(() => {
     if (!specData) return () => 'class' as TreeType
 
-    // Get all X positions and find the gap between class and spec trees
-    const xPositions = [...new Set(specData.nodes.map(n => n.posX))].sort((a, b) => a - b)
+    const allNodes = specData.nodes
+    const allEdges = specData.edges
+
+    // Build adjacency map for all nodes
+    const adjacency = new Map<number, Set<number>>()
+    allNodes.forEach(n => adjacency.set(n.id, new Set()))
+    allEdges.forEach(edge => {
+      adjacency.get(edge.fromNodeId)?.add(edge.toNodeId)
+      adjacency.get(edge.toNodeId)?.add(edge.fromNodeId)
+    })
+
+    // Find connected components via BFS
+    const visited = new Set<number>()
+    const components: number[][] = []
+    const nodeIdToComponent = new Map<number, number>()
+
+    for (const node of allNodes) {
+      if (visited.has(node.id)) continue
+
+      const component: number[] = []
+      const queue = [node.id]
+      while (queue.length > 0) {
+        const id = queue.shift()!
+        if (visited.has(id)) continue
+        visited.add(id)
+        component.push(id)
+        adjacency.get(id)?.forEach(n => {
+          if (!visited.has(n)) queue.push(n)
+        })
+      }
+
+      const componentIndex = components.length
+      component.forEach(id => nodeIdToComponent.set(id, componentIndex))
+      components.push(component)
+    }
+
+    // Identify hero tree components by their size (10-25 nodes)
+    const heroTreeComponents = new Set(
+      components
+        .map((comp, idx) => ({ index: idx, size: comp.length }))
+        .filter(c => c.size >= 10 && c.size <= 25)
+        .map(c => c.index)
+    )
+
+    // Create set of hero tree node IDs (by original index)
+    const heroTreeNodeIndices = new Set<number>()
+    allNodes.forEach((node, idx) => {
+      const componentIdx = nodeIdToComponent.get(node.id)
+      if (componentIdx !== undefined && heroTreeComponents.has(componentIdx)) {
+        heroTreeNodeIndices.add(idx)
+      }
+    })
+
+    // Get X positions of non-hero nodes to find class/spec separator
+    const nonHeroNodes = allNodes.filter((_, idx) => !heroTreeNodeIndices.has(idx))
+    const xPositions = [...new Set(nonHeroNodes.map(n => n.posX))].sort((a, b) => a - b)
 
     // Find the largest gap which should separate class tree from spec tree
     let maxGap = 0
@@ -43,6 +97,9 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
     }
 
     return (nodeIndex: number): TreeType => {
+      // Check if it's a hero tree node first
+      if (heroTreeNodeIndices.has(nodeIndex)) return 'hero'
+
       const node = specData.nodes[nodeIndex]
       if (!node) return 'class'
       return node.posX < separatorX ? 'class' : 'spec'
@@ -96,8 +153,8 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
   }
 
   // Group node indices by tree type
-  const groupByTree = (nodeIndices: number[]): { class: number[]; spec: number[] } => {
-    const result = { class: [] as number[], spec: [] as number[] }
+  const groupByTree = (nodeIndices: number[]): { class: number[]; spec: number[]; hero: number[] } => {
+    const result = { class: [] as number[], spec: [] as number[], hero: [] as number[] }
     for (const idx of nodeIndices) {
       const treeType = getTreeType(idx)
       result[treeType].push(idx)
@@ -210,6 +267,7 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
 
   const classTotal = groupedAdded.class.length + groupedRemoved.class.length + groupedChanged.class.length
   const specTotal = groupedAdded.spec.length + groupedRemoved.spec.length + groupedChanged.spec.length
+  const heroTotal = groupedAdded.hero.length + groupedRemoved.hero.length + groupedChanged.hero.length
 
   if (totalChanges === 0) {
     return (
@@ -247,6 +305,16 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
                 {renderChangeSubsection('added', groupedAdded.class)}
                 {renderChangeSubsection('removed', groupedRemoved.class)}
                 {renderChangeSubsection('changed', groupedChanged.class, true)}
+              </div>
+            )}
+
+            {/* Hero Talents Column */}
+            {heroTotal > 0 && (
+              <div className="diff-tree-column diff-tree-hero">
+                <h4>Hero Talents ({heroTotal})</h4>
+                {renderChangeSubsection('added', groupedAdded.hero)}
+                {renderChangeSubsection('removed', groupedRemoved.hero)}
+                {renderChangeSubsection('changed', groupedChanged.hero, true)}
               </div>
             )}
 

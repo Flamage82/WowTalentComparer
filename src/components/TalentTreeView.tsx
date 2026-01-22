@@ -18,13 +18,14 @@ interface TalentTreeViewProps {
   specData: SpecTalentData
   selectedNodes: TalentNodeSelection[]
   diffResult?: TalentDiffResult
+  comparisonNodes?: TalentNodeSelection[] // Build A's nodes for comparison mode
 }
 
 function getSpellIds(node: TalentNodeData): number[] {
   return node.entries.map(e => e.spellId).filter(id => id > 0)
 }
 
-export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTreeViewProps) {
+export function TalentTreeView({ specData, selectedNodes, diffResult, comparisonNodes }: TalentTreeViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
 
   // Create diff lookup map for O(1) access by node index
@@ -35,7 +36,7 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
     return map
   }, [diffResult])
 
-  // Create a set of selected node indices for quick lookup
+  // Create a set of selected node indices for quick lookup (Build B in comparison mode)
   const selectedIndices = useMemo(() => {
     return new Set(
       selectedNodes
@@ -43,6 +44,16 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
         .map(n => n.nodeIndex)
     )
   }, [selectedNodes])
+
+  // Create a set of comparison node indices for quick lookup (Build A in comparison mode)
+  const comparisonIndices = useMemo(() => {
+    if (!comparisonNodes) return null
+    return new Set(
+      comparisonNodes
+        .filter(n => n.isSelected)
+        .map(n => n.nodeIndex)
+    )
+  }, [comparisonNodes])
 
   // Get choice entry for selected choice nodes
   const choiceSelections = useMemo(() => {
@@ -60,8 +71,8 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
   const HERO_NODE_SIZE = 46
   const MIN_NODE_SPACING = 78 // Minimum pixels between node centers
 
-  // Filter hero nodes to only show the selected hero tree
-  const { visibleNodes, visibleEdges, selectedHeroNodeIds } = useMemo(() => {
+  // Filter hero nodes and detect if comparison mode has different hero trees
+  const { visibleNodes, visibleEdges, selectedHeroNodeIds, comparisonHeroNodeIds, heroTreesDiffer } = useMemo(() => {
     const allNodes = specData.nodes
     const allEdges = specData.edges
 
@@ -98,11 +109,9 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
       components.push(component)
     }
 
-    // Identify hero tree components by their size
-    // Hero trees are small disconnected components (10-25 nodes) separate from main class/spec trees
-    const componentInfo = components.map((comp, idx) => {
-      // Count how many nodes in this component are selected (and available to this spec)
-      let selectedCount = 0
+    // Helper to count selected nodes in a component for a given selection set
+    const countSelectedInComponent = (comp: number[], selectionSet: Set<number>) => {
+      let count = 0
       comp.forEach(id => {
         const node = allNodes.find(n => n.id === id)
         if (!node) return
@@ -111,30 +120,49 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
           return
         }
         const nodeIndex = allNodes.findIndex(n => n.id === id)
-        if (selectedIndices.has(nodeIndex)) {
-          selectedCount++
+        if (selectionSet.has(nodeIndex)) {
+          count++
         }
       })
-      return { index: idx, size: comp.length, selectedCount }
-    })
+      return count
+    }
 
-    // Hero trees are small disconnected components (10-25 nodes)
-    // This size range captures hero trees while excluding class/spec trees (30+ nodes)
-    const heroTreeComponents = componentInfo
+    // Identify hero tree components by their size
+    // Hero trees are small disconnected components (10-25 nodes) separate from main class/spec trees
+    const heroTreeComponents = components
+      .map((comp, idx) => ({ index: idx, size: comp.length }))
       .filter(c => c.size >= 10 && c.size <= 25)
       .map(c => c.index)
 
-    // Find the hero tree component with the MOST selected nodes
-    // This correctly identifies which hero tree the player chose
+    // Find the hero tree component with the MOST selected nodes (Build B)
     let selectedHeroComponent: number | null = null
     let maxSelectedCount = 0
     for (const compIdx of heroTreeComponents) {
-      const info = componentInfo[compIdx]
-      if (info.selectedCount > maxSelectedCount) {
-        maxSelectedCount = info.selectedCount
+      const selectedCount = countSelectedInComponent(components[compIdx], selectedIndices)
+      if (selectedCount > maxSelectedCount) {
+        maxSelectedCount = selectedCount
         selectedHeroComponent = compIdx
       }
     }
+
+    // Find the hero tree component for Build A (comparison) if provided
+    let comparisonHeroComponent: number | null = null
+    if (comparisonIndices) {
+      let maxComparisonCount = 0
+      for (const compIdx of heroTreeComponents) {
+        const selectedCount = countSelectedInComponent(components[compIdx], comparisonIndices)
+        if (selectedCount > maxComparisonCount) {
+          maxComparisonCount = selectedCount
+          comparisonHeroComponent = compIdx
+        }
+      }
+    }
+
+    // Determine if hero trees differ between builds
+    const heroTreesDiffer = comparisonIndices !== null &&
+      comparisonHeroComponent !== null &&
+      selectedHeroComponent !== null &&
+      comparisonHeroComponent !== selectedHeroComponent
 
     // Determine which nodes to hide (unselected hero tree nodes)
     const heroTreeNodeIds = new Set<number>()
@@ -146,6 +174,10 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
       ? new Set(components[selectedHeroComponent])
       : new Set<number>()
 
+    const comparisonHeroNodeIds = comparisonHeroComponent !== null
+      ? new Set(components[comparisonHeroComponent])
+      : new Set<number>()
+
     // Build set of node IDs that have at least one edge
     const connectedNodeIds = new Set<number>()
     allEdges.forEach(edge => {
@@ -153,7 +185,7 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
       connectedNodeIds.add(edge.toNodeId)
     })
 
-    // Filter nodes: hide hero tree nodes that aren't in the selected hero tree
+    // Filter nodes: hide hero tree nodes that aren't in the selected hero tree(s)
     // Also hide type=3 selector nodes, spec-restricted nodes, and disconnected nodes
     const filteredNodes = allNodes.filter(node => {
       // Always hide the hero selector nodes (type=3)
@@ -169,9 +201,11 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
         }
       }
 
-      // If this is a hero tree node, only show if it's in the selected hero tree
+      // If this is a hero tree node, show if it's in selected hero tree OR comparison hero tree (when different)
       if (heroTreeNodeIds.has(node.id)) {
-        return selectedHeroNodeIds.has(node.id)
+        if (selectedHeroNodeIds.has(node.id)) return true
+        if (heroTreesDiffer && comparisonHeroNodeIds.has(node.id)) return true
+        return false
       }
 
       // Show all other nodes
@@ -179,11 +213,14 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
     })
 
     // Deduplicate overlapping nodes (nodes at the same position from different hero trees)
-    const visibleNodes = deduplicateOverlappingNodes(
-      filteredNodes,
-      selectedHeroNodeIds,
-      heroTreeNodeIds
-    )
+    // Only deduplicate when NOT showing both hero trees
+    const visibleNodes = heroTreesDiffer
+      ? filteredNodes // Show all filtered nodes when hero trees differ
+      : deduplicateOverlappingNodes(
+          filteredNodes,
+          selectedHeroNodeIds,
+          heroTreeNodeIds
+        )
 
     const visibleNodeIds = new Set(visibleNodes.map(n => n.id))
 
@@ -192,11 +229,11 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
       visibleNodeIds.has(edge.fromNodeId) && visibleNodeIds.has(edge.toNodeId)
     )
 
-    return { visibleNodes, visibleNodeIds, visibleEdges, selectedHeroNodeIds }
-  }, [specData, selectedIndices])
+    return { visibleNodes, visibleNodeIds, visibleEdges, selectedHeroNodeIds, comparisonHeroNodeIds, heroTreesDiffer }
+  }, [specData, selectedIndices, comparisonIndices])
 
   // Calculate bounds, scale, and X offsets to normalize spacing between tree sections
-  const { bounds, scale, xOffsets } = useMemo(() => {
+  const { bounds, scale, xOffsets, secondHeroYOffset, secondHeroXOffset } = useMemo(() => {
     // Find minimum distance between adjacent nodes (using edges) to calculate proper scale
     let minEdgeDistance = Infinity
     for (const edge of visibleEdges) {
@@ -220,7 +257,7 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
     // Non-hero nodes are split into class tree (left/0) and spec tree (right/2) by X position
 
     // Find the X midpoint of non-hero nodes to separate class and spec trees
-    const nonHeroNodes = visibleNodes.filter(n => !selectedHeroNodeIds.has(n.id))
+    const nonHeroNodes = visibleNodes.filter(n => !selectedHeroNodeIds.has(n.id) && !comparisonHeroNodeIds.has(n.id))
     const nonHeroXPositions = [...new Set(nonHeroNodes.map(n => n.posX))].sort((a, b) => a - b)
 
     // Find the largest gap in non-hero X positions to separate class from spec tree
@@ -234,12 +271,50 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
       }
     }
 
+    // Check if node is a hero tree node (either selected hero or comparison hero)
+    const isHeroNode = (nodeId: number) => selectedHeroNodeIds.has(nodeId) || comparisonHeroNodeIds.has(nodeId)
+
     // Assign each node to a column
     const getColumn = (nodeId: number, x: number) => {
       // Hero tree nodes always go in the middle column
-      if (selectedHeroNodeIds.has(nodeId)) return 1
+      if (isHeroNode(nodeId)) return 1
       // Non-hero nodes: left of separator = class tree, right = spec tree
       return x < clasSpecSeparator ? 0 : 2
+    }
+
+    // Calculate X and Y offsets for second hero tree (Build B's hero tree goes below Build A's)
+    let calculatedSecondHeroYOffset = 0
+    let calculatedSecondHeroXOffset = 0
+    if (heroTreesDiffer) {
+      // Find bounds for both hero trees
+      const comparisonHeroNodes = visibleNodes.filter(n => comparisonHeroNodeIds.has(n.id))
+      const selectedHeroNodes = visibleNodes.filter(n => selectedHeroNodeIds.has(n.id))
+
+      if (comparisonHeroNodes.length > 0 && selectedHeroNodes.length > 0) {
+        // Y calculations
+        const compMinY = Math.min(...comparisonHeroNodes.map(n => n.posY))
+        const compMaxY = Math.max(...comparisonHeroNodes.map(n => n.posY))
+        const selectedMinY = Math.min(...selectedHeroNodes.map(n => n.posY))
+
+        // Calculate comparison tree height
+        const compHeight = compMaxY - compMinY
+        const gap = 80 / calculatedScale // Gap between hero trees in original coordinates
+
+        // Move selected hero tree so its top is below comparison hero tree's bottom
+        calculatedSecondHeroYOffset = (compMinY - selectedMinY) + compHeight + gap
+
+        // X calculations - center both trees on the same X position
+        const compMinX = Math.min(...comparisonHeroNodes.map(n => n.posX))
+        const compMaxX = Math.max(...comparisonHeroNodes.map(n => n.posX))
+        const selectedMinX = Math.min(...selectedHeroNodes.map(n => n.posX))
+        const selectedMaxX = Math.max(...selectedHeroNodes.map(n => n.posX))
+
+        const compCenterX = (compMinX + compMaxX) / 2
+        const selectedCenterX = (selectedMinX + selectedMaxX) / 2
+
+        // Offset to align selected tree's center with comparison tree's center
+        calculatedSecondHeroXOffset = compCenterX - selectedCenterX
+      }
     }
 
     // Calculate bounds for each column
@@ -252,10 +327,22 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
     let minY = Infinity, maxY = -Infinity
     for (const node of visibleNodes) {
       const col = getColumn(node.id, node.posX)
-      columnBounds[col].minX = Math.min(columnBounds[col].minX, node.posX)
-      columnBounds[col].maxX = Math.max(columnBounds[col].maxX, node.posX)
-      minY = Math.min(minY, node.posY)
-      maxY = Math.max(maxY, node.posY)
+
+      // Account for X offset when calculating bounds for second hero tree
+      let nodeX = node.posX
+      if (heroTreesDiffer && selectedHeroNodeIds.has(node.id)) {
+        nodeX += calculatedSecondHeroXOffset
+      }
+      columnBounds[col].minX = Math.min(columnBounds[col].minX, nodeX)
+      columnBounds[col].maxX = Math.max(columnBounds[col].maxX, nodeX)
+
+      // Account for Y offset when calculating bounds for second hero tree
+      let nodeY = node.posY
+      if (heroTreesDiffer && selectedHeroNodeIds.has(node.id)) {
+        nodeY += calculatedSecondHeroYOffset
+      }
+      minY = Math.min(minY, nodeY)
+      maxY = Math.max(maxY, nodeY)
     }
 
     // Calculate column widths
@@ -293,22 +380,28 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
       },
       scale: calculatedScale,
       xOffsets: { offsets: xOffsets, getColumn },
+      secondHeroYOffset: calculatedSecondHeroYOffset,
+      secondHeroXOffset: calculatedSecondHeroXOffset,
     }
-  }, [visibleNodes, visibleEdges, selectedHeroNodeIds])
+  }, [visibleNodes, visibleEdges, selectedHeroNodeIds, comparisonHeroNodeIds, heroTreesDiffer])
 
   // Create node ID to position mapping for edge rendering
   const nodePositions = useMemo(() => {
     const map = new Map<number, { x: number; y: number }>()
     visibleNodes.forEach((node) => {
       const col = xOffsets.getColumn(node.id, node.posX)
-      const xOffset = xOffsets.offsets.get(col) || 0
+      const colXOffset = xOffsets.offsets.get(col) || 0
+      // Apply X and Y offsets for second hero tree (Build B's hero tree)
+      const isSecondHero = heroTreesDiffer && selectedHeroNodeIds.has(node.id)
+      const heroXOffset = isSecondHero ? secondHeroXOffset : 0
+      const heroYOffset = isSecondHero ? secondHeroYOffset : 0
       map.set(node.id, {
-        x: (node.posX + xOffset - bounds.minX) * scale,
-        y: (node.posY - bounds.minY) * scale,
+        x: (node.posX + colXOffset + heroXOffset - bounds.minX) * scale,
+        y: (node.posY + heroYOffset - bounds.minY) * scale,
       })
     })
     return map
-  }, [visibleNodes, bounds, scale, xOffsets])
+  }, [visibleNodes, bounds, scale, xOffsets, heroTreesDiffer, selectedHeroNodeIds, secondHeroYOffset, secondHeroXOffset])
 
   // Create a map from node ID to original index for selection lookups
   const nodeIdToOriginalIndex = useMemo(() => {
@@ -367,13 +460,16 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
           {visibleNodes.map((node) => {
             const originalIndex = nodeIdToOriginalIndex.get(node.id) ?? -1
             const col = xOffsets.getColumn(node.id, node.posX)
-            const xOffset = xOffsets.offsets.get(col) || 0
-            const x = (node.posX + xOffset - bounds.minX) * scale
-            const y = (node.posY - bounds.minY) * scale
+            const colXOffset = xOffsets.offsets.get(col) || 0
+            const isSecondHero = heroTreesDiffer && selectedHeroNodeIds.has(node.id)
+            const heroXOffset = isSecondHero ? secondHeroXOffset : 0
+            const heroYOffset = isSecondHero ? secondHeroYOffset : 0
+            const x = (node.posX + colXOffset + heroXOffset - bounds.minX) * scale
+            const y = (node.posY + heroYOffset - bounds.minY) * scale
             const isSelected = selectedIndices.has(originalIndex)
             const isChoice = node.entries.length > 1
-            const isHero = node.type === 3
-            const size = isHero ? HERO_NODE_SIZE : NODE_SIZE
+            const isHeroNode = selectedHeroNodeIds.has(node.id) || comparisonHeroNodeIds.has(node.id)
+            const size = isHeroNode ? HERO_NODE_SIZE : NODE_SIZE
 
             // Get spell ID(s) for this node
             const spellIds = getSpellIds(node)
@@ -395,7 +491,7 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
               <a
                 key={node.id}
                 href={`https://www.wowhead.com/spell=${displaySpellId}`}
-                className={`talent-node ${isSelected ? 'selected' : 'unselected'} ${isChoice ? 'choice' : ''} ${isHero ? 'hero' : ''} ${diffClass} ${comparisonSameClass}`}
+                className={`talent-node ${isSelected ? 'selected' : 'unselected'} ${isChoice ? 'choice' : ''} ${isHeroNode ? 'hero' : ''} ${diffClass} ${comparisonSameClass}`}
                 style={{
                   left: x - size / 2,
                   top: y - size / 2,
@@ -416,11 +512,14 @@ export function TalentTreeView({ specData, selectedNodes, diffResult }: TalentTr
             if (node.maxRanks <= 1) return null
             const originalIndex = nodeIdToOriginalIndex.get(node.id) ?? -1
             const col = xOffsets.getColumn(node.id, node.posX)
-            const xOffset = xOffsets.offsets.get(col) || 0
-            const x = (node.posX + xOffset - bounds.minX) * scale
-            const y = (node.posY - bounds.minY) * scale
-            const isHero = node.type === 3
-            const size = isHero ? HERO_NODE_SIZE : NODE_SIZE
+            const colXOffset = xOffsets.offsets.get(col) || 0
+            const isSecondHero = heroTreesDiffer && selectedHeroNodeIds.has(node.id)
+            const heroXOffset = isSecondHero ? secondHeroXOffset : 0
+            const heroYOffset = isSecondHero ? secondHeroYOffset : 0
+            const x = (node.posX + colXOffset + heroXOffset - bounds.minX) * scale
+            const y = (node.posY + heroYOffset - bounds.minY) * scale
+            const isHeroNode = selectedHeroNodeIds.has(node.id) || comparisonHeroNodeIds.has(node.id)
+            const size = isHeroNode ? HERO_NODE_SIZE : NODE_SIZE
             const isSelected = selectedIndices.has(originalIndex)
             const selection = selectedNodes.find(n => n.nodeIndex === originalIndex)
             const currentRanks = selection?.isSelected ? (selection.ranksPurchased || node.maxRanks) : 0
