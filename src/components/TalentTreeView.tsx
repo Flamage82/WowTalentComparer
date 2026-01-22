@@ -422,7 +422,7 @@ export function TalentTreeView({ specData, selectedNodes, diffResult, comparison
       window.$WowheadPower?.refreshLinks()
     }, 100)
     return () => clearTimeout(timer)
-  }, [specData, selectedNodes])
+  }, [specData, selectedNodes, visibleNodes])
 
   return (
     <div className="talent-tree-view" ref={containerRef}>
