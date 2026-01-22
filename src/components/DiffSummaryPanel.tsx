@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useRef } from 'react'
 import type { TalentDiffResult, TalentDiffNode } from '../lib/talentDiff'
 import type { SpecTalentData } from '../data/types'
 import './DiffSummaryPanel.css'
@@ -22,6 +22,8 @@ interface DiffSummaryPanelProps {
 
 export function DiffSummaryPanel({ diffResult, specData, treeWidth }: DiffSummaryPanelProps) {
   const [isOpen, setIsOpen] = useState(true)
+  const [iconsReady, setIconsReady] = useState(false)
+  const contentRef = useRef<HTMLDivElement>(null)
 
   const { summary } = diffResult
 
@@ -168,11 +170,53 @@ export function DiffSummaryPanel({ diffResult, specData, treeWidth }: DiffSummar
   }
 
   // Refresh Wowhead tooltips when content changes
+  // Hide content until all icons have loaded to prevent layout shift
   useEffect(() => {
     if (!isOpen) return
+
+    // Hide content immediately
+    setIconsReady(false)
+
     const timer = setTimeout(() => {
       window.$WowheadPower?.refreshLinks()
+
+      // Wait for all Wowhead-injected images to load
+      const container = contentRef.current
+      if (!container) {
+        setIconsReady(true)
+        return
+      }
+
+      // Small delay for Wowhead to inject images, then wait for them to load
+      setTimeout(() => {
+        const images = container.querySelectorAll('img')
+        if (images.length === 0) {
+          setIconsReady(true)
+          return
+        }
+
+        let loadedCount = 0
+        const checkAllLoaded = () => {
+          loadedCount++
+          if (loadedCount >= images.length) {
+            setIconsReady(true)
+          }
+        }
+
+        images.forEach(img => {
+          if (img.complete) {
+            checkAllLoaded()
+          } else {
+            img.addEventListener('load', checkAllLoaded, { once: true })
+            img.addEventListener('error', checkAllLoaded, { once: true })
+          }
+        })
+
+        // Fallback timeout in case images never load
+        setTimeout(() => setIconsReady(true), 500)
+      }, 50)
     }, 100)
+
     return () => clearTimeout(timer)
   }, [diffResult, specData, isOpen])
 
@@ -216,9 +260,12 @@ export function DiffSummaryPanel({ diffResult, specData, treeWidth }: DiffSummar
     const rankDetails = diff ? formatRankChange(diff) : null
 
     // For choice changes, show both icons side by side
+    // Use a key that includes spellIds to force React to create new elements when choices swap,
+    // otherwise Wowhead's injected icon content gets corrupted during DOM reconciliation
     if (choiceInfo) {
+      const choiceKey = `${nodeIndex}-${choiceInfo.from.spellId}-${choiceInfo.to.spellId}`
       return (
-        <li key={nodeIndex} className="diff-item-choice-change">
+        <li key={choiceKey} className="diff-item-choice-change">
           <div className="diff-choice-comparison">
             {renderSpellLink(choiceInfo.from.name, choiceInfo.from.spellId)}
             <span className="diff-arrow">→</span>
@@ -300,7 +347,7 @@ export function DiffSummaryPanel({ diffResult, specData, treeWidth }: DiffSummar
       </button>
 
       {isOpen && (
-        <div className="diff-summary-content">
+        <div ref={contentRef} className={`diff-summary-content ${iconsReady ? 'icons-ready' : ''}`}>
           <div className="diff-tree-columns" style={treeWidth ? { maxWidth: treeWidth, margin: '0 auto' } : undefined}>
             {/* Class Talents Column */}
             {classTotal > 0 && (

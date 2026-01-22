@@ -57,6 +57,12 @@
 
 .diff-summary-content {
   padding: 0 1.5rem 1rem;
+  /* Hide until Wowhead icons have loaded */
+  visibility: hidden;
+}
+
+.diff-summary-content.icons-ready {
+  visibility: visible;
 }
 
 /* Horizontal two-column layout */
@@ -109,6 +115,10 @@
 .diff-change-subsection li {
   padding: 0.15rem 0;
   color: rgba(255, 255, 255, 0.8);
+  /* Reserve space for Wowhead icons to prevent layout shift */
+  min-height: 46px;
+  display: flex;
+  align-items: center;
 }
 
 .diff-icon-small {
@@ -193,6 +203,8 @@
 .diff-item-choice-change {
   list-style: none;
   margin-left: -1.25rem;
+  /* Reserve space for Wowhead icons */
+  min-height: 46px;
 }
 
 .diff-choice-comparison {
@@ -200,6 +212,7 @@
   align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
+  min-height: 18px;
 }
 
 .diff-arrow {
