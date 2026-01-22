@@ -41,22 +41,13 @@ function App() {
   const [buildB, setBuildB] = useState<ParsedTalentData | null>(null)
   const [buildAString, setBuildAString] = useState<string | null>(null)
   const [buildBString, setBuildBString] = useState<string | null>(null)
-  const [specMismatchError, setSpecMismatchError] = useState<string | null>(null)
+  // Compute spec mismatch synchronously to prevent race conditions
+  const specMismatchError = buildA && buildB && buildA.specId !== buildB.specId
+    ? `Cannot compare different specs: ${buildA.specName || `Spec ${buildA.specId}`} vs ${buildB.specName || `Spec ${buildB.specId}`}`
+    : null
 
-  // Check for spec mismatch when both builds are loaded
-  useEffect(() => {
-    if (buildA && buildB) {
-      if (buildA.specId !== buildB.specId) {
-        setSpecMismatchError(
-          `Cannot compare different specs: ${buildA.specName || `Spec ${buildA.specId}`} vs ${buildB.specName || `Spec ${buildB.specId}`}`
-        )
-      } else {
-        setSpecMismatchError(null)
-      }
-    } else {
-      setSpecMismatchError(null)
-    }
-  }, [buildA, buildB])
+  // Check if builds are identical
+  const buildsIdentical = buildAString && buildBString && buildAString === buildBString
 
   // Update URL when builds change
   useEffect(() => {
@@ -93,6 +84,12 @@ function App() {
         {specMismatchError && (
           <div className="error-message">
             {specMismatchError}
+          </div>
+        )}
+
+        {buildsIdentical && (
+          <div className="info-message">
+            These builds are identical
           </div>
         )}
 

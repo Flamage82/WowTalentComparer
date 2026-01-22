@@ -13,13 +13,25 @@ export function BuildInput({ label, onLoad, initialValue = '' }: BuildInputProps
   const [specName, setSpecName] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
   const lastLoadedValue = useRef<string>('')
+  const textareaRef = useRef<HTMLTextAreaElement>(null)
 
-  // Auto-load when value changes to a valid talent string
+  // Auto-load when value changes
   useEffect(() => {
     const trimmed = value.trim()
 
-    // Skip if empty or already loaded this value
-    if (!trimmed || trimmed === lastLoadedValue.current) return
+    // If empty, clear everything
+    if (!trimmed) {
+      if (lastLoadedValue.current) {
+        setSpecName(null)
+        setError(null)
+        lastLoadedValue.current = ''
+        onLoad(null, null)
+      }
+      return
+    }
+
+    // Skip if already loaded this value
+    if (trimmed === lastLoadedValue.current) return
 
     try {
       const data = parseTalentString(trimmed)
@@ -27,41 +39,17 @@ export function BuildInput({ label, onLoad, initialValue = '' }: BuildInputProps
       setError(null)
       lastLoadedValue.current = trimmed
       onLoad(data, trimmed)
-    } catch {
-      // Don't show error during typing - only clear if we had a valid load before
-      if (lastLoadedValue.current) {
-        setError(null)
-        setSpecName(null)
-        lastLoadedValue.current = ''
-        onLoad(null, null)
-      }
-    }
-  }, [value, onLoad])
-
-  const handleLoad = () => {
-    if (!value.trim()) return
-
-    try {
-      const data = parseTalentString(value.trim())
-      setSpecName(data.specName || `Spec ${data.specId}`)
-      setError(null)
-      lastLoadedValue.current = value.trim()
-      onLoad(data, value.trim())
     } catch (e) {
-      const errorMsg = e instanceof Error ? e.message : 'Failed to parse talent string'
+      const errorMsg = e instanceof Error ? e.message : 'Invalid talent string'
       setError(errorMsg)
       setSpecName(null)
       lastLoadedValue.current = ''
       onLoad(null, null)
     }
-  }
+  }, [value, onLoad])
 
-  const handleClear = () => {
-    setValue('')
-    setSpecName(null)
-    setError(null)
-    lastLoadedValue.current = ''
-    onLoad(null, null)
+  const handleFocus = () => {
+    textareaRef.current?.select()
   }
 
   return (
@@ -71,22 +59,14 @@ export function BuildInput({ label, onLoad, initialValue = '' }: BuildInputProps
         {specName && <span className="build-input-spec">{specName}</span>}
       </div>
       <textarea
+        ref={textareaRef}
         value={value}
         onChange={(e) => setValue(e.target.value)}
+        onFocus={handleFocus}
         placeholder={`Paste ${label} talent string...`}
         rows={2}
       />
       {error && <div className="build-input-error">{error}</div>}
-      <div className="build-input-actions">
-        {(value || specName) && (
-          <button type="button" onClick={handleClear} className="build-input-clear">
-            Clear
-          </button>
-        )}
-        <button type="button" onClick={handleLoad} disabled={!value.trim()}>
-          Load
-        </button>
-      </div>
     </div>
   )
 }
