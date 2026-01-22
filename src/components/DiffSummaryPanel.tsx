@@ -156,6 +156,21 @@ export function DiffSummaryPanel({ diffResult, specData, treeWidth, onHighlightN
     }
   }
 
+  // Sort node indices by position in the tree (top to bottom, left to right)
+  const sortByPosition = (nodeIndices: number[]): number[] => {
+    if (!specData) return nodeIndices
+    return [...nodeIndices].sort((a, b) => {
+      const nodeA = specData.nodes[a]
+      const nodeB = specData.nodes[b]
+      if (!nodeA || !nodeB) return 0
+      // Primary sort by Y (top to bottom), secondary sort by X (left to right)
+      if (nodeA.posY !== nodeB.posY) {
+        return nodeA.posY - nodeB.posY
+      }
+      return nodeA.posX - nodeB.posX
+    })
+  }
+
   // Group node indices by tree type, excluding hero selector nodes (type=3)
   const groupByTree = (nodeIndices: number[]): { class: number[]; spec: number[]; hero: number[] } => {
     const result = { class: [] as number[], spec: [] as number[], hero: [] as number[] }
@@ -167,7 +182,12 @@ export function DiffSummaryPanel({ diffResult, specData, treeWidth, onHighlightN
       const treeType = getTreeType(idx)
       result[treeType].push(idx)
     }
-    return result
+    // Sort each group by position
+    return {
+      class: sortByPosition(result.class),
+      spec: sortByPosition(result.spec),
+      hero: sortByPosition(result.hero),
+    }
   }
 
   // Refresh Wowhead tooltips when content changes
