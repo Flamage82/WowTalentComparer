@@ -417,9 +417,11 @@ export function TalentTreeView({ specData, selectedNodes, diffResult, comparison
   const viewHeight = bounds.height * scale
 
   // Report dimensions to parent when they change
+  // Add 32px to account for the container's 1rem padding on each side
+  const containerWidth = viewWidth + 32
   useEffect(() => {
-    onDimensionsChange?.(viewWidth)
-  }, [viewWidth, onDimensionsChange])
+    onDimensionsChange?.(containerWidth)
+  }, [containerWidth, onDimensionsChange])
 
   // Refresh Wowhead tooltips when nodes change
   useEffect(() => {

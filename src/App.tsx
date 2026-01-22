@@ -41,6 +41,7 @@ function App() {
   const [buildB, setBuildB] = useState<ParsedTalentData | null>(null)
   const [buildAString, setBuildAString] = useState<string | null>(null)
   const [buildBString, setBuildBString] = useState<string | null>(null)
+  const [treeWidth, setTreeWidth] = useState<number | undefined>(undefined)
   // Compute spec mismatch synchronously to prevent race conditions
   const specMismatchError = buildA && buildB && buildA.specId !== buildB.specId
     ? `Cannot compare different specs: ${buildA.specName || `Spec ${buildA.specId}`} vs ${buildB.specName || `Spec ${buildB.specId}`}`
@@ -73,7 +74,10 @@ function App() {
         <h2>Compare two talent builds to see the differences</h2>
       </header>
 
-      <main>
+      <main
+        className="main-content"
+        style={treeWidth ? { maxWidth: treeWidth } : undefined}
+      >
         <CompareInput
           onBuildAChange={handleBuildAChange}
           onBuildBChange={handleBuildBChange}
@@ -94,7 +98,7 @@ function App() {
         )}
 
         {canCompare && (
-          <CompareView buildA={buildA} buildB={buildB} />
+          <CompareView buildA={buildA} buildB={buildB} onTreeWidthChange={setTreeWidth} />
         )}
 
         {!canCompare && (buildA || buildB) && !specMismatchError && (

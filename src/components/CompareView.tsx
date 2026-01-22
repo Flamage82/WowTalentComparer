@@ -11,11 +11,19 @@ type ViewMode = 'buildA' | 'buildB' | 'comparison'
 interface CompareViewProps {
   buildA: ParsedTalentData
   buildB: ParsedTalentData
+  onTreeWidthChange?: (width: number) => void
 }
 
-export function CompareView({ buildA, buildB }: CompareViewProps) {
+export function CompareView({ buildA, buildB, onTreeWidthChange }: CompareViewProps) {
   const { data: specData, loading, error } = useSpecData(buildA.specId)
   const [treeWidth, setTreeWidth] = useState<number | undefined>(undefined)
+
+  // Notify parent when tree width changes
+  useEffect(() => {
+    if (treeWidth !== undefined) {
+      onTreeWidthChange?.(treeWidth)
+    }
+  }, [treeWidth, onTreeWidthChange])
 
   // View mode state with URL initialization
   const [viewMode, setViewMode] = useState<ViewMode>(() => {

@@ -1,8 +1,8 @@
 .talent-tree-view {
-  overflow: auto;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   padding: 1rem;
+  width: fit-content;
 }
 
 .talent-tree-canvas {

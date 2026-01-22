@@ -9,6 +9,12 @@ main {
   gap: 1.5rem;
 }
 
+main.main-content {
+  margin: 0 auto;
+  min-width: min(100%, 600px);
+  max-width: 1600px;
+}
+
 .error-message {
   background-color: rgba(220, 38, 38, 0.2);
   border: 1px solid rgb(220, 38, 38);
