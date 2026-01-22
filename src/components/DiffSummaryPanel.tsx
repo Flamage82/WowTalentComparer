@@ -152,10 +152,14 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
     }
   }
 
-  // Group node indices by tree type
+  // Group node indices by tree type, excluding hero selector nodes (type=3)
   const groupByTree = (nodeIndices: number[]): { class: number[]; spec: number[]; hero: number[] } => {
     const result = { class: [] as number[], spec: [] as number[], hero: [] as number[] }
     for (const idx of nodeIndices) {
+      // Skip hero tree selector nodes (type=3) - they're implied by the hero talent changes
+      const node = specData?.nodes[idx]
+      if (node?.type === 3) continue
+
       const treeType = getTreeType(idx)
       result[treeType].push(idx)
     }
@@ -171,7 +175,15 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
     return () => clearTimeout(timer)
   }, [diffResult, specData, isOpen])
 
-  const totalChanges = summary.added.length + summary.removed.length + summary.changed.length
+  // Get all changes grouped by tree type (this also filters out type=3 selector nodes)
+  const groupedAdded = groupByTree(summary.added)
+  const groupedRemoved = groupByTree(summary.removed)
+  const groupedChanged = groupByTree(summary.changed)
+
+  const classTotal = groupedAdded.class.length + groupedRemoved.class.length + groupedChanged.class.length
+  const specTotal = groupedAdded.spec.length + groupedRemoved.spec.length + groupedChanged.spec.length
+  const heroTotal = groupedAdded.hero.length + groupedRemoved.hero.length + groupedChanged.hero.length
+  const totalChanges = classTotal + specTotal + heroTotal
 
   // Render a spell link with Wowhead tooltip
   const renderSpellLink = (name: string, spellId: number | null) => {
@@ -259,15 +271,6 @@ export function DiffSummaryPanel({ diffResult, specData }: DiffSummaryPanelProps
       </div>
     )
   }
-
-  // Get all changes grouped by tree type
-  const groupedAdded = groupByTree(summary.added)
-  const groupedRemoved = groupByTree(summary.removed)
-  const groupedChanged = groupByTree(summary.changed)
-
-  const classTotal = groupedAdded.class.length + groupedRemoved.class.length + groupedChanged.class.length
-  const specTotal = groupedAdded.spec.length + groupedRemoved.spec.length + groupedChanged.spec.length
-  const heroTotal = groupedAdded.hero.length + groupedRemoved.hero.length + groupedChanged.hero.length
 
   if (totalChanges === 0) {
     return (
