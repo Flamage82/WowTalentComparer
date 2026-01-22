@@ -20,13 +20,14 @@ interface TalentTreeViewProps {
   diffResult?: TalentDiffResult
   comparisonNodes?: TalentNodeSelection[] // Build A's nodes for comparison mode
   onDimensionsChange?: (width: number) => void
+  highlightedNodeIndex?: number | null
 }
 
 function getSpellIds(node: TalentNodeData): number[] {
   return node.entries.map(e => e.spellId).filter(id => id > 0)
 }
 
-export function TalentTreeView({ specData, selectedNodes, diffResult, comparisonNodes, onDimensionsChange }: TalentTreeViewProps) {
+export function TalentTreeView({ specData, selectedNodes, diffResult, comparisonNodes, onDimensionsChange, highlightedNodeIndex }: TalentTreeViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
 
   // Create diff lookup map for O(1) access by node index
@@ -494,12 +495,13 @@ export function TalentTreeView({ specData, selectedNodes, diffResult, comparison
             const diffClass = diff ? `diff-${diff.diffType}` : ''
             // In comparison mode, selected talents with no diff are "same" (both specs have it)
             const comparisonSameClass = diffMap && isSelected && !diff ? 'comparison-same' : ''
+            const highlightClass = highlightedNodeIndex === originalIndex ? 'highlighted' : ''
 
             return (
               <a
                 key={`${node.id}-${displaySpellId}`}
                 href={`https://www.wowhead.com/spell=${displaySpellId}`}
-                className={`talent-node ${isSelected ? 'selected' : 'unselected'} ${isChoice ? 'choice' : ''} ${isHeroNode ? 'hero' : ''} ${diffClass} ${comparisonSameClass}`}
+                className={`talent-node ${isSelected ? 'selected' : 'unselected'} ${isChoice ? 'choice' : ''} ${isHeroNode ? 'hero' : ''} ${diffClass} ${comparisonSameClass} ${highlightClass}`}
                 style={{
                   left: x - size / 2,
                   top: y - size / 2,

@@ -17,6 +17,7 @@ interface CompareViewProps {
 export function CompareView({ buildA, buildB, onTreeWidthChange }: CompareViewProps) {
   const { data: specData, loading, error } = useSpecData(buildA.specId)
   const [treeWidth, setTreeWidth] = useState<number | undefined>(undefined)
+  const [highlightedNodeIndex, setHighlightedNodeIndex] = useState<number | null>(null)
 
   // Notify parent when tree width changes
   useEffect(() => {
@@ -115,10 +116,16 @@ export function CompareView({ buildA, buildB, onTreeWidthChange }: CompareViewPr
           diffResult={diffResultToPass}
           comparisonNodes={comparisonNodes}
           onDimensionsChange={setTreeWidth}
+          highlightedNodeIndex={highlightedNodeIndex}
         />
       )}
 
-      <DiffSummaryPanel diffResult={diffResult} specData={specData} treeWidth={treeWidth} />
+      <DiffSummaryPanel
+        diffResult={diffResult}
+        specData={specData}
+        treeWidth={treeWidth}
+        onHighlightNode={setHighlightedNodeIndex}
+      />
 
       {!specData && !loading && !error && (
         <div className="compare-view-no-data">

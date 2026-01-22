@@ -18,9 +18,10 @@ interface DiffSummaryPanelProps {
   diffResult: TalentDiffResult
   specData: SpecTalentData | null
   treeWidth?: number
+  onHighlightNode?: (nodeIndex: number | null) => void
 }
 
-export function DiffSummaryPanel({ diffResult, specData, treeWidth }: DiffSummaryPanelProps) {
+export function DiffSummaryPanel({ diffResult, specData, treeWidth, onHighlightNode }: DiffSummaryPanelProps) {
   const [isOpen, setIsOpen] = useState(true)
   const [iconsReady, setIconsReady] = useState(false)
   const contentRef = useRef<HTMLDivElement>(null)
@@ -259,13 +260,21 @@ export function DiffSummaryPanel({ diffResult, specData, treeWidth }: DiffSummar
     const choiceInfo = diff ? getChoiceChangeInfo(diff) : null
     const rankDetails = diff ? formatRankChange(diff) : null
 
+    const handleMouseEnter = () => onHighlightNode?.(nodeIndex)
+    const handleMouseLeave = () => onHighlightNode?.(null)
+
     // For choice changes, show both icons side by side
     // Use a key that includes spellIds to force React to create new elements when choices swap,
     // otherwise Wowhead's injected icon content gets corrupted during DOM reconciliation
     if (choiceInfo) {
       const choiceKey = `${nodeIndex}-${choiceInfo.from.spellId}-${choiceInfo.to.spellId}`
       return (
-        <li key={choiceKey} className="diff-item-choice-change">
+        <li
+          key={choiceKey}
+          className="diff-item-choice-change"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
           <div className="diff-choice-comparison">
             {renderSpellLink(choiceInfo.from.name, choiceInfo.from.spellId)}
             <span className="diff-arrow">→</span>
@@ -278,7 +287,7 @@ export function DiffSummaryPanel({ diffResult, specData, treeWidth }: DiffSummar
 
     if (spellId) {
       return (
-        <li key={nodeIndex}>
+        <li key={nodeIndex} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           {renderSpellLink(name, spellId)}
           {rankDetails && <span className="diff-item-details">{rankDetails}</span>}
         </li>
@@ -286,7 +295,7 @@ export function DiffSummaryPanel({ diffResult, specData, treeWidth }: DiffSummar
     }
 
     return (
-      <li key={nodeIndex}>
+      <li key={nodeIndex} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <span className="diff-item-name">{name}</span>
         {rankDetails && <span className="diff-item-details">{rankDetails}</span>}
       </li>

@@ -22,7 +22,6 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
       setInternalValue(newValue)
     }
   }
-  const [specName, setSpecName] = useState<string | null>(null)
   const [specId, setSpecId] = useState<number | null>(null)
   const [parsedNodes, setParsedNodes] = useState<ParsedTalentData['nodes'] | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -44,7 +43,6 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
     // If empty, clear everything
     if (!trimmed) {
       if (lastLoadedValue.current) {
-        setSpecName(null)
         setSpecId(null)
         setParsedNodes(null)
         setError(null)
@@ -59,7 +57,6 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
 
     try {
       const data = parseTalentString(trimmed)
-      setSpecName(data.specName || `Spec ${data.specId}`)
       setSpecId(data.specId)
       setParsedNodes(data.nodes)
       setError(null)
@@ -68,7 +65,6 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
     } catch (e) {
       const errorMsg = e instanceof Error ? e.message : 'Invalid talent string'
       setError(errorMsg)
-      setSpecName(null)
       setSpecId(null)
       setParsedNodes(null)
       lastLoadedValue.current = ''
@@ -84,9 +80,9 @@ export function BuildInput({ label, onLoad, initialValue = '', value: controlled
     <div className="build-input">
       <div className="build-input-header">
         <label className="build-input-label">{label}</label>
-        {specName && (
+        {specData && (
           <span className="build-input-spec">
-            {specName}
+            {specData.className} / {specData.specName}
             {heroTreeName && ` / ${heroTreeName}`}
           </span>
         )}
